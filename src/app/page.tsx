@@ -1,65 +1,142 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { loadStorage } from '@/lib/storage';
+import { Submarine } from '@/components/creatures/Submarine';
+import type { StorageSchema } from '@/types/collection';
+
+export default function HomePage() {
+  const router = useRouter();
+  const [storage, setStorage] = useState<StorageSchema | null>(null);
+  const [longPressTimer, setLongPressTimer] = useState<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    setStorage(loadStorage());
+  }, []);
+
+  const isProfileComplete = storage?.family?.setupComplete === true;
+
+  const handleLongPressStart = () => {
+    const timer = setTimeout(() => {
+      router.push('/parent');
+    }, 1500);
+    setLongPressTimer(timer);
+  };
+
+  const handleLongPressEnd = () => {
+    if (longPressTimer) {
+      clearTimeout(longPressTimer);
+      setLongPressTimer(null);
+    }
+  };
+
+  if (!storage) return null;
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen bg-gradient-to-b from-sky-300 via-sky-400 to-blue-500 relative overflow-hidden">
+      {/* 부모 모드 진입 (좌상단, 투명) */}
+      <div
+        className="absolute top-0 left-0 w-24 h-24 z-50 touch-manipulation"
+        onTouchStart={handleLongPressStart}
+        onTouchEnd={handleLongPressEnd}
+        onMouseDown={handleLongPressStart}
+        onMouseUp={handleLongPressEnd}
+        onMouseLeave={handleLongPressEnd}
+      />
+
+      {/* 파도 애니메이션 */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 overflow-hidden">
+        <div className="absolute bottom-0 w-full h-full">
+          <svg viewBox="0 0 1200 120" className="w-full h-full animate-wave" preserveAspectRatio="none">
+            <path d="M0,60 C150,90 350,30 600,60 C850,90 1050,30 1200,60 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.2)" />
+          </svg>
+        </div>
+        <div className="absolute bottom-0 w-full h-full">
+          <svg viewBox="0 0 1200 120" className="w-full h-full animate-wave-slow" preserveAspectRatio="none">
+            <path d="M0,80 C200,50 400,110 600,80 C800,50 1000,110 1200,80 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.15)" />
+          </svg>
+        </div>
+      </div>
+
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6 gap-6">
+        {/* 타이틀 */}
+        <div className="text-center mb-4">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-3 tracking-wider drop-shadow-lg">
+            바다속 끝까지
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+          <p className="text-xl md:text-2xl text-blue-100 tracking-wide">Into the Deep Sea</p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+
+        {!isProfileComplete ? (
+          <div className="flex flex-col items-center gap-5">
+            <p className="text-xl text-white text-center">
+              가족과 함께 바다를 탐험해요!
+            </p>
+            <Link href="/profile">
+              <button className="min-w-56 min-h-14 bg-white text-blue-600 font-bold text-xl rounded-3xl shadow-2xl active:scale-95 transition-transform px-8">
+                가족 프로필 만들기
+              </button>
+            </Link>
+          </div>
+        ) : (
+          <div className="flex flex-col items-center gap-6 w-full max-w-xl">
+            {/* 잠수함 + 가족 */}
+            <div className="w-64 mb-2">
+              <Submarine
+                familyAvatars={{
+                  dad: storage.family.dad.avatarId,
+                  mom: storage.family.mom.avatarId,
+                  child: storage.family.child.avatarId,
+                }}
+              />
+            </div>
+
+            {/* 탐험 시작 */}
+            <Link href="/select-ocean" className="w-full">
+              <button className="w-full min-h-16 bg-yellow-400 text-blue-900 font-bold text-2xl rounded-3xl shadow-2xl active:scale-95 transition-transform">
+                탐험 시작
+              </button>
+            </Link>
+
+            {/* 내 도감 */}
+            <Link href="/collection" className="w-full">
+              <button className="w-full min-h-14 bg-white text-blue-600 font-bold text-xl rounded-3xl shadow-xl active:scale-95 transition-transform">
+                내 도감
+              </button>
+            </Link>
+
+            {/* 최근 탐험 기록 */}
+            {storage.stats.total_dives > 0 && (
+              <div className="w-full bg-white/20 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
+                <h3 className="text-base font-bold text-white mb-2">최근 탐험</h3>
+                <div className="bg-white/30 rounded-xl p-3">
+                  <p className="text-white text-sm">
+                    총 탐험 {storage.stats.total_dives}회 · 최고 수심 {storage.stats.deepest_depth}m
+                  </p>
+                  <p className="text-blue-100 text-xs mt-1">
+                    {Object.keys(storage.collected).length}종 수집 완료
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      <style jsx>{`
+        @keyframes wave {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(-50px); }
+        }
+        @keyframes wave-slow {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(50px); }
+        }
+        .animate-wave { animation: wave 8s ease-in-out infinite; }
+        .animate-wave-slow { animation: wave-slow 12s ease-in-out infinite; }
+      `}</style>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+{
+  "name": "바다속 끝까지 - Into the Deep Sea",
+  "short_name": "바다속 끝까지",
+  "description": "가족과 함께 잠수함을 타고 해수면부터 심해까지 탐험하며 해양생물을 만나는 교육형 탐험 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0EA5E9",
+  "theme_color": "#0284C7",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["education", "kids", "games"]
+}

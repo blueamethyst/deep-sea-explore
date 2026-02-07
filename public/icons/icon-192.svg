@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect fill="#0EA5E9" width="192" height="192" rx="32"/>
+  <g transform="translate(96,86)">
+    <ellipse cx="0" cy="10" rx="50" ry="30" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="-15" cy="5" r="12" fill="#7DD3FC" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="15" cy="5" r="12" fill="#7DD3FC" stroke="#38BDF8" stroke-width="2"/>
+    <rect x="40" y="5" width="20" height="8" rx="4" fill="#F59E0B"/>
+    <circle cx="-15" cy="5" r="3" fill="#1E3A5F"/>
+    <circle cx="15" cy="5" r="3" fill="#1E3A5F"/>
+  </g>
+  <text x="96" y="150" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="sans-serif">바다속 끝까지</text>
+</svg>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sunlight_10",
+    "name_ko": "햇빛층 탐험가",
+    "description_ko": "햇빛층 생물 10종 수집",
+    "condition": { "type": "zone_count", "zone": "sunlight", "count": 10 }
+  },
+  {
+    "id": "twilight_8",
+    "name_ko": "중광층 탐험가",
+    "description_ko": "중광층 생물 8종 수집",
+    "condition": { "type": "zone_count", "zone": "twilight", "count": 8 }
+  },
+  {
+    "id": "deep_5",
+    "name_ko": "심해 탐험가",
+    "description_ko": "약광층 이하 생물 5종 수집",
+    "condition": { "type": "deep_count", "count": 5 }
+  },
+  {
+    "id": "east_sea_7",
+    "name_ko": "동해 전문가",
+    "description_ko": "동해 전용 생물 7종 수집",
+    "condition": { "type": "ocean_count", "ocean": "east_sea", "count": 7 }
+  },
+  {
+    "id": "south_sea_5",
+    "name_ko": "남해 전문가",
+    "description_ko": "남해 전용 생물 5종 수집",
+    "condition": { "type": "ocean_count", "ocean": "south_sea", "count": 5 }
+  },
+  {
+    "id": "west_sea_5",
+    "name_ko": "서해 전문가",
+    "description_ko": "서해 전용 생물 5종 수집",
+    "condition": { "type": "ocean_count", "ocean": "west_sea", "count": 5 }
+  },
+  {
+    "id": "pacific_10",
+    "name_ko": "태평양 전문가",
+    "description_ko": "태평양 전용 생물 10종 수집",
+    "condition": { "type": "ocean_count", "ocean": "pacific", "count": 10 }
+  },
+  {
+    "id": "collection_50",
+    "name_ko": "도감 마스터",
+    "description_ko": "전체 50% 수집",
+    "condition": { "type": "total_percent", "percent": 50 }
+  },
+  {
+    "id": "collection_80",
+    "name_ko": "도감 그랜드 마스터",
+    "description_ko": "전체 80% 수집",
+    "condition": { "type": "total_percent", "percent": 80 }
+  },
+  {
+    "id": "legendary_1",
+    "name_ko": "전설의 발견자",
+    "description_ko": "전설 등급 생물 1종 수집",
+    "condition": { "type": "rarity_count", "rarity": "legendary", "count": 1 }
+  }
+]

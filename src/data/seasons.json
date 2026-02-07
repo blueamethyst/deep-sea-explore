@@ -1,0 +1,34 @@
+[
+  {
+    "id": "spring",
+    "name_ko": "봄",
+    "name_en": "Spring",
+    "icon": "🌸",
+    "theme_color": "#F9A8D4",
+    "description_ko": "따뜻한 봄바다"
+  },
+  {
+    "id": "summer",
+    "name_ko": "여름",
+    "name_en": "Summer",
+    "icon": "☀️",
+    "theme_color": "#FDE047",
+    "description_ko": "햇살 가득한 여름바다"
+  },
+  {
+    "id": "fall",
+    "name_ko": "가을",
+    "name_en": "Fall",
+    "icon": "🍂",
+    "theme_color": "#FB923C",
+    "description_ko": "선선한 가을바다"
+  },
+  {
+    "id": "winter",
+    "name_ko": "겨울",
+    "name_en": "Winter",
+    "icon": "❄️",
+    "theme_color": "#93C5FD",
+    "description_ko": "차가운 겨울바다"
+  }
+]

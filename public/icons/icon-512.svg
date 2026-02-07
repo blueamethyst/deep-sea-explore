@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect fill="#0EA5E9" width="512" height="512" rx="64"/>
+  <g transform="translate(256,220)">
+    <ellipse cx="0" cy="10" rx="130" ry="80" fill="#FBBF24" stroke="#F59E0B" stroke-width="6"/>
+    <circle cx="-40" cy="0" r="30" fill="#7DD3FC" stroke="#38BDF8" stroke-width="4"/>
+    <circle cx="40" cy="0" r="30" fill="#7DD3FC" stroke="#38BDF8" stroke-width="4"/>
+    <rect x="110" y="0" width="50" height="20" rx="10" fill="#F59E0B"/>
+    <circle cx="-40" cy="0" r="8" fill="#1E3A5F"/>
+    <circle cx="40" cy="0" r="8" fill="#1E3A5F"/>
+  </g>
+  <text x="256" y="380" text-anchor="middle" fill="white" font-size="42" font-weight="bold" font-family="sans-serif">바다속 끝까지</text>
+  <text x="256" y="420" text-anchor="middle" fill="#BAE6FD" font-size="24" font-family="sans-serif">Into the Deep Sea</text>
+</svg>
