@@ -24,6 +24,8 @@ export interface Creature {
   animation_type: AnimationType;
   svg_id: string;
   source: string;
+  photo_url: string;
+  photo_credit?: string;
 }
 
 export type Season = 'spring' | 'summer' | 'fall' | 'winter';

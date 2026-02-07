@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CreatureSVG } from '@/components/creatures/CreatureSVG';
+import { CreatureImage } from '@/components/creatures/CreatureImage';
 
 export interface CreaturePopupProps {
   creature: {
@@ -15,6 +15,8 @@ export interface CreaturePopupProps {
     description_ko: string;
     fun_fact_ko: string;
     svg_id: string;
+    photo_url: string;
+    photo_credit?: string;
   };
   isNew: boolean;
   onClose: () => void;
@@ -65,9 +67,9 @@ export default function CreaturePopup({
           {!showDetails ? (
             /* 1단계: 인사 */
             <>
-              {/* 생물 일러스트 플레이스홀더 */}
-              <div className="w-48 h-48 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center">
-                <CreatureSVG svgId={creature.svg_id} size={140} />
+              {/* 생물 일러스트 */}
+              <div className="w-48 h-48 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center overflow-hidden">
+                <CreatureImage creature={creature} useCase="popup" />
               </div>
 
               {/* 새 생물 뱃지 */}
@@ -108,8 +110,8 @@ export default function CreaturePopup({
             /* 2단계: 상세 설명 */
             <>
               {/* 생물 일러스트 */}
-              <div className="w-40 h-40 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
-                <CreatureSVG svgId={creature.svg_id} size={120} />
+              <div className="w-40 h-40 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center overflow-hidden">
+                <CreatureImage creature={creature} useCase="popup" />
               </div>
 
               {/* 이름 */}

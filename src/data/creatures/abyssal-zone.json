@@ -14,13 +14,23 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "유기물, 침전물",
     "animation_type": "crawl",
     "svg_id": "abyssal_sea_cucumber",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1728810755980-a553560b0aa7?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "japanese_spider_crab",
@@ -37,13 +47,22 @@
     "depth_min": 4000,
     "depth_max": 5500,
     "zone": "abyssal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "죽은 물고기, 조개",
     "animation_type": "crawl",
     "svg_id": "japanese_spider_crab",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1760087222599-d3c5b9d51e02?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "deep_sea_anemone",
@@ -60,12 +79,23 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "float",
     "svg_id": "deep_sea_anemone",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1703756292549-3289d005ad2e?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   }
 ]

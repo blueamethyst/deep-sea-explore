@@ -52,6 +52,8 @@ const CreatureSchema = z.object({
   animation_type: z.enum(VALID_ANIMATION_TYPES),
   svg_id: z.string().min(1),
   source: z.string().min(1),
+  photo_url: z.string().url(),
+  photo_credit: z.string().optional(),
 });
 
 function validate() {

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { getCreatureById } from '@/data/creatures';
 import { loadStorage } from '@/lib/storage';
 import { useTTS } from '@/hooks/useTTS';
-import { CreatureSVG } from '@/components/creatures/CreatureSVG';
+import { CreatureImage } from '@/components/creatures/CreatureImage';
 import type { CollectedCreature } from '@/types/collection';
 
 const OCEAN_NAMES: Record<string, string> = {
@@ -53,8 +53,13 @@ export default function CollectionDetailPage({
 
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           {/* 일러스트 */}
-          <div className="bg-gradient-to-b from-blue-100 to-blue-200 p-10 flex items-center justify-center">
-            <CreatureSVG svgId={creature.svg_id} size={180} />
+          <div className="bg-gradient-to-b from-blue-100 to-blue-200 p-10 flex flex-col items-center justify-center">
+            <CreatureImage creature={creature} useCase="collection_detail" />
+            {creature.photo_credit && (
+              <p className="text-xs text-gray-400 mt-2">
+                Photo: {creature.photo_credit}
+              </p>
+            )}
           </div>
 
           <div className="p-8">

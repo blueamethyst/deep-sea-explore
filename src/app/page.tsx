@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { loadStorage } from '@/lib/storage';
+import { loadStorage, saveStorage } from '@/lib/storage';
 import { Submarine } from '@/components/creatures/Submarine';
 import type { StorageSchema } from '@/types/collection';
 
@@ -13,10 +13,14 @@ export default function HomePage() {
   const [longPressTimer, setLongPressTimer] = useState<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    setStorage(loadStorage());
+    const s = loadStorage();
+    // 프로필 자동 완성 (캐릭터 선택 없이 실사 사진 사용)
+    if (!s.family.setupComplete) {
+      s.family.setupComplete = true;
+      saveStorage(s);
+    }
+    setStorage(s);
   }, []);
-
-  const isProfileComplete = storage?.family?.setupComplete === true;
 
   const handleLongPressStart = () => {
     const timer = setTimeout(() => {
@@ -69,60 +73,41 @@ export default function HomePage() {
           <p className="text-xl md:text-2xl text-blue-100 tracking-wide">Into the Deep Sea</p>
         </div>
 
-        {!isProfileComplete ? (
-          <div className="flex flex-col items-center gap-5">
-            <p className="text-xl text-white text-center">
-              가족과 함께 바다를 탐험해요!
-            </p>
-            <Link href="/profile">
-              <button className="min-w-56 min-h-14 bg-white text-blue-600 font-bold text-xl rounded-3xl shadow-2xl active:scale-95 transition-transform px-8">
-                가족 프로필 만들기
-              </button>
-            </Link>
+        <div className="flex flex-col items-center gap-6 w-full max-w-xl">
+          {/* 잠수함 + 가족 */}
+          <div className="w-64 mb-2">
+            <Submarine />
           </div>
-        ) : (
-          <div className="flex flex-col items-center gap-6 w-full max-w-xl">
-            {/* 잠수함 + 가족 */}
-            <div className="w-64 mb-2">
-              <Submarine
-                familyAvatars={{
-                  dad: storage.family.dad.avatarId,
-                  mom: storage.family.mom.avatarId,
-                  child: storage.family.child.avatarId,
-                }}
-              />
-            </div>
 
-            {/* 탐험 시작 */}
-            <Link href="/select-ocean" className="w-full">
-              <button className="w-full min-h-16 bg-yellow-400 text-blue-900 font-bold text-2xl rounded-3xl shadow-2xl active:scale-95 transition-transform">
-                탐험 시작
-              </button>
-            </Link>
+          {/* 탐험 시작 */}
+          <Link href="/select-ocean" className="w-full">
+            <button className="w-full min-h-16 bg-yellow-400 text-blue-900 font-bold text-2xl rounded-3xl shadow-2xl active:scale-95 transition-transform">
+              탐험 시작
+            </button>
+          </Link>
 
-            {/* 내 도감 */}
-            <Link href="/collection" className="w-full">
-              <button className="w-full min-h-14 bg-white text-blue-600 font-bold text-xl rounded-3xl shadow-xl active:scale-95 transition-transform">
-                내 도감
-              </button>
-            </Link>
+          {/* 내 도감 */}
+          <Link href="/collection" className="w-full">
+            <button className="w-full min-h-14 bg-white text-blue-600 font-bold text-xl rounded-3xl shadow-xl active:scale-95 transition-transform">
+              내 도감
+            </button>
+          </Link>
 
-            {/* 최근 탐험 기록 */}
-            {storage.stats.total_dives > 0 && (
-              <div className="w-full bg-white/20 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
-                <h3 className="text-base font-bold text-white mb-2">최근 탐험</h3>
-                <div className="bg-white/30 rounded-xl p-3">
-                  <p className="text-white text-sm">
-                    총 탐험 {storage.stats.total_dives}회 · 최고 수심 {storage.stats.deepest_depth}m
-                  </p>
-                  <p className="text-blue-100 text-xs mt-1">
-                    {Object.keys(storage.collected).length}종 수집 완료
-                  </p>
-                </div>
+          {/* 최근 탐험 기록 */}
+          {storage.stats.total_dives > 0 && (
+            <div className="w-full bg-white/20 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
+              <h3 className="text-base font-bold text-white mb-2">최근 탐험</h3>
+              <div className="bg-white/30 rounded-xl p-3">
+                <p className="text-white text-sm">
+                  총 탐험 {storage.stats.total_dives}회 · 최고 수심 {storage.stats.deepest_depth}m
+                </p>
+                <p className="text-blue-100 text-xs mt-1">
+                  {Object.keys(storage.collected).length}종 수집 완료
+                </p>
               </div>
-            )}
-          </div>
-        )}
+            </div>
+          )}
+        </div>
       </div>
 
       <style jsx>{`

@@ -244,15 +244,8 @@ function ExploreContent() {
       </div>
 
       {/* 잠수함 (화면 중앙 고정) */}
-      <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-48 z-20 pointer-events-none">
-        <Submarine
-          familyAvatars={{
-            dad: storage.family.dad.avatarId,
-            mom: storage.family.mom.avatarId,
-            child: storage.family.child.avatarId,
-          }}
-          showHeadlight={showHeadlight}
-        />
+      <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-72 z-20 pointer-events-none">
+        <Submarine showHeadlight={showHeadlight} />
       </div>
 
       {/* 수심 게이지 (좌측) */}

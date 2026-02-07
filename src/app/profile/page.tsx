@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { FAMILY_COLORS } from '@/lib/constants';
 import { loadStorage, saveStorage } from '@/lib/storage';
+import { CharacterSVG } from '@/components/creatures/CharacterSVG';
 
 interface FamilyMember {
   role: 'dad' | 'mom' | 'child';
@@ -109,12 +110,14 @@ export default function ProfilePage() {
                 className="flex flex-col items-center gap-3"
               >
                 <div
-                  className="w-32 h-32 rounded-3xl shadow-2xl flex items-center justify-center text-white text-6xl"
+                  className="w-32 h-32 rounded-3xl shadow-2xl flex items-center justify-center"
                   style={{ backgroundColor: member.color }}
                 >
-                  <div className="text-4xl">
-                    {member.role === 'dad' ? '👨' : member.role === 'mom' ? '👩' : '👧'}
-                  </div>
+                  <CharacterSVG
+                    characterId={selections[member.role]}
+                    size={96}
+                    color={member.color}
+                  />
                 </div>
                 <p className="text-xl font-bold text-white">{member.name}</p>
                 <p className="text-sm text-blue-100">{selections[member.role]}</p>
@@ -160,12 +163,14 @@ export default function ProfilePage() {
         {hasSelection && (
           <div className="flex flex-col items-center gap-4 mb-6">
             <div
-              className="w-32 h-32 rounded-3xl shadow-2xl flex items-center justify-center text-white text-6xl transform scale-110"
+              className="w-32 h-32 rounded-3xl shadow-2xl flex items-center justify-center transform scale-110"
               style={{ backgroundColor: currentMember.color }}
             >
-              <div className="text-4xl">
-                {currentMember.role === 'dad' ? '👨' : currentMember.role === 'mom' ? '👩' : '👧'}
-              </div>
+              <CharacterSVG
+                characterId={selections[currentMember.role]}
+                size={96}
+                color={currentMember.color}
+              />
             </div>
             <p className="text-white text-lg font-medium">
               {selections[currentMember.role]}
@@ -192,9 +197,11 @@ export default function ProfilePage() {
               }}
             >
               <div className="w-full h-full flex flex-col items-center justify-center gap-2 p-4">
-                <div className="text-5xl">
-                  {currentMember.role === 'dad' ? '👨' : currentMember.role === 'mom' ? '👩' : '👧'}
-                </div>
+                <CharacterSVG
+                  characterId={avatarId}
+                  size={64}
+                  color={currentMember.color}
+                />
                 <p className={`text-sm font-medium ${
                   selections[currentMember.role] === avatarId
                     ? 'text-white'

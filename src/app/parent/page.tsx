@@ -108,18 +108,6 @@ export default function ParentModePage() {
             </div>
           </div>
 
-          {/* 가족 캐릭터 변경 */}
-          <div>
-            <div className="text-lg font-bold text-slate-800 mb-3">
-              가족 캐릭터
-            </div>
-            <Link href="/profile">
-              <button className="w-full min-h-14 bg-blue-600 text-white font-bold text-lg rounded-2xl transition-transform active:scale-95">
-                캐릭터 변경하기
-              </button>
-            </Link>
-          </div>
-
           {/* 설정 저장 */}
           <button
             onClick={handleSaveSettings}

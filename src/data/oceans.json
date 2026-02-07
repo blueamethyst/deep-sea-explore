@@ -7,7 +7,9 @@
     "max_depth": 4000,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal"],
     "position": { "lat": 38, "lng": 130 },
-    "color": "#1E40AF"
+    "color": "#1E40AF",
+    "image_url": "https://images.unsplash.com/photo-1659844786614-31ddc78d1840?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "south_sea",
@@ -17,7 +19,9 @@
     "max_depth": 200,
     "available_zones": ["sunlight"],
     "position": { "lat": 34, "lng": 128 },
-    "color": "#0EA5E9"
+    "color": "#0EA5E9",
+    "image_url": "https://images.unsplash.com/photo-1769442872142-c15b691cea6b?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "west_sea",
@@ -27,7 +31,9 @@
     "max_depth": 100,
     "available_zones": ["sunlight"],
     "position": { "lat": 36, "lng": 125 },
-    "color": "#06B6D4"
+    "color": "#06B6D4",
+    "image_url": "https://images.unsplash.com/photo-1589109531820-c5123d4a7bcf?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "pacific",
@@ -37,7 +43,9 @@
     "max_depth": 11000,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal", "hadal"],
     "position": { "lat": 0, "lng": 160 },
-    "color": "#1E3A8A"
+    "color": "#1E3A8A",
+    "image_url": "https://images.unsplash.com/photo-1621739172274-bc37ab737de3?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "atlantic",
@@ -47,7 +55,9 @@
     "max_depth": 8400,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal"],
     "position": { "lat": 30, "lng": -30 },
-    "color": "#1E40AF"
+    "color": "#1E40AF",
+    "image_url": "https://images.unsplash.com/photo-1626436926472-43a4ff92de22?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "indian",
@@ -57,7 +67,9 @@
     "max_depth": 7400,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal"],
     "position": { "lat": -20, "lng": 70 },
-    "color": "#0891B2"
+    "color": "#0891B2",
+    "image_url": "https://images.unsplash.com/photo-1667673077638-3dbc8f39d357?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "arctic",
@@ -67,7 +79,9 @@
     "max_depth": 5500,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal"],
     "position": { "lat": 80, "lng": 0 },
-    "color": "#67E8F9"
+    "color": "#67E8F9",
+    "image_url": "https://images.unsplash.com/photo-1536926272468-cbd90ef4c553?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   },
   {
     "id": "antarctic",
@@ -77,6 +91,8 @@
     "max_depth": 7200,
     "available_zones": ["sunlight", "twilight", "midnight", "abyssal"],
     "position": { "lat": -70, "lng": 0 },
-    "color": "#A5F3FC"
+    "color": "#A5F3FC",
+    "image_url": "https://images.unsplash.com/photo-1670285247125-85d282a2bc9e?w=400&h=400&fit=crop",
+    "image_credit": "Unsplash"
   }
 ]

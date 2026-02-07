@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import { CreatureSVG } from './CreatureSVG';
+import { CreatureImage } from './CreatureImage';
 import { getAnimationClass } from './CreatureAnimation';
 
 interface CreatureRendererProps {
-  creature: { id: string; svg_id: string; name_ko: string };
+  creature: { id: string; svg_id: string; name_ko: string; photo_url: string; photo_credit?: string };
   x: number;
   y: number;
   animationType: string;
@@ -40,7 +40,7 @@ export const CreatureRenderer: React.FC<CreatureRendererProps> = ({
       tabIndex={0}
       aria-label={`${creature.name_ko} 탭하기`}
     >
-      <CreatureSVG svgId={creature.svg_id} size={size} />
+      <CreatureImage creature={creature} useCase="exploration" />
     </div>
   );
 };

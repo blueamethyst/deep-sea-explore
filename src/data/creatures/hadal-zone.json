@@ -14,13 +14,22 @@
     "depth_min": 6000,
     "depth_max": 8200,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류",
     "animation_type": "swim_wiggle",
     "svg_id": "hadal_snailfish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1517083885098-29acf9acb99c?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "amphipod",
@@ -37,12 +46,21 @@
     "depth_min": 6000,
     "depth_max": 11000,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "죽은 생물, 유기물",
     "animation_type": "swim_wiggle",
     "svg_id": "amphipod",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1584267134629-ce3c0d9c9593?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   }
 ]

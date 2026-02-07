@@ -14,13 +14,23 @@
     "depth_min": 1,
     "depth_max": 15,
     "zone": "sunlight",
-    "oceans": ["pacific", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤, 작은 갑각류",
     "animation_type": "swim_wiggle",
     "svg_id": "clownfish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "moon_jellyfish",
@@ -37,13 +47,26 @@
     "depth_min": 0,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기 알",
     "animation_type": "pulse",
     "svg_id": "moon_jellyfish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "green_sea_turtle",
@@ -60,13 +83,24 @@
     "depth_min": 0,
     "depth_max": 150,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "해초, 해파리",
     "animation_type": "swim_glide",
     "svg_id": "green_sea_turtle",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=400&h=400&fit=crop",
+    "photo_credit": "Wexor Tmg"
   },
   {
     "id": "bottlenose_dolphin",
@@ -83,13 +117,26 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
     "svg_id": "bottlenose_dolphin",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?w=400&h=400&fit=crop",
+    "photo_credit": "NOAA"
   },
   {
     "id": "great_white_shark",
@@ -106,13 +153,24 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "물고기, 물개",
     "animation_type": "swim_glide",
     "svg_id": "great_white_shark",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=400&h=400&fit=crop",
+    "photo_credit": "Gerald Schombs"
   },
   {
     "id": "humpback_whale",
@@ -129,13 +187,25 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "arctic", "antarctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "arctic",
+      "antarctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "크릴, 작은 물고기",
     "animation_type": "swim_glide",
     "svg_id": "humpback_whale",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=400&h=400&fit=crop",
+    "photo_credit": "Todd Cravens"
   },
   {
     "id": "octopus",
@@ -152,13 +222,26 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "게, 조개, 작은 물고기",
     "animation_type": "crawl",
     "svg_id": "octopus",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1628944682084-831f35256163?w=400&h=400&fit=crop",
+    "photo_credit": "Serena Repice Lentini"
   },
   {
     "id": "starfish",
@@ -175,13 +258,27 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea", "west_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea",
+      "west_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "조개, 굴",
     "animation_type": "crawl",
     "svg_id": "starfish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop",
+    "photo_credit": "Pedro Lastra"
   },
   {
     "id": "shrimp",
@@ -198,13 +295,27 @@
     "depth_min": 0,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea", "west_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea",
+      "west_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤, 작은 생물",
     "animation_type": "swim_wiggle",
     "svg_id": "shrimp",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "photo_url": "https://images.unsplash.com/photo-1770324138003-4b84036003ff?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "pufferfish",
@@ -221,13 +332,24 @@
     "depth_min": 10,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "갑각류, 조개",
     "animation_type": "swim_wiggle",
     "svg_id": "pufferfish",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "photo_url": "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "alaska_pollock",
@@ -244,13 +366,22 @@
     "depth_min": 50,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["east_sea", "pacific", "arctic"],
-    "seasons": ["fall", "winter"],
+    "oceans": [
+      "east_sea",
+      "pacific",
+      "arctic"
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
     "svg_id": "alaska_pollock",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop",
+    "photo_credit": "Jakub Kapusnak"
   },
   {
     "id": "snow_crab",
@@ -267,13 +398,21 @@
     "depth_min": 100,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["east_sea", "pacific"],
-    "seasons": ["winter", "spring"],
+    "oceans": [
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
     "rarity": "uncommon",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
     "svg_id": "snow_crab",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "common_squid",
@@ -290,13 +429,22 @@
     "depth_min": 50,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["east_sea", "pacific"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "common",
     "diet": "작은 물고기, 새우",
     "animation_type": "jet",
     "svg_id": "common_squid",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1563050912-4659b1079ee4?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "chum_salmon",
@@ -313,13 +461,21 @@
     "depth_min": 0,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["east_sea", "pacific"],
-    "seasons": ["fall", "winter"],
+    "oceans": [
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "작은 물고기, 갑각류",
     "animation_type": "swim_glide",
     "svg_id": "chum_salmon",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?w=400&h=400&fit=crop",
+    "photo_credit": "Brandon"
   },
   {
     "id": "red_seabream",
@@ -336,13 +492,23 @@
     "depth_min": 10,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["east_sea", "south_sea", "pacific"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "east_sea",
+      "south_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "uncommon",
     "diet": "작은 물고기, 게",
     "animation_type": "swim_glide",
     "svg_id": "red_seabream",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1718632496269-6c0fd71dc29c?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "anchovy",
@@ -359,13 +525,23 @@
     "depth_min": 0,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["south_sea", "east_sea", "pacific"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "south_sea",
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "swim_wiggle",
     "svg_id": "anchovy",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1582359425634-e3ded9a93770?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "abalone",
@@ -382,13 +558,24 @@
     "depth_min": 5,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["south_sea", "east_sea", "pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "south_sea",
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "해조류",
     "animation_type": "crawl",
     "svg_id": "abalone",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1597760015107-d115bec342fd?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "flounder",
@@ -405,13 +592,24 @@
     "depth_min": 10,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["south_sea", "east_sea", "pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "south_sea",
+      "east_sea",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "작은 물고기, 새우",
     "animation_type": "swim_glide",
     "svg_id": "flounder",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1761079398600-7e7b564456ca?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "seahorse",
@@ -428,13 +626,23 @@
     "depth_min": 5,
     "depth_max": 30,
     "zone": "sunlight",
-    "oceans": ["south_sea", "pacific", "indian"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "south_sea",
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "rare",
     "diet": "플랑크톤, 작은 갑각류",
     "animation_type": "float",
     "svg_id": "seahorse",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1702047115070-ca47c241733f?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "blue_crab",
@@ -451,13 +659,23 @@
     "depth_min": 10,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["west_sea", "south_sea", "east_sea"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "west_sea",
+      "south_sea",
+      "east_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "common",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
     "svg_id": "blue_crab",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1550592704-6c76defa9985?w=400&h=400&fit=crop",
+    "photo_credit": "Amber Engle"
   },
   {
     "id": "yellow_croaker",
@@ -474,13 +692,21 @@
     "depth_min": 20,
     "depth_max": 80,
     "zone": "sunlight",
-    "oceans": ["west_sea", "south_sea"],
-    "seasons": ["spring", "summer"],
+    "oceans": [
+      "west_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
     "rarity": "uncommon",
     "diet": "작은 물고기, 새우",
     "animation_type": "swim_glide",
     "svg_id": "yellow_croaker",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1498654200943-1088dd4438ae?w=400&h=400&fit=crop",
+    "photo_credit": "Jonas Weckschmied"
   },
   {
     "id": "lugworm",
@@ -497,13 +723,23 @@
     "depth_min": 0,
     "depth_max": 30,
     "zone": "sunlight",
-    "oceans": ["west_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "west_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
     "svg_id": "lugworm",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    "photo_credit": "Jonas Weckschmied"
   },
   {
     "id": "turban_shell",
@@ -520,13 +756,24 @@
     "depth_min": 5,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["west_sea", "south_sea", "east_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "west_sea",
+      "south_sea",
+      "east_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
     "svg_id": "turban_shell",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "manta_ray",
@@ -543,13 +790,24 @@
     "depth_min": 0,
     "depth_max": 120,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1583297016081-23a9753cd364?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "coral",
@@ -566,13 +824,25 @@
     "depth_min": 5,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["pacific", "indian", "atlantic", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "플랑크톤",
     "animation_type": "float",
     "svg_id": "coral",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=400&h=400&fit=crop",
+    "photo_credit": "QUI NGUYEN"
   },
   {
     "id": "sea_cucumber",
@@ -589,13 +859,24 @@
     "depth_min": 10,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
     "svg_id": "sea_cucumber",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1571752726703-5e7d1f6a986d?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "sea_urchin",
@@ -612,13 +893,24 @@
     "depth_min": 5,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "east_sea", "south_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
     "svg_id": "sea_urchin",
-    "source": "국립해양생물자원관"
+    "source": "국립해양생물자원관",
+    "photo_url": "https://images.unsplash.com/photo-1723107486969-3affa9217ac2?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "clam",
@@ -635,13 +927,27 @@
     "depth_min": 5,
     "depth_max": 30,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "east_sea", "south_sea", "west_sea"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea",
+      "south_sea",
+      "west_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "crawl",
     "svg_id": "clam",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "photo_url": "https://images.unsplash.com/photo-1661505748265-e8e7f2fc6f8e?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "sea_anemone",
@@ -658,13 +964,24 @@
     "depth_min": 0,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "작은 물고기, 플랑크톤",
     "animation_type": "float",
     "svg_id": "sea_anemone",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1729736763059-be3568e66e4f?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "lobster",
@@ -681,13 +998,23 @@
     "depth_min": 10,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["atlantic", "pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "atlantic",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "물고기, 조개, 게",
     "animation_type": "crawl",
     "svg_id": "lobster",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1553659971-f01207815844?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "swordfish",
@@ -704,13 +1031,24 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
     "svg_id": "swordfish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1605876168868-6d7aa0e9109a?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "flying_fish",
@@ -727,13 +1065,23 @@
     "depth_min": 0,
     "depth_max": 50,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
     "rarity": "uncommon",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
     "svg_id": "flying_fish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1428542170253-0d2f063e92c2?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "blue_whale",
@@ -750,13 +1098,26 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian", "arctic", "antarctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "arctic",
+      "antarctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "크릴",
     "animation_type": "swim_glide",
     "svg_id": "blue_whale",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1733660766514-4803a932ba51?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "sea_otter",
@@ -773,13 +1134,23 @@
     "depth_min": 0,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "arctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "arctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "조개, 게, 성게",
     "animation_type": "swim_glide",
     "svg_id": "sea_otter",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1727073458370-e50dae8bd968?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "nautilus",
@@ -796,13 +1167,23 @@
     "depth_min": 100,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류, 물고기",
     "animation_type": "jet",
     "svg_id": "nautilus",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1669047988173-880aa79e29dc?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "sea_lion",
@@ -819,13 +1200,22 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
     "svg_id": "sea_lion",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1562569633-622303bafef5?w=400&h=400&fit=crop",
+    "photo_credit": "Maegan Luckiesh"
   },
   {
     "id": "hammerhead_shark",
@@ -842,13 +1232,24 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "물고기, 가오리",
     "animation_type": "swim_glide",
     "svg_id": "hammerhead_shark",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1674786272813-dd04d4843752?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   },
   {
     "id": "angel_fish",
@@ -865,13 +1266,23 @@
     "depth_min": 10,
     "depth_max": 100,
     "zone": "sunlight",
-    "oceans": ["pacific", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "해면동물, 조류",
     "animation_type": "swim_wiggle",
     "svg_id": "angel_fish",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+    "photo_credit": "David Clode"
   },
   {
     "id": "orca",
@@ -888,13 +1299,25 @@
     "depth_min": 0,
     "depth_max": 200,
     "zone": "sunlight",
-    "oceans": ["pacific", "atlantic", "arctic", "antarctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "arctic",
+      "antarctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "물고기, 물개, 오징어",
     "animation_type": "swim_glide",
     "svg_id": "orca",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1564410267841-915d8e4d71ea?w=400&h=400&fit=crop",
+    "photo_credit": "Thomas Lipke"
   },
   {
     "id": "sea_slug",
@@ -911,12 +1334,22 @@
     "depth_min": 5,
     "depth_max": 40,
     "zone": "sunlight",
-    "oceans": ["pacific", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "해면동물",
     "animation_type": "crawl",
     "svg_id": "sea_slug",
-    "source": "NOAA"
+    "source": "NOAA",
+    "photo_url": "https://images.unsplash.com/photo-1674067666166-254d4a226996?w=400&h=400&fit=crop",
+    "photo_credit": "Unsplash"
   }
 ]

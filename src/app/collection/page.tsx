@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { allCreatures } from '@/data/creatures';
 import { loadStorage } from '@/lib/storage';
+import { CreatureImage } from '@/components/creatures/CreatureImage';
 import { CreatureSVG } from '@/components/creatures/CreatureSVG';
 import type { Creature } from '@/types/creature';
 
@@ -160,7 +161,7 @@ export default function CollectionPage() {
                   {isOwned ? (
                     <>
                       <div className="w-14 h-14 mb-1">
-                        <CreatureSVG svgId={creature.svg_id} size={56} />
+                        <CreatureImage creature={creature} useCase="collection_grid" />
                       </div>
                       <p className="text-xs font-bold text-gray-800 text-center leading-tight">
                         {creature.name_ko}
