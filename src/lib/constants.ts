@@ -1,9 +1,9 @@
 // Spawn Rules
-export const MAX_CREATURES_ON_SCREEN = 6;
-export const CREATURE_COOLDOWN_MS = 30_000;
-export const SPAWN_INTERVAL_MIN_MS = 3_000;
-export const SPAWN_INTERVAL_MAX_MS = 5_000;
-export const UNCOLLECTED_WEIGHT_BONUS = 2.0;
+export const MAX_CREATURES_ON_SCREEN = 8;
+export const CREATURE_COOLDOWN_MS = 15_000;
+export const SPAWN_INTERVAL_MIN_MS = 2_000;
+export const SPAWN_INTERVAL_MAX_MS = 3_500;
+export const UNCOLLECTED_WEIGHT_BONUS = 2.5;
 
 // Zone Transition
 export const ZONE_CTA_THRESHOLD = 0.95; // 95% of zone scroll

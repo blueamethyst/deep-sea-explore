@@ -29,8 +29,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "clownfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "moon_jellyfish",
@@ -63,10 +63,10 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기 알",
     "animation_type": "pulse",
-    "svg_id": "moon_jellyfish",
+    "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "green_sea_turtle",
@@ -97,10 +97,10 @@
     "rarity": "uncommon",
     "diet": "해초, 해파리",
     "animation_type": "swim_glide",
-    "svg_id": "green_sea_turtle",
+    "svg_id": "sea_turtle",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=400&h=400&fit=crop",
-    "photo_credit": "Wexor Tmg"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "bottlenose_dolphin",
@@ -110,7 +110,7 @@
     "greeting_ko": "안녕! 같이 놀자!",
     "greeting_en": "Hi! Let's play together!",
     "greeting_revisit_ko": "또 왔구나! 신나!",
-    "description_ko": "나는 똑똑하고 재미있어. 친구들과 함께 헤엄치며 놀기를 좋아해. 점프도 잘해!",
+    "description_ko": "나는 똑똒하고 재미있어. 친구들과 함께 헤엄치며 놀기를 좋아해. 점프도 잘해!",
     "description_en": "I'm smart and playful. I love jumping and swimming!",
     "fun_fact_ko": "돌고래는 자면서도 뇌의 절반만 쉬어. 늘 숨을 쉬어야 하거든!",
     "size_cm": 300,
@@ -133,10 +133,10 @@
     "rarity": "uncommon",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "bottlenose_dolphin",
+    "svg_id": "dolphin",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?w=400&h=400&fit=crop",
-    "photo_credit": "NOAA"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "great_white_shark",
@@ -167,10 +167,10 @@
     "rarity": "rare",
     "diet": "물고기, 물개",
     "animation_type": "swim_glide",
-    "svg_id": "great_white_shark",
+    "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=400&h=400&fit=crop",
-    "photo_credit": "Gerald Schombs"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "humpback_whale",
@@ -204,8 +204,8 @@
     "animation_type": "swim_glide",
     "svg_id": "humpback_whale",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=400&h=400&fit=crop",
-    "photo_credit": "Todd Cravens"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "octopus",
@@ -215,7 +215,7 @@
     "greeting_ko": "안녕! 팔이 8개야!",
     "greeting_en": "Hi! I have 8 arms!",
     "greeting_revisit_ko": "또 만나서 좋아!",
-    "description_ko": "나는 똑똑해. 색깔을 바꿀 수 있고 좁은 곳도 쏙 들어갈 수 있어. 먹물도 뿜을 수 있지!",
+    "description_ko": "나는 똑똒해. 색깔을 바꿀 수 있고 좁은 곳도 쏙 들어갈 수 있어. 먹물도 뿜을 수 있지!",
     "description_en": "I'm smart! I can change colors and squeeze anywhere!",
     "fun_fact_ko": "문어는 뇌가 3개나 있어. 팔마다 뉴런이 있어서 따로 생각할 수 있어!",
     "size_cm": 60,
@@ -240,8 +240,8 @@
     "animation_type": "crawl",
     "svg_id": "octopus",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1628944682084-831f35256163?w=400&h=400&fit=crop",
-    "photo_credit": "Serena Repice Lentini"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "starfish",
@@ -277,8 +277,8 @@
     "animation_type": "crawl",
     "svg_id": "starfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop",
-    "photo_credit": "Pedro Lastra"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "shrimp",
@@ -313,9 +313,9 @@
     "diet": "플랑크톤, 작은 생물",
     "animation_type": "swim_wiggle",
     "svg_id": "shrimp",
-    "source": "Wikipedia",
-    "photo_url": "https://images.unsplash.com/photo-1770324138003-4b84036003ff?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "pufferfish",
@@ -347,9 +347,9 @@
     "diet": "갑각류, 조개",
     "animation_type": "swim_wiggle",
     "svg_id": "pufferfish",
-    "source": "Wikipedia",
-    "photo_url": "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "alaska_pollock",
@@ -378,10 +378,10 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "alaska_pollock",
+    "svg_id": "clownfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop",
-    "photo_credit": "Jakub Kapusnak"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "snow_crab",
@@ -409,7 +409,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
-    "svg_id": "snow_crab",
+    "svg_id": "shrimp",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -441,10 +441,10 @@
     "rarity": "common",
     "diet": "작은 물고기, 새우",
     "animation_type": "jet",
-    "svg_id": "common_squid",
+    "svg_id": "giant_squid",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1563050912-4659b1079ee4?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "chum_salmon",
@@ -472,10 +472,10 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 갑각류",
     "animation_type": "swim_glide",
-    "svg_id": "chum_salmon",
+    "svg_id": "clownfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?w=400&h=400&fit=crop",
-    "photo_credit": "Brandon"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "red_seabream",
@@ -505,10 +505,10 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 게",
     "animation_type": "swim_glide",
-    "svg_id": "red_seabream",
+    "svg_id": "clownfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1718632496269-6c0fd71dc29c?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "anchovy",
@@ -538,10 +538,10 @@
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "anchovy",
+    "svg_id": "clownfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1582359425634-e3ded9a93770?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "abalone",
@@ -572,10 +572,10 @@
     "rarity": "uncommon",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "abalone",
+    "svg_id": "starfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1597760015107-d115bec342fd?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "flounder",
@@ -606,10 +606,10 @@
     "rarity": "common",
     "diet": "작은 물고기, 새우",
     "animation_type": "swim_glide",
-    "svg_id": "flounder",
+    "svg_id": "manta_ray",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1761079398600-7e7b564456ca?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "seahorse",
@@ -641,8 +641,8 @@
     "animation_type": "float",
     "svg_id": "seahorse",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1702047115070-ca47c241733f?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "blue_crab",
@@ -672,10 +672,10 @@
     "rarity": "common",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
-    "svg_id": "blue_crab",
+    "svg_id": "shrimp",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1550592704-6c76defa9985?w=400&h=400&fit=crop",
-    "photo_credit": "Amber Engle"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "yellow_croaker",
@@ -703,10 +703,10 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 새우",
     "animation_type": "swim_glide",
-    "svg_id": "yellow_croaker",
+    "svg_id": "clownfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1498654200943-1088dd4438ae?w=400&h=400&fit=crop",
-    "photo_credit": "Jonas Weckschmied"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "lugworm",
@@ -736,10 +736,10 @@
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "lugworm",
+    "svg_id": "seahorse",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-    "photo_credit": "Jonas Weckschmied"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "turban_shell",
@@ -770,10 +770,10 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "turban_shell",
+    "svg_id": "starfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "manta_ray",
@@ -806,8 +806,8 @@
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1583297016081-23a9753cd364?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "coral",
@@ -839,10 +839,10 @@
     "rarity": "uncommon",
     "diet": "플랑크톤",
     "animation_type": "float",
-    "svg_id": "coral",
+    "svg_id": "starfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=400&h=400&fit=crop",
-    "photo_credit": "QUI NGUYEN"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_cucumber",
@@ -873,10 +873,10 @@
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "sea_cucumber",
+    "svg_id": "starfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1571752726703-5e7d1f6a986d?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_urchin",
@@ -907,10 +907,10 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "sea_urchin",
+    "svg_id": "starfish",
     "source": "국립해양생물자원관",
-    "photo_url": "https://images.unsplash.com/photo-1723107486969-3affa9217ac2?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "clam",
@@ -944,10 +944,10 @@
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "clam",
-    "source": "Wikipedia",
-    "photo_url": "https://images.unsplash.com/photo-1661505748265-e8e7f2fc6f8e?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "svg_id": "starfish",
+    "source": "WoRMS",
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_anemone",
@@ -978,10 +978,10 @@
     "rarity": "common",
     "diet": "작은 물고기, 플랑크톤",
     "animation_type": "float",
-    "svg_id": "sea_anemone",
+    "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1729736763059-be3568e66e4f?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "lobster",
@@ -1011,10 +1011,10 @@
     "rarity": "uncommon",
     "diet": "물고기, 조개, 게",
     "animation_type": "crawl",
-    "svg_id": "lobster",
+    "svg_id": "shrimp",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1553659971-f01207815844?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "swordfish",
@@ -1045,10 +1045,10 @@
     "rarity": "rare",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "swordfish",
+    "svg_id": "dolphin",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1605876168868-6d7aa0e9109a?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "flying_fish",
@@ -1078,10 +1078,10 @@
     "rarity": "uncommon",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "flying_fish",
+    "svg_id": "clownfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1428542170253-0d2f063e92c2?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "blue_whale",
@@ -1114,10 +1114,10 @@
     "rarity": "legendary",
     "diet": "크릴",
     "animation_type": "swim_glide",
-    "svg_id": "blue_whale",
+    "svg_id": "humpback_whale",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1733660766514-4803a932ba51?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_otter",
@@ -1147,10 +1147,10 @@
     "rarity": "rare",
     "diet": "조개, 게, 성게",
     "animation_type": "swim_glide",
-    "svg_id": "sea_otter",
+    "svg_id": "dolphin",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1727073458370-e50dae8bd968?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "nautilus",
@@ -1180,10 +1180,10 @@
     "rarity": "legendary",
     "diet": "작은 갑각류, 물고기",
     "animation_type": "jet",
-    "svg_id": "nautilus",
+    "svg_id": "giant_squid",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1669047988173-880aa79e29dc?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_lion",
@@ -1212,10 +1212,10 @@
     "rarity": "uncommon",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "sea_lion",
+    "svg_id": "dolphin",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1562569633-622303bafef5?w=400&h=400&fit=crop",
-    "photo_credit": "Maegan Luckiesh"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "hammerhead_shark",
@@ -1246,10 +1246,10 @@
     "rarity": "rare",
     "diet": "물고기, 가오리",
     "animation_type": "swim_glide",
-    "svg_id": "hammerhead_shark",
+    "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1674786272813-dd04d4843752?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "angel_fish",
@@ -1279,10 +1279,10 @@
     "rarity": "uncommon",
     "diet": "해면동물, 조류",
     "animation_type": "swim_wiggle",
-    "svg_id": "angel_fish",
+    "svg_id": "clownfish",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    "photo_credit": "David Clode"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "orca",
@@ -1314,10 +1314,10 @@
     "rarity": "legendary",
     "diet": "물고기, 물개, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "orca",
+    "svg_id": "humpback_whale",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1564410267841-915d8e4d71ea?w=400&h=400&fit=crop",
-    "photo_credit": "Thomas Lipke"
+    "photo_url": "",
+    "photo_credit": ""
   },
   {
     "id": "sea_slug",
@@ -1329,7 +1329,7 @@
     "greeting_revisit_ko": "다시 만났네!",
     "description_ko": "나는 알록달록한 색깔로 무지개 같아. 천천히 기어다니며 해면을 먹어. 정말 예쁘지?",
     "description_en": "I'm colorful like a rainbow!",
-    "fun_fact_ko": "갯민숭달팽이는 먹은 것의 독을 저장해. 화려한 색으로 '나는 독이 있어'라고 경고해!",
+    "fun_fact_ko": "갯민숭달팽이는 먹은 것의 독을 저장해. 화려한 색으로 '독이 있어'라고 경고해!",
     "size_cm": 6,
     "depth_min": 5,
     "depth_max": 40,
@@ -1347,9 +1347,1348 @@
     "rarity": "uncommon",
     "diet": "해면동물",
     "animation_type": "crawl",
-    "svg_id": "sea_slug",
+    "svg_id": "seahorse",
     "source": "NOAA",
-    "photo_url": "https://images.unsplash.com/photo-1674067666166-254d4a226996?w=400&h=400&fit=crop",
-    "photo_credit": "Unsplash"
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "parrotfish",
+    "name_ko": "비늘돔",
+    "name_en": "Parrotfish",
+    "scientific_name": "Scaridae",
+    "greeting_ko": "안녕! 나는 비늘돔이야!",
+    "greeting_en": "Hi! I'm a parrotfish!",
+    "greeting_revisit_ko": "또 만났네! 반가워!",
+    "description_ko": "나는 앵무새처럼 알록달록해. 산호를 우적우적 먹어. 모래는 내가 만드는 거야!",
+    "description_en": "I munch on coral and make sand!",
+    "fun_fact_ko": "비늘돔 한 마리가 1년에 모래 100kg을 만들어. 해변 모래의 비밀이야!",
+    "size_cm": 50,
+    "depth_min": 3,
+    "depth_max": 50,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "산호, 해조류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "butterflyfish",
+    "name_ko": "나비고기",
+    "name_en": "Butterflyfish",
+    "scientific_name": "Chaetodon auriga",
+    "greeting_ko": "안녕! 나는 나비고기야!",
+    "greeting_en": "Hi! I'm a butterflyfish!",
+    "greeting_revisit_ko": "또 왔구나! 기뻐!",
+    "description_ko": "나는 나비처럼 예쁜 무늬가 있어. 산호초 사이를 날듯이 헤엄쳐. 짝과 늘 함께 다녀!",
+    "description_en": "I have beautiful butterfly patterns!",
+    "fun_fact_ko": "나비고기는 눈 부근에 가짜 눈 무늬가 있어. 적을 헷갈리게 만들어!",
+    "size_cm": 20,
+    "depth_min": 5,
+    "depth_max": 60,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "산호 폴립, 작은 갑각류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "triggerfish",
+    "name_ko": "쥐치",
+    "name_en": "Triggerfish",
+    "scientific_name": "Balistidae",
+    "greeting_ko": "안녕! 나는 쥐치야!",
+    "greeting_en": "Hi! I'm a triggerfish!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 등에 방아쇠 같은 가시가 있어. 성격이 용감해서 큰 물고기도 안 무서워!",
+    "description_en": "I have a trigger-like spine on my back!",
+    "fun_fact_ko": "쥐치는 가시를 세워서 바위 틈에 꽉 끼면 아무도 못 빼내!",
+    "size_cm": 35,
+    "depth_min": 5,
+    "depth_max": 80,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "성게, 게, 조개",
+    "animation_type": "swim_wiggle",
+    "svg_id": "pufferfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "surgeonfish",
+    "name_ko": "쥐돔",
+    "name_en": "Surgeonfish",
+    "scientific_name": "Acanthurus olivaceus",
+    "greeting_ko": "안녕! 나는 쥐돔이야!",
+    "greeting_en": "Hi! I'm a surgeonfish!",
+    "greeting_revisit_ko": "다시 만나서 좋아!",
+    "description_ko": "내 꼬리 근처에 날카로운 가시가 있어. 외과의사 칼처럼 생겼지! 산호초에서 살아.",
+    "description_en": "I have a sharp spine near my tail!",
+    "fun_fact_ko": "쥐돔은 해조류를 먹어서 산호초가 자랄 수 있게 도와줘. 바다의 정원사야!",
+    "size_cm": 25,
+    "depth_min": 5,
+    "depth_max": 50,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해조류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "wrasse",
+    "name_ko": "놀래기",
+    "name_en": "Wrasse",
+    "scientific_name": "Labridae",
+    "greeting_ko": "안녕! 나는 놀래기야!",
+    "greeting_en": "Hi! I'm a wrasse!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 큰 물고기의 몸을 청소해줘. 기생충을 잡아먹는 바다 청소부야!",
+    "description_en": "I clean other fish by eating their parasites!",
+    "fun_fact_ko": "놀래기는 성별이 바뀔 수 있어. 무리에서 가장 큰 암컷이 수컷이 돼!",
+    "size_cm": 20,
+    "depth_min": 3,
+    "depth_max": 60,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "기생충, 작은 갑각류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "grouper",
+    "name_ko": "다금바리",
+    "name_en": "Grouper",
+    "scientific_name": "Epinephelus bruneus",
+    "greeting_ko": "안녕! 나는 다금바리야!",
+    "greeting_en": "Hi! I'm a grouper!",
+    "greeting_revisit_ko": "또 만나서 반가워!",
+    "description_ko": "나는 크고 듬직해. 바위 동굴에 숨어서 먹이가 오면 한 입에 꿀꺽!",
+    "description_en": "I'm big and hide in caves!",
+    "fun_fact_ko": "다금바리는 입을 크게 벌려서 먹이를 빨아들여. 진공청소기처럼!",
+    "size_cm": 120,
+    "depth_min": 20,
+    "depth_max": 200,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "south_sea",
+      "east_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "rare",
+    "diet": "물고기, 오징어, 게",
+    "animation_type": "swim_glide",
+    "svg_id": "pufferfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "tuna",
+    "name_ko": "참다랑어",
+    "name_en": "Bluefin Tuna",
+    "scientific_name": "Thunnus thynnus",
+    "greeting_ko": "안녕! 나는 참다랑어야!",
+    "greeting_en": "Hi! I'm a bluefin tuna!",
+    "greeting_revisit_ko": "다시 만났네!",
+    "description_ko": "나는 바다의 스포츠카야. 엄청 빠르게 헤엄쳐! 멀리 여행하는 걸 좋아해.",
+    "description_en": "I'm one of the fastest fish in the sea!",
+    "fun_fact_ko": "참다랑어는 시속 70km로 달려. 대서양을 횡단할 수 있어!",
+    "size_cm": 200,
+    "depth_min": 0,
+    "depth_max": 200,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "작은 물고기, 오징어",
+    "animation_type": "swim_glide",
+    "svg_id": "dolphin",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "mackerel",
+    "name_ko": "고등어",
+    "name_en": "Mackerel",
+    "scientific_name": "Scomber japonicus",
+    "greeting_ko": "안녕! 나는 고등어야!",
+    "greeting_en": "Hi! I'm a mackerel!",
+    "greeting_revisit_ko": "또 왔구나! 반가워!",
+    "description_ko": "나는 등에 파란 줄무늬가 있어. 무리를 지어 빠르게 헤엄쳐. 맛도 좋아!",
+    "description_en": "I swim fast in big groups!",
+    "fun_fact_ko": "고등어는 잠을 잘 때도 헤엄쳐. 멈추면 숨을 못 쉬거든!",
+    "size_cm": 40,
+    "depth_min": 0,
+    "depth_max": 150,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "플랑크톤, 작은 물고기",
+    "animation_type": "swim_glide",
+    "svg_id": "clownfish",
+    "source": "국립해양생물자원관",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "barracuda",
+    "name_ko": "바라쿠다",
+    "name_en": "Great Barracuda",
+    "scientific_name": "Sphyraena barracuda",
+    "greeting_ko": "안녕! 나는 바라쿠다야!",
+    "greeting_en": "Hi! I'm a barracuda!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 날렵하고 빨라. 번개처럼 먹이를 낚아채! 반짝이는 것을 좋아해.",
+    "description_en": "I'm fast and sleek like lightning!",
+    "fun_fact_ko": "바라쿠다는 시속 58km로 돌진해. 날카로운 이빨이 2줄로 나 있어!",
+    "size_cm": 150,
+    "depth_min": 0,
+    "depth_max": 100,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "물고기, 오징어",
+    "animation_type": "swim_glide",
+    "svg_id": "dolphin",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "moray_eel",
+    "name_ko": "곰치",
+    "name_en": "Moray Eel",
+    "scientific_name": "Gymnothorax kidako",
+    "greeting_ko": "안녕! 나는 곰치야!",
+    "greeting_en": "Hi! I'm a moray eel!",
+    "greeting_revisit_ko": "다시 만났구나!",
+    "description_ko": "나는 바위 틈에 숨어 살아. 입을 벌리고 있는 건 숨쉬는 거야. 무섭지 않아!",
+    "description_en": "I hide in rock crevices and open my mouth to breathe!",
+    "fun_fact_ko": "곰치는 목 안에 두 번째 턱이 있어. 에일리언 영화처럼 튀어나와서 먹이를 잡아!",
+    "size_cm": 100,
+    "depth_min": 5,
+    "depth_max": 80,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "물고기, 문어, 게",
+    "animation_type": "swim_wiggle",
+    "svg_id": "seahorse",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "stingray",
+    "name_ko": "노랑가오리",
+    "name_en": "Stingray",
+    "scientific_name": "Dasyatis akajei",
+    "greeting_ko": "안녕! 나는 가오리야!",
+    "greeting_en": "Hi! I'm a stingray!",
+    "greeting_revisit_ko": "또 만났네!",
+    "description_ko": "나는 납작하게 모래 위를 날아다녀. 꼬리에 가시가 있지만 순한 편이야!",
+    "description_en": "I glide over sandy floors!",
+    "fun_fact_ko": "가오리는 전기를 감지해서 모래 속 먹이를 찾아. 숨어도 소용없어!",
+    "size_cm": 80,
+    "depth_min": 5,
+    "depth_max": 100,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "rare",
+    "diet": "조개, 새우, 게",
+    "animation_type": "swim_glide",
+    "svg_id": "manta_ray",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "eagle_ray",
+    "name_ko": "매가오리",
+    "name_en": "Eagle Ray",
+    "scientific_name": "Aetobatus narinari",
+    "greeting_ko": "안녕! 나는 매가오리야!",
+    "greeting_en": "Hi! I'm an eagle ray!",
+    "greeting_revisit_ko": "다시 만나서 기뻐!",
+    "description_ko": "나는 독수리처럼 우아하게 날아. 점박이 무늬가 멋지지? 물 위로 점프도 해!",
+    "description_en": "I fly through the water like an eagle!",
+    "fun_fact_ko": "매가오리는 물 밖으로 2미터나 점프할 수 있어. 하늘을 나는 것처럼 보여!",
+    "size_cm": 200,
+    "depth_min": 5,
+    "depth_max": 80,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "조개, 게, 새우",
+    "animation_type": "swim_glide",
+    "svg_id": "manta_ray",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "hermit_crab",
+    "name_ko": "소라게",
+    "name_en": "Hermit Crab",
+    "scientific_name": "Pagurus hermit",
+    "greeting_ko": "안녕! 나는 소라게야!",
+    "greeting_en": "Hi! I'm a hermit crab!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 빈 조개껍데기를 집으로 써. 자라면 더 큰 집으로 이사해! 귀엽지?",
+    "description_en": "I live in empty shells and move to bigger ones!",
+    "fun_fact_ko": "소라게는 집을 바꿀 때 줄을 서서 차례로 교환해. 예의 바른 동물이야!",
+    "size_cm": 5,
+    "depth_min": 0,
+    "depth_max": 30,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해조류, 유기물",
+    "animation_type": "crawl",
+    "svg_id": "shrimp",
+    "source": "WoRMS",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "horseshoe_crab",
+    "name_ko": "투구게",
+    "name_en": "Horseshoe Crab",
+    "scientific_name": "Tachypleus tridentatus",
+    "greeting_ko": "안녕! 나는 투구게야!",
+    "greeting_en": "Hi! I'm a horseshoe crab!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 공룡보다 먼저 살았어. 4억 5천만 년 된 살아있는 화석이야! 투구를 썼지?",
+    "description_en": "I've been around longer than dinosaurs!",
+    "fun_fact_ko": "투구게의 피는 파란색이야. 세균을 찾는 데 쓰여서 의학에 큰 도움을 줘!",
+    "size_cm": 50,
+    "depth_min": 5,
+    "depth_max": 40,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "rarity": "rare",
+    "diet": "작은 갑각류, 벌레",
+    "animation_type": "crawl",
+    "svg_id": "shrimp",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "portuguese_man_of_war",
+    "name_ko": "부레관해파리",
+    "name_en": "Portuguese Man-of-War",
+    "scientific_name": "Physalia physalis",
+    "greeting_ko": "안녕! 멀리서 봐줘!",
+    "greeting_en": "Hi! Watch me from afar!",
+    "greeting_revisit_ko": "또 만났구나! 조심해!",
+    "description_ko": "나는 해파리처럼 보이지만 사실 여러 생물이 합체한 거야. 파란 풍선 같지?",
+    "description_en": "I look like a jellyfish but I'm a colony!",
+    "fun_fact_ko": "부레관해파리의 촉수는 30미터까지 늘어나. 바람으로 이동하는 돛단배야!",
+    "size_cm": 30,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "atlantic",
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "uncommon",
+    "diet": "작은 물고기, 플랑크톤",
+    "animation_type": "float",
+    "svg_id": "jellyfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "box_jellyfish",
+    "name_ko": "상자해파리",
+    "name_en": "Box Jellyfish",
+    "scientific_name": "Chironex fleckeri",
+    "greeting_ko": "안녕! 나는 상자해파리야!",
+    "greeting_en": "Hi! I'm a box jellyfish!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 네모난 머리를 가진 해파리야. 눈이 24개나 있어서 잘 볼 수 있어!",
+    "description_en": "I have a box-shaped head and 24 eyes!",
+    "fun_fact_ko": "상자해파리는 뇌가 없는데 눈이 24개야. 색깔도 구분할 수 있어!",
+    "size_cm": 20,
+    "depth_min": 0,
+    "depth_max": 50,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "rarity": "uncommon",
+    "diet": "새우, 작은 물고기",
+    "animation_type": "pulse",
+    "svg_id": "jellyfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "remora",
+    "name_ko": "빨판상어",
+    "name_en": "Remora",
+    "scientific_name": "Echeneis naucrates",
+    "greeting_ko": "안녕! 나는 빨판상어야!",
+    "greeting_en": "Hi! I'm a remora!",
+    "greeting_revisit_ko": "또 만났네!",
+    "description_ko": "나는 머리에 빨판이 있어. 큰 물고기에 딱 붙어서 무임승차해. 편하지?",
+    "description_en": "I hitchhike by sticking to big fish!",
+    "fun_fact_ko": "빨판상어는 상어나 거북 등에 붙어 다니며 먹이 찌꺼기를 먹어. 공짜 여행이야!",
+    "size_cm": 70,
+    "depth_min": 0,
+    "depth_max": 100,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "기생충, 먹이 찌꺼기",
+    "animation_type": "swim_glide",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "pilot_fish",
+    "name_ko": "빗살문어",
+    "name_en": "Pilot Fish",
+    "scientific_name": "Naucrates ductor",
+    "greeting_ko": "안녕! 나는 줄무늬가 멋져!",
+    "greeting_en": "Hi! I'm a pilot fish!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 상어 옆에서 헤엄쳐. 상어가 나를 보호해주고 나는 기생충을 청소해줘!",
+    "description_en": "I swim alongside sharks!",
+    "fun_fact_ko": "파일럿피쉬는 상어가 절대 잡아먹지 않아. 최고의 친구 사이거든!",
+    "size_cm": 35,
+    "depth_min": 0,
+    "depth_max": 100,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "기생충, 먹이 찌꺼기",
+    "animation_type": "swim_glide",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "conch",
+    "name_ko": "소라고둥",
+    "name_en": "Queen Conch",
+    "scientific_name": "Aliger gigas",
+    "greeting_ko": "안녕! 나는 소라고둥이야!",
+    "greeting_en": "Hi! I'm a queen conch!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 큰 분홍색 껍데기가 있어. 껍데기에 귀를 대면 바다 소리가 들려!",
+    "description_en": "Put my shell to your ear and hear the sea!",
+    "fun_fact_ko": "소라고둥 껍데기를 귀에 대면 바다 소리가 나는 건 주변 소리가 울리는 거야!",
+    "size_cm": 30,
+    "depth_min": 3,
+    "depth_max": 30,
+    "zone": "sunlight",
+    "oceans": [
+      "atlantic",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해조류",
+    "animation_type": "crawl",
+    "svg_id": "starfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "cowrie",
+    "name_ko": "개오지",
+    "name_en": "Cowrie",
+    "scientific_name": "Cypraea tigris",
+    "greeting_ko": "안녕! 나는 개오지야!",
+    "greeting_en": "Hi! I'm a cowrie!",
+    "greeting_revisit_ko": "다시 만났네!",
+    "description_ko": "나는 반짝반짝 빛나는 껍데기가 있어. 옛날에는 돈으로 쓰였어. 예쁘지?",
+    "description_en": "My shiny shell was once used as money!",
+    "fun_fact_ko": "개오지 껍데기는 너무 반짝여서 옛날 사람들이 화폐로 썼어. 보물이지!",
+    "size_cm": 10,
+    "depth_min": 5,
+    "depth_max": 40,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해면동물, 해조류",
+    "animation_type": "crawl",
+    "svg_id": "starfish",
+    "source": "WoRMS",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "nudibranch",
+    "name_ko": "갯민숭이",
+    "name_en": "Nudibranch",
+    "scientific_name": "Nudibranchia",
+    "greeting_ko": "안녕! 나는 갯민숭이야!",
+    "greeting_en": "Hi! I'm a nudibranch!",
+    "greeting_revisit_ko": "또 만나서 기뻐!",
+    "description_ko": "나는 바다의 무지개야. 형형색색 아름다워. 독이 있어서 천적이 별로 없어!",
+    "description_en": "I'm the most colorful creature in the sea!",
+    "fun_fact_ko": "갯민숭이는 3000종이 넘어. 하나하나 다 다른 색이야. 바다의 보석이지!",
+    "size_cm": 5,
+    "depth_min": 3,
+    "depth_max": 40,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "해면동물, 산호",
+    "animation_type": "crawl",
+    "svg_id": "seahorse",
+    "source": "WoRMS",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "sea_fan",
+    "name_ko": "부채산호",
+    "name_en": "Sea Fan",
+    "scientific_name": "Gorgoniidae",
+    "greeting_ko": "안녕! 나는 부채산호야!",
+    "greeting_en": "Hi! I'm a sea fan!",
+    "greeting_revisit_ko": "또 찾아와줘서 고마워!",
+    "description_ko": "나는 부채처럼 넓게 펼쳐져 있어. 물살에 흔들리며 플랑크톤을 잡아먹어!",
+    "description_en": "I spread out like a fan in the current!",
+    "fun_fact_ko": "부채산호는 물살이 센 곳에서 잘 자라. 수백 년 동안 자랄 수 있어!",
+    "size_cm": 100,
+    "depth_min": 10,
+    "depth_max": 80,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "플랑크톤",
+    "animation_type": "float",
+    "svg_id": "starfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "brain_coral",
+    "name_ko": "뇌산호",
+    "name_en": "Brain Coral",
+    "scientific_name": "Diploria labyrinthiformis",
+    "greeting_ko": "안녕! 나는 뇌산호야!",
+    "greeting_en": "Hi! I'm a brain coral!",
+    "greeting_revisit_ko": "또 만났네!",
+    "description_ko": "나는 사람의 뇌처럼 생겼어. 둥글고 주름이 많지? 아주 천천히 자라!",
+    "description_en": "I look like a human brain!",
+    "fun_fact_ko": "뇌산호는 1년에 겨우 몇 mm만 자라. 큰 것은 수백 살이나 됐어!",
+    "size_cm": 50,
+    "depth_min": 5,
+    "depth_max": 50,
+    "zone": "sunlight",
+    "oceans": [
+      "atlantic",
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "플랑크톤",
+    "animation_type": "float",
+    "svg_id": "starfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "sea_grass",
+    "name_ko": "잘피",
+    "name_en": "Seagrass",
+    "scientific_name": "Zostera marina",
+    "greeting_ko": "안녕! 나는 잘피야!",
+    "greeting_en": "Hi! I'm seagrass!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 바다에서 자라는 풀이야. 물고기들의 놀이터를 만들어줘. 산소도 만들어!",
+    "description_en": "I'm grass that grows in the sea!",
+    "fun_fact_ko": "잘피는 숲보다 35배 빠르게 탄소를 흡수해. 바다의 허파라고 불려!",
+    "size_cm": 60,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "광합성",
+    "animation_type": "float",
+    "svg_id": "seahorse",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "manatee",
+    "name_ko": "매너티",
+    "name_en": "Manatee",
+    "scientific_name": "Trichechus manatus",
+    "greeting_ko": "안녕! 나는 매너티야!",
+    "greeting_en": "Hi! I'm a manatee!",
+    "greeting_revisit_ko": "또 만나서 좋아!",
+    "description_ko": "나는 바다의 소야. 느긋하게 해초를 먹어. 둥글고 포근한 몸이 귀엽지?",
+    "description_en": "I'm a gentle sea cow who loves seagrass!",
+    "fun_fact_ko": "매너티는 하루에 해초를 50kg이나 먹어. 그래서 바다소라고 불려!",
+    "size_cm": 350,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "rare",
+    "diet": "해초, 수초",
+    "animation_type": "swim_glide",
+    "svg_id": "dolphin",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "dugong",
+    "name_ko": "듀공",
+    "name_en": "Dugong",
+    "scientific_name": "Dugong dugon",
+    "greeting_ko": "안녕! 나는 듀공이야!",
+    "greeting_en": "Hi! I'm a dugong!",
+    "greeting_revisit_ko": "다시 만나서 기뻐!",
+    "description_ko": "나는 인어의 모델이야. 해초를 먹으며 천천히 헤엄쳐. 순하고 귀여워!",
+    "description_en": "I'm the model for mermaids!",
+    "fun_fact_ko": "듀공은 인어 전설의 모델이야. 멀리서 보면 사람처럼 보인대!",
+    "size_cm": 300,
+    "depth_min": 0,
+    "depth_max": 40,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "rare",
+    "diet": "해초",
+    "animation_type": "swim_glide",
+    "svg_id": "dolphin",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "sea_snake",
+    "name_ko": "바다뱀",
+    "name_en": "Sea Snake",
+    "scientific_name": "Hydrophis cyanocinctus",
+    "greeting_ko": "안녕! 나는 바다뱀이야!",
+    "greeting_en": "Hi! I'm a sea snake!",
+    "greeting_revisit_ko": "또 만났네!",
+    "description_ko": "나는 물속에서 사는 뱀이야. 꼬리가 노처럼 생겨서 헤엄을 잘 쳐!",
+    "description_en": "I'm a snake that lives in the ocean!",
+    "fun_fact_ko": "바다뱀은 피부로도 숨을 쉴 수 있어. 물속에서 2시간 동안 잠수할 수 있어!",
+    "size_cm": 120,
+    "depth_min": 0,
+    "depth_max": 50,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "uncommon",
+    "diet": "물고기, 물고기 알",
+    "animation_type": "swim_wiggle",
+    "svg_id": "seahorse",
+    "source": "WoRMS",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "marine_iguana",
+    "name_ko": "바다이구아나",
+    "name_en": "Marine Iguana",
+    "scientific_name": "Amblyrhynchus cristatus",
+    "greeting_ko": "안녕! 나는 바다이구아나!",
+    "greeting_en": "Hi! I'm a marine iguana!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 세계에서 유일하게 바다에서 먹이를 먹는 도마뱀이야. 갈라파고스에 살아!",
+    "description_en": "I'm the only lizard that swims in the sea!",
+    "fun_fact_ko": "바다이구아나는 코에서 소금을 뿜어내. 재채기하듯 '풋!' 하고 뿜어!",
+    "size_cm": 100,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "legendary",
+    "diet": "해조류",
+    "animation_type": "crawl",
+    "svg_id": "sea_turtle",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "lionfish",
+    "name_ko": "쏠배감펭",
+    "name_en": "Lionfish",
+    "scientific_name": "Pterois volitans",
+    "greeting_ko": "안녕! 나는 쏠배감펭이야!",
+    "greeting_en": "Hi! I'm a lionfish!",
+    "greeting_revisit_ko": "다시 만났구나!",
+    "description_ko": "나는 화려한 줄무늬가 있어. 등 가시에 독이 있지만 예쁘게 펼치며 헤엄쳐!",
+    "description_en": "I have beautiful stripy fins with venom!",
+    "fun_fact_ko": "쏠배감펭은 지느러미를 부채처럼 펼쳐서 먹이를 구석으로 몰아!",
+    "size_cm": 35,
+    "depth_min": 5,
+    "depth_max": 80,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "작은 물고기, 새우",
+    "animation_type": "float",
+    "svg_id": "pufferfish",
+    "source": "NOAA",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "tomato_clownfish",
+    "name_ko": "토마토클라운피쉬",
+    "name_en": "Tomato Clownfish",
+    "scientific_name": "Amphiprion frenatus",
+    "greeting_ko": "안녕! 빨간 흰동가리야!",
+    "greeting_en": "Hi! I'm a tomato clownfish!",
+    "greeting_revisit_ko": "또 만났네! 반가워!",
+    "description_ko": "나는 토마토처럼 빨간색이야. 흰동가리의 사촌이지! 말미잘과 같이 살아.",
+    "description_en": "I'm red like a tomato!",
+    "fun_fact_ko": "토마토클라운피쉬는 하얀 줄이 하나뿐이야. 흰동가리는 세 줄인데!",
+    "size_cm": 14,
+    "depth_min": 1,
+    "depth_max": 15,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "플랑크톤, 작은 갑각류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "damselfish",
+    "name_ko": "자리돔",
+    "name_en": "Damselfish",
+    "scientific_name": "Chromis notata",
+    "greeting_ko": "안녕! 나는 자리돔이야!",
+    "greeting_en": "Hi! I'm a damselfish!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 작지만 용감해. 내 영역을 침범하면 큰 물고기도 쫓아내! 제주 바다에 많아.",
+    "description_en": "I'm small but brave!",
+    "fun_fact_ko": "자리돔은 해조류 밭을 가꿔. 자기만의 정원을 만들어서 먹이를 키워!",
+    "size_cm": 12,
+    "depth_min": 3,
+    "depth_max": 30,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "south_sea",
+      "east_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "common",
+    "diet": "해조류, 플랑크톤",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "국립해양생물자원관",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "goby",
+    "name_ko": "망둥어",
+    "name_en": "Goby",
+    "scientific_name": "Gobiidae",
+    "greeting_ko": "안녕! 나는 망둥어야!",
+    "greeting_en": "Hi! I'm a goby!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 아주 작은 물고기야. 갯벌에서 뛰어다녀! 새우와 같은 굴에 살기도 해.",
+    "description_en": "I'm tiny and live in the mud!",
+    "fun_fact_ko": "망둥어는 새우와 같은 굴에 살아. 새우가 집을 파면 망둥어가 보초를 서!",
+    "size_cm": 8,
+    "depth_min": 0,
+    "depth_max": 30,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "west_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "common",
+    "diet": "작은 갑각류, 플랑크톤",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "blenny",
+    "name_ko": "베도라치",
+    "name_en": "Blenny",
+    "scientific_name": "Blenniidae",
+    "greeting_ko": "안녕! 나는 베도라치야!",
+    "greeting_en": "Hi! I'm a blenny!",
+    "greeting_revisit_ko": "다시 만났네!",
+    "description_ko": "나는 눈 위에 뿔 같은 더듬이가 있어. 바위에 붙어서 주변을 빼꼼 살펴!",
+    "description_en": "I peek out from rocks with my funny horns!",
+    "fun_fact_ko": "베도라치는 물 밖에서도 잠깐 살 수 있어. 바위 사이를 폴짝폴짝 뛰어다녀!",
+    "size_cm": 10,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해조류, 작은 갑각류",
+    "animation_type": "crawl",
+    "svg_id": "seahorse",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "filefish",
+    "name_ko": "쥐치복",
+    "name_en": "Filefish",
+    "scientific_name": "Monacanthidae",
+    "greeting_ko": "안녕! 나는 쥐치복이야!",
+    "greeting_en": "Hi! I'm a filefish!",
+    "greeting_revisit_ko": "또 만났구나!",
+    "description_ko": "나는 피부가 거칠거칠해. 옛날에 나무를 다듬는 줄처럼 쓰였대! 재미있지?",
+    "description_en": "My rough skin was once used like sandpaper!",
+    "fun_fact_ko": "쥐치복은 색깔을 바꿔서 산호 사이에 숨을 수 있어. 숨바꼭질 챔피언!",
+    "size_cm": 25,
+    "depth_min": 5,
+    "depth_max": 60,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해조류, 작은 갑각류",
+    "animation_type": "swim_wiggle",
+    "svg_id": "pufferfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "tang",
+    "name_ko": "블루탱",
+    "name_en": "Blue Tang",
+    "scientific_name": "Paracanthurus hepatus",
+    "greeting_ko": "안녕! 나는 블루탱이야!",
+    "greeting_en": "Hi! I'm a blue tang!",
+    "greeting_revisit_ko": "또 왔구나! 기뻐!",
+    "description_ko": "나는 새파란 물고기야! 도리를 알지? 산호초에서 해조류를 먹어.",
+    "description_en": "I'm Dory! The bright blue fish!",
+    "fun_fact_ko": "블루탱은 밤이 되면 색이 어두워져. 낮에는 파랗지만 밤엔 보라색이야!",
+    "size_cm": 30,
+    "depth_min": 5,
+    "depth_max": 40,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "해조류, 플랑크톤",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "batfish",
+    "name_ko": "박쥐고기",
+    "name_en": "Batfish",
+    "scientific_name": "Platax teira",
+    "greeting_ko": "안녕! 나는 박쥐고기야!",
+    "greeting_en": "Hi! I'm a batfish!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 납작하고 둥글어. 어릴 때는 낙엽처럼 생겨서 물에 떠다니며 숨어!",
+    "description_en": "When I'm young, I look like a floating leaf!",
+    "fun_fact_ko": "아기 박쥐고기는 옆으로 누워서 떠다녀. 낙엽인 척해서 적을 속여!",
+    "size_cm": 50,
+    "depth_min": 5,
+    "depth_max": 60,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "해파리, 해조류",
+    "animation_type": "swim_glide",
+    "svg_id": "pufferfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "trumpetfish",
+    "name_ko": "트럼펫피쉬",
+    "name_en": "Trumpetfish",
+    "scientific_name": "Aulostomus chinensis",
+    "greeting_ko": "안녕! 나는 트럼펫피쉬!",
+    "greeting_en": "Hi! I'm a trumpetfish!",
+    "greeting_revisit_ko": "다시 만났구나!",
+    "description_ko": "나는 트럼펫처럼 길고 가늘어. 산호 사이에 숨어서 먹이가 오면 냉큼 잡아!",
+    "description_en": "I'm long and thin like a trumpet!",
+    "fun_fact_ko": "트럼펫피쉬는 큰 물고기 뒤에 숨어서 다가가. 몰래 사냥하는 스파이야!",
+    "size_cm": 80,
+    "depth_min": 3,
+    "depth_max": 30,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "indian",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "uncommon",
+    "diet": "작은 물고기, 새우",
+    "animation_type": "float",
+    "svg_id": "seahorse",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "needlefish",
+    "name_ko": "학공치",
+    "name_en": "Needlefish",
+    "scientific_name": "Tylosurus crocodilus",
+    "greeting_ko": "안녕! 나는 학공치야!",
+    "greeting_en": "Hi! I'm a needlefish!",
+    "greeting_revisit_ko": "또 만났네!",
+    "description_ko": "나는 바늘처럼 가늘고 길어. 수면 가까이에서 빠르게 헤엄쳐. 점프도 잘해!",
+    "description_en": "I'm thin like a needle and super fast!",
+    "fun_fact_ko": "학공치는 빛에 놀라면 물 위로 점프해. 시속 60km로 날아가!",
+    "size_cm": 100,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "common",
+    "diet": "작은 물고기",
+    "animation_type": "swim_glide",
+    "svg_id": "seahorse",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "halfbeak",
+    "name_ko": "학꽁치",
+    "name_en": "Halfbeak",
+    "scientific_name": "Hyporhamphus sajori",
+    "greeting_ko": "안녕! 나는 학꽁치야!",
+    "greeting_en": "Hi! I'm a halfbeak!",
+    "greeting_revisit_ko": "또 왔구나!",
+    "description_ko": "나는 아래턱이 길게 튀어나왔어. 수면에서 작은 먹이를 건져 먹어!",
+    "description_en": "My lower jaw sticks out like a beak!",
+    "fun_fact_ko": "학꽁치는 아래턱만 길어. 이걸로 수면의 먹이를 퍼 올려 먹어!",
+    "size_cm": 30,
+    "depth_min": 0,
+    "depth_max": 20,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "east_sea",
+      "south_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "rarity": "common",
+    "diet": "플랑크톤, 작은 갑각류",
+    "animation_type": "swim_glide",
+    "svg_id": "clownfish",
+    "source": "국립해양생물자원관",
+    "photo_url": "",
+    "photo_credit": ""
+  },
+  {
+    "id": "sardine",
+    "name_ko": "정어리",
+    "name_en": "Sardine",
+    "scientific_name": "Sardinops sagax",
+    "greeting_ko": "안녕! 나는 정어리야!",
+    "greeting_en": "Hi! I'm a sardine!",
+    "greeting_revisit_ko": "또 봐서 반가워!",
+    "description_ko": "나는 수만 마리가 함께 다녀. 은빛으로 반짝이며 거대한 공 모양을 만들어!",
+    "description_en": "We form incredible giant bait balls!",
+    "fun_fact_ko": "정어리 떼가 만드는 거대한 공은 우주에서도 보인대. 바다의 은하수야!",
+    "size_cm": 20,
+    "depth_min": 0,
+    "depth_max": 100,
+    "zone": "sunlight",
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian",
+      "east_sea"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "rarity": "common",
+    "diet": "플랑크톤",
+    "animation_type": "swim_wiggle",
+    "svg_id": "clownfish",
+    "source": "FishBase",
+    "photo_url": "",
+    "photo_credit": ""
   }
 ]
