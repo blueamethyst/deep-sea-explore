@@ -43,7 +43,7 @@ export default function SelectOceanPage() {
           어디 바다로 갈까?
         </h1>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
           {oceansData.map((ocean) => (
             <button
               key={ocean.id}

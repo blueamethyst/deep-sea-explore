@@ -146,7 +146,7 @@ export default function CollectionPage() {
         )}
 
         {/* 생물 그리드 */}
-        <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 mb-6">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 mb-6">
           {sortedCreatures.map((creature) => {
             const isOwned = creature.id in collected;
             return (

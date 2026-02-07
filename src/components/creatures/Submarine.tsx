@@ -16,6 +16,7 @@ export const Submarine: React.FC<SubmarineProps> = ({
     <div className={`relative ${className}`}>
       <svg
         viewBox="0 0 240 160"
+        overflow="visible"
         className="w-full h-auto submarine-float"
         xmlns="http://www.w3.org/2000/svg"
       >

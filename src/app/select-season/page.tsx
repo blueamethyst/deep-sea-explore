@@ -29,21 +29,21 @@ export default function SelectSeasonPage() {
           지금은 어떤 계절이지?
         </h1>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
           {seasonsData.map((season) => (
             <button
               key={season.id}
               onClick={() => setSelectedSeason(season.id)}
-              className={`aspect-[4/3] rounded-3xl shadow-2xl transition-all active:scale-95 ${
+              className={`aspect-[4/3] rounded-3xl shadow-2xl transition-all active:scale-95 overflow-hidden ${
                 selectedSeason === season.id ? 'ring-4 ring-white scale-105' : ''
               }`}
               style={{ backgroundColor: season.theme_color }}
             >
-              <div className="h-full flex flex-col items-center justify-center p-4 text-white">
-                <div className="text-5xl md:text-6xl mb-2">{season.icon}</div>
-                <h3 className="text-2xl md:text-3xl font-bold mb-0.5">{season.name_ko}</h3>
-                <p className="text-sm md:text-base opacity-90">{season.name_en}</p>
-                <p className="text-sm mt-0.5">{season.description_ko}</p>
+              <div className="h-full flex flex-col items-center justify-center p-3 lg:p-4 text-white">
+                <div className="text-4xl sm:text-5xl lg:text-6xl mb-1 lg:mb-2">{season.icon}</div>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-0.5">{season.name_ko}</h3>
+                <p className="text-xs sm:text-sm lg:text-base opacity-90">{season.name_en}</p>
+                <p className="text-xs sm:text-sm mt-0.5 truncate max-w-full">{season.description_ko}</p>
               </div>
             </button>
           ))}
