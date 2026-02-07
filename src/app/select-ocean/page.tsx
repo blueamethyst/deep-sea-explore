@@ -31,24 +31,24 @@ export default function SelectOceanPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-200 to-blue-300 p-6 overflow-auto">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-200 to-blue-300 p-4 pb-20 overflow-auto">
       <div className="max-w-6xl mx-auto">
         <Link href="/">
-          <button className="mb-4 min-w-12 min-h-12 bg-white/80 rounded-full shadow-lg flex items-center justify-center text-2xl active:scale-95 transition-transform">
+          <button className="mb-2 min-w-12 min-h-12 bg-white/80 rounded-full shadow-lg flex items-center justify-center text-2xl active:scale-95 transition-transform">
             ←
           </button>
         </Link>
 
-        <h1 className="text-4xl font-bold text-white text-center mb-6 drop-shadow-lg">
+        <h1 className="text-3xl font-bold text-white text-center mb-4 drop-shadow-lg">
           어디 바다로 갈까?
         </h1>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {oceansData.map((ocean) => (
             <button
               key={ocean.id}
               onClick={() => handleCardClick(ocean)}
-              className={`aspect-square rounded-3xl shadow-xl transition-all active:scale-95 overflow-hidden relative ${
+              className={`aspect-[4/3] rounded-3xl shadow-xl transition-all active:scale-95 overflow-hidden relative ${
                 selectedOcean === ocean.id ? 'ring-4 ring-white scale-105' : ''
               }`}
             >
