@@ -37,7 +37,7 @@ export default function ParentModePage() {
   const collectionRate = Math.round((collectedCount / totalCreatures) * 100);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-200 to-slate-300 p-6 overflow-auto">
+    <div className="min-h-dvh bg-gradient-to-b from-slate-200 to-slate-300 p-6 overflow-auto">
       <div className="max-w-3xl mx-auto">
         {/* 헤더 */}
         <div className="flex items-center justify-between mb-8">

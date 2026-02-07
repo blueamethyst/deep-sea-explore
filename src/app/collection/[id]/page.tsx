@@ -32,7 +32,7 @@ export default function CollectionDetailPage({
 
   if (!creature) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-sky-200 to-blue-300 p-6 flex items-center justify-center">
+      <div className="min-h-dvh bg-gradient-to-b from-sky-200 to-blue-300 p-6 flex items-center justify-center">
         <div className="text-white text-2xl font-bold">생물을 찾을 수 없어요</div>
       </div>
     );
@@ -43,7 +43,7 @@ export default function CollectionDetailPage({
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-200 to-blue-300 p-6 overflow-auto">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-200 to-blue-300 p-6 overflow-auto">
       <div className="max-w-3xl mx-auto">
         <Link href="/collection">
           <button className="mb-4 min-w-12 min-h-12 bg-white/80 rounded-full shadow-lg flex items-center justify-center text-2xl active:scale-95 transition-transform">

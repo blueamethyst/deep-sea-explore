@@ -32,7 +32,7 @@ function ExploreCompleteContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
       <div className="max-w-2xl w-full space-y-8">
         {/* 축하 타이틀 */}
         <div className="text-center mb-8">

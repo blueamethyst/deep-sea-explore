@@ -39,7 +39,7 @@ export default function HomePage() {
   if (!storage) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-300 via-sky-400 to-blue-500 relative overflow-hidden">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-300 via-sky-400 to-blue-500 relative overflow-hidden">
       {/* 부모 모드 진입 (좌상단, 투명) */}
       <div
         className="absolute top-0 left-0 w-24 h-24 z-50 touch-manipulation"
@@ -64,7 +64,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6 gap-6">
+      <div className="relative z-10 min-h-dvh flex flex-col items-center justify-center p-6 gap-6">
         {/* 타이틀 */}
         <div className="text-center mb-4">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-3 tracking-wider drop-shadow-lg">

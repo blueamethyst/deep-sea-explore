@@ -97,7 +97,7 @@ export default function ProfilePage() {
 
   if (showPreview) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
+      <div className="min-h-dvh bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
         <div className="max-w-2xl w-full space-y-8">
           <h1 className="text-4xl font-bold text-white text-center mb-8">
             우리 가족 탐험대 완성!
@@ -137,7 +137,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-300 to-blue-400 flex flex-col items-center justify-center p-6">
       <div className="max-w-4xl w-full space-y-8">
         {/* 진행 표시 */}
         <div className="flex justify-center gap-3 mb-8">

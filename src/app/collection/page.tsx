@@ -59,7 +59,7 @@ export default function CollectionPage() {
   }, [filter, subFilter, collected]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-200 to-blue-300 overflow-auto">
+    <div className="min-h-dvh bg-gradient-to-b from-sky-200 to-blue-300 overflow-auto">
       <div className="max-w-6xl mx-auto p-6">
         {/* 뒤로가기 */}
         <Link href="/">
