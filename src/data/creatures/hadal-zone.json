@@ -14,12 +14,19 @@
     "depth_min": 6000,
     "depth_max": 8200,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류",
     "animation_type": "swim_wiggle",
-    "svg_id": "pufferfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -39,12 +46,19 @@
     "depth_min": 6000,
     "depth_max": 11000,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "죽은 생물, 유기물",
     "animation_type": "swim_wiggle",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -64,12 +78,19 @@
     "depth_min": 6000,
     "depth_max": 10000,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "침전물, 유기물",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -89,12 +110,19 @@
     "depth_min": 6000,
     "depth_max": 9000,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "침전물, 박테리아",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -114,8 +142,16 @@
     "depth_min": 6000,
     "depth_max": 10000,
     "zone": "hadal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "작은 유기물, 박테리아",
     "animation_type": "float",
@@ -139,12 +175,20 @@
     "depth_min": 6000,
     "depth_max": 9000,
     "zone": "hadal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "죽은 생물, 유기물",
     "animation_type": "swim_wiggle",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -164,12 +208,19 @@
     "depth_min": 6900,
     "depth_max": 8200,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류",
     "animation_type": "swim_wiggle",
-    "svg_id": "pufferfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -189,12 +240,20 @@
     "depth_min": 6000,
     "depth_max": 10600,
     "zone": "hadal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "박테리아, 유기물",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "sea_urchin",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -214,12 +273,19 @@
     "depth_min": 6000,
     "depth_max": 7500,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -239,12 +305,19 @@
     "depth_min": 7000,
     "depth_max": 8400,
     "zone": "hadal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류",
     "animation_type": "swim_wiggle",
-    "svg_id": "jellyfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""

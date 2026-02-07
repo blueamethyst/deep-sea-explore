@@ -1104,6 +1104,732 @@ const ShrimpSVG = ({ size = 120 }: { size: number }) => (
 );
 
 /* ======================================================================
+   16. GenericFishSVG (일반 물고기)
+   ====================================================================== */
+const GenericFishSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gf-body" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#A8D8EA"/>
+        <stop offset="100%" stopColor="#5B8FA8"/>
+      </linearGradient>
+      <linearGradient id="gf-belly" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#C0E0EC"/>
+        <stop offset="100%" stopColor="#E8F4F8"/>
+      </linearGradient>
+      <linearGradient id="gf-tail" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#7BAFC4"/>
+        <stop offset="100%" stopColor="#5B8FA8"/>
+      </linearGradient>
+      <linearGradient id="gf-dorsal" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stopColor="#6BA3B8"/>
+        <stop offset="100%" stopColor="#4A7F96" stopOpacity="0.8"/>
+      </linearGradient>
+      <linearGradient id="gf-shine" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="white" stopOpacity="0.4"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </linearGradient>
+    </defs>
+    <g>
+      {/* 몸통 메인 - 유선형 */}
+      <path d="M22 60 Q22 44 38 38 Q55 33 75 38 Q90 43 96 56 Q98 62 94 68 Q88 76 72 80 Q56 84 40 78 Q22 72 22 60Z" fill="url(#gf-body)"/>
+      {/* 배 하이라이트 */}
+      <path d="M32 64 Q35 72 50 74 Q68 76 84 70 Q88 66 84 64 Q72 70 55 70 Q38 70 32 64Z" fill="url(#gf-belly)" opacity="0.6"/>
+      {/* 은빛 광택 */}
+      <path d="M30 50 Q42 42 60 42 Q78 44 88 52 Q78 46 60 44 Q42 44 30 50Z" fill="url(#gf-shine)" opacity="0.5"/>
+      {/* 꼬리 지느러미 */}
+      <path d="M92 54 Q102 44 108 36 Q110 48 108 58 Q110 68 108 80 Q102 72 92 64Z" fill="url(#gf-tail)" opacity="0.85"/>
+      {/* 꼬리 ray */}
+      <path d="M93 55 Q101 47 107 38" stroke="#4A7F96" strokeWidth="0.5" opacity="0.35" fill="none"/>
+      <path d="M93 58 Q101 53 107 48" stroke="#4A7F96" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M93 62 Q101 65 107 70" stroke="#4A7F96" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M93 65 Q101 71 107 78" stroke="#4A7F96" strokeWidth="0.5" opacity="0.35" fill="none"/>
+      {/* 등 지느러미 */}
+      <path d="M45 40 Q50 28 56 24 Q62 26 68 30 Q74 34 76 40 Q62 37 45 40Z" fill="url(#gf-dorsal)" opacity="0.75"/>
+      {/* 등지느러미 ray */}
+      <path d="M50 39 Q52 30 56 25" stroke="#4A7F96" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M58 38 Q60 30 62 27" stroke="#4A7F96" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M66 38 Q68 32 70 30" stroke="#4A7F96" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      {/* 배 지느러미 */}
+      <path d="M48 78 Q50 86 54 90 Q58 86 60 78Z" fill="url(#gf-tail)" opacity="0.55"/>
+      {/* 가슴 지느러미 */}
+      <path d="M36 58 Q28 64 26 70 Q32 66 40 62Z" fill="#7BAFC4" opacity="0.6"/>
+      {/* 비늘 질감 row1 */}
+      <path d="M36 50 Q39 48 42 50" stroke="#4A7F96" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M44 50 Q47 48 50 50" stroke="#4A7F96" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M52 50 Q55 48 58 50" stroke="#4A7F96" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M60 50 Q63 48 66 50" stroke="#4A7F96" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M68 50 Q71 48 74 50" stroke="#4A7F96" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      {/* 비늘 질감 row2 */}
+      <path d="M34 56 Q37 54 40 56" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M42 56 Q45 54 48 56" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M50 56 Q53 54 56 56" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M58 56 Q61 54 64 56" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M66 56 Q69 54 72 56" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      {/* 비늘 질감 row3 */}
+      <path d="M38 62 Q41 60 44 62" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M46 62 Q49 60 52 62" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M54 62 Q57 60 60 62" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M62 62 Q65 60 68 62" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M70 62 Q73 60 76 62" stroke="#4A7F96" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      {/* 옆줄(측선) */}
+      <path d="M30 58 Q50 56 70 57 Q85 58 92 60" stroke="#4A7F96" strokeWidth="0.7" opacity="0.3" fill="none"/>
+      {/* 눈 - 흰자 */}
+      <ellipse cx="30" cy="55" rx="5" ry="5.5" fill="white"/>
+      {/* 눈 - 홍채 */}
+      <circle cx="31" cy="55" r="3.2" fill="#1A1A1A"/>
+      {/* 눈 - 동공 */}
+      <circle cx="31.5" cy="55.5" r="1.8" fill="#000"/>
+      {/* 눈 - 반사광 */}
+      <circle cx="29.5" cy="53.5" r="1.2" fill="white" opacity="0.9"/>
+      <circle cx="32" cy="56.5" r="0.6" fill="white" opacity="0.5"/>
+      {/* 입 */}
+      <path d="M22 62 Q24 64 27 62" stroke="#3A6F82" strokeWidth="0.8" fill="none"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   17. CrabSVG (게)
+   ====================================================================== */
+const CrabSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="cr-body" cx="50%" cy="40%" r="55%">
+        <stop offset="0%" stopColor="#FF7043"/>
+        <stop offset="100%" stopColor="#D84315"/>
+      </radialGradient>
+      <linearGradient id="cr-claw" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#FF8A65"/>
+        <stop offset="100%" stopColor="#E64A19"/>
+      </linearGradient>
+      <linearGradient id="cr-leg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#FF7043"/>
+        <stop offset="100%" stopColor="#BF360C"/>
+      </linearGradient>
+      <radialGradient id="cr-shine" cx="40%" cy="30%" r="40%">
+        <stop offset="0%" stopColor="white" stopOpacity="0.3"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 다리 - 왼쪽 4개 (뒤에 그리기) */}
+      <path d="M34 62 Q22 68 14 78 Q12 80 14 80 Q24 72 36 66" stroke="url(#cr-leg)" strokeWidth="3" strokeLinecap="round" fill="none"/>
+      <path d="M36 66 Q26 74 20 86 Q18 88 20 88 Q28 78 38 70" stroke="url(#cr-leg)" strokeWidth="2.8" strokeLinecap="round" fill="none"/>
+      <path d="M38 70 Q30 80 26 92 Q24 94 26 94 Q32 84 40 74" stroke="url(#cr-leg)" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      <path d="M42 72 Q36 82 34 94 Q32 96 34 96 Q38 86 44 76" stroke="url(#cr-leg)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      {/* 다리 - 오른쪽 4개 */}
+      <path d="M86 62 Q98 68 106 78 Q108 80 106 80 Q96 72 84 66" stroke="url(#cr-leg)" strokeWidth="3" strokeLinecap="round" fill="none"/>
+      <path d="M84 66 Q94 74 100 86 Q102 88 100 88 Q92 78 82 70" stroke="url(#cr-leg)" strokeWidth="2.8" strokeLinecap="round" fill="none"/>
+      <path d="M82 70 Q90 80 94 92 Q96 94 94 94 Q88 84 80 74" stroke="url(#cr-leg)" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      <path d="M78 72 Q84 82 86 94 Q88 96 86 96 Q82 86 76 76" stroke="url(#cr-leg)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      {/* 왼쪽 집게팔 */}
+      <path d="M32 52 Q22 42 16 36 Q14 34 12 36" stroke="url(#cr-claw)" strokeWidth="4" strokeLinecap="round" fill="none"/>
+      {/* 왼쪽 집게 */}
+      <path d="M12 36 Q6 30 4 26 Q6 24 10 28 Q12 32 12 36Z" fill="url(#cr-claw)"/>
+      <path d="M12 36 Q8 40 4 42 Q4 44 8 42 Q12 38 12 36Z" fill="url(#cr-claw)"/>
+      {/* 오른쪽 집게팔 */}
+      <path d="M88 52 Q98 42 104 36 Q106 34 108 36" stroke="url(#cr-claw)" strokeWidth="4" strokeLinecap="round" fill="none"/>
+      {/* 오른쪽 집게 */}
+      <path d="M108 36 Q114 30 116 26 Q114 24 110 28 Q108 32 108 36Z" fill="url(#cr-claw)"/>
+      <path d="M108 36 Q112 40 116 42 Q116 44 112 42 Q108 38 108 36Z" fill="url(#cr-claw)"/>
+      {/* 몸통 (둥근 갑각) */}
+      <ellipse cx="60" cy="62" rx="30" ry="20" fill="url(#cr-body)"/>
+      {/* 갑각 광택 */}
+      <ellipse cx="52" cy="55" rx="18" ry="10" fill="url(#cr-shine)"/>
+      {/* 갑각 질감 */}
+      <path d="M42 56 Q50 52 60 54 Q70 52 78 56" stroke="#BF360C" strokeWidth="0.6" opacity="0.3" fill="none"/>
+      <path d="M44 62 Q52 58 60 60 Q68 58 76 62" stroke="#BF360C" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M46 68 Q54 64 60 66 Q66 64 74 68" stroke="#BF360C" strokeWidth="0.5" opacity="0.2" fill="none"/>
+      {/* 갑각 점 디테일 */}
+      <circle cx="50" cy="58" r="0.8" fill="#BF360C" opacity="0.3"/>
+      <circle cx="60" cy="56" r="0.8" fill="#BF360C" opacity="0.3"/>
+      <circle cx="70" cy="58" r="0.8" fill="#BF360C" opacity="0.3"/>
+      <circle cx="55" cy="64" r="0.6" fill="#BF360C" opacity="0.25"/>
+      <circle cx="65" cy="64" r="0.6" fill="#BF360C" opacity="0.25"/>
+      {/* 눈자루 */}
+      <path d="M48 50 Q46 42 44 38" stroke="#E64A19" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      <path d="M72 50 Q74 42 76 38" stroke="#E64A19" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      {/* 눈 - 왼쪽 */}
+      <circle cx="44" cy="37" r="4" fill="white"/>
+      <circle cx="44.5" cy="37" r="2.5" fill="#1A1A1A"/>
+      <circle cx="43.5" cy="36" r="1" fill="white" opacity="0.9"/>
+      {/* 눈 - 오른쪽 */}
+      <circle cx="76" cy="37" r="4" fill="white"/>
+      <circle cx="76.5" cy="37" r="2.5" fill="#1A1A1A"/>
+      <circle cx="75.5" cy="36" r="1" fill="white" opacity="0.9"/>
+      {/* 입 */}
+      <path d="M55 70 Q60 73 65 70" stroke="#BF360C" strokeWidth="0.8" fill="none"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   18. ShellSVG (조개/소라)
+   ====================================================================== */
+const ShellSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="sh-body" cx="40%" cy="50%" r="60%">
+        <stop offset="0%" stopColor="#FFF0F5"/>
+        <stop offset="40%" stopColor="#FFD6E8"/>
+        <stop offset="100%" stopColor="#E8A0BF"/>
+      </radialGradient>
+      <linearGradient id="sh-inner" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#FFF5F9"/>
+        <stop offset="100%" stopColor="#FFD6E8"/>
+      </linearGradient>
+      <radialGradient id="sh-pearl" cx="40%" cy="35%" r="50%">
+        <stop offset="0%" stopColor="white"/>
+        <stop offset="50%" stopColor="#FFF0F5"/>
+        <stop offset="100%" stopColor="#E8C8D8"/>
+      </radialGradient>
+      <linearGradient id="sh-lip" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#F8C8D8"/>
+        <stop offset="100%" stopColor="#D48FAA"/>
+      </linearGradient>
+      <radialGradient id="sh-shine" cx="30%" cy="30%" r="40%">
+        <stop offset="0%" stopColor="white" stopOpacity="0.5"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 나선형 껍데기 외곽 */}
+      <path d="M30 85 Q18 75 14 60 Q10 42 20 28 Q32 14 50 12 Q68 10 80 20 Q92 32 92 50 Q92 68 80 80 Q70 88 55 90 Q40 92 30 85Z" fill="url(#sh-body)"/>
+      {/* 나선형 홈 1 (가장 바깥) */}
+      <path d="M28 80 Q20 70 18 58 Q16 44 24 32 Q34 20 50 18 Q66 16 76 24 Q86 34 86 50 Q86 64 76 74" stroke="#D48FAA" strokeWidth="1" opacity="0.4" fill="none"/>
+      {/* 나선형 홈 2 */}
+      <path d="M36 74 Q28 66 26 56 Q24 44 30 36 Q38 26 50 24 Q62 22 70 30 Q78 38 78 50 Q78 60 70 68" stroke="#D48FAA" strokeWidth="0.9" opacity="0.35" fill="none"/>
+      {/* 나선형 홈 3 */}
+      <path d="M42 68 Q36 62 34 54 Q32 46 36 40 Q42 32 52 30 Q62 28 68 34 Q74 42 72 52 Q70 60 64 64" stroke="#D48FAA" strokeWidth="0.8" opacity="0.3" fill="none"/>
+      {/* 나선형 홈 4 (가장 안쪽) */}
+      <path d="M48 62 Q44 58 42 52 Q42 46 46 42 Q50 38 56 38 Q62 38 64 44 Q66 50 62 56" stroke="#D48FAA" strokeWidth="0.7" opacity="0.25" fill="none"/>
+      {/* 나선 중심 */}
+      <ellipse cx="54" cy="48" rx="6" ry="5" fill="url(#sh-inner)" opacity="0.6"/>
+      {/* 입구 (lip) */}
+      <path d="M30 85 Q35 90 45 92 Q55 92 65 88 Q75 84 80 76 Q82 72 78 76 Q70 84 58 88 Q44 90 34 86 Q30 84 30 85Z" fill="url(#sh-lip)" opacity="0.7"/>
+      {/* 진주빛 광택 1 */}
+      <ellipse cx="40" cy="40" rx="14" ry="10" fill="url(#sh-shine)"/>
+      {/* 진주빛 광택 2 */}
+      <ellipse cx="60" cy="55" rx="8" ry="6" fill="white" opacity="0.15"/>
+      {/* 미세한 성장선 */}
+      <path d="M26 78 Q22 70 20 60" stroke="#C8849C" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M32 82 Q26 72 24 60" stroke="#C8849C" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M40 84 Q32 74 30 62" stroke="#C8849C" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      {/* 표면 반점 */}
+      <circle cx="35" cy="50" r="1.2" fill="#D48FAA" opacity="0.2"/>
+      <circle cx="50" cy="35" r="1" fill="#D48FAA" opacity="0.15"/>
+      <circle cx="65" cy="42" r="1.2" fill="#D48FAA" opacity="0.18"/>
+      <circle cx="72" cy="55" r="1" fill="#D48FAA" opacity="0.15"/>
+      <circle cx="58" cy="68" r="0.8" fill="#D48FAA" opacity="0.15"/>
+      {/* 껍데기 가장자리 하이라이트 */}
+      <path d="M20 28 Q32 14 50 12 Q68 10 80 20" stroke="white" strokeWidth="0.6" opacity="0.3" fill="none"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   19. CoralSVG (산호)
+   ====================================================================== */
+const CoralSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="co-main" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stopColor="#C62828"/>
+        <stop offset="100%" stopColor="#FF6F91"/>
+      </linearGradient>
+      <linearGradient id="co-branch1" x1="0" y1="1" x2="0.3" y2="0">
+        <stop offset="0%" stopColor="#D32F2F"/>
+        <stop offset="100%" stopColor="#FF8A9E"/>
+      </linearGradient>
+      <linearGradient id="co-branch2" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stopColor="#E53935"/>
+        <stop offset="100%" stopColor="#FF80AB"/>
+      </linearGradient>
+      <radialGradient id="co-tip" cx="50%" cy="30%" r="60%">
+        <stop offset="0%" stopColor="#FF9EB5"/>
+        <stop offset="100%" stopColor="#FF6F91"/>
+      </radialGradient>
+      <radialGradient id="co-base" cx="50%" cy="80%" r="50%">
+        <stop offset="0%" stopColor="#B71C1C"/>
+        <stop offset="100%" stopColor="#8B0000"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 바닥/기반 */}
+      <ellipse cx="60" cy="108" rx="28" ry="6" fill="url(#co-base)" opacity="0.7"/>
+      {/* 줄기 메인 */}
+      <path d="M56 108 Q54 95 52 80 Q50 70 52 60 Q54 50 58 42 Q60 38 62 42 Q66 50 68 60 Q70 70 68 80 Q66 95 64 108Z" fill="url(#co-main)"/>
+      {/* 왼쪽 큰 가지 */}
+      <path d="M52 72 Q44 62 36 50 Q32 44 28 36 Q26 32 30 34 Q36 38 40 46 Q46 56 50 66Z" fill="url(#co-branch1)"/>
+      {/* 왼쪽 큰 가지 끝 둥근 tip */}
+      <circle cx="28" cy="34" r="5" fill="url(#co-tip)"/>
+      {/* 왼쪽 작은 가지 */}
+      <path d="M48 60 Q40 54 34 46 Q32 42 36 44 Q42 50 48 56Z" fill="url(#co-branch2)" opacity="0.8"/>
+      <circle cx="34" cy="44" r="3.5" fill="url(#co-tip)" opacity="0.9"/>
+      {/* 왼쪽 아래 가지 */}
+      <path d="M54 86 Q46 82 38 76 Q34 72 32 68 Q30 66 34 68 Q40 72 48 78 Q52 82 54 84Z" fill="url(#co-branch1)" opacity="0.75"/>
+      <circle cx="32" cy="67" r="3" fill="url(#co-tip)" opacity="0.8"/>
+      {/* 오른쪽 큰 가지 */}
+      <path d="M68 68 Q76 58 84 48 Q88 42 92 36 Q94 32 90 34 Q84 38 80 46 Q74 56 70 64Z" fill="url(#co-branch1)"/>
+      <circle cx="92" cy="34" r="5" fill="url(#co-tip)"/>
+      {/* 오른쪽 작은 가지 */}
+      <path d="M70 56 Q78 50 84 42 Q86 38 82 40 Q76 46 70 52Z" fill="url(#co-branch2)" opacity="0.8"/>
+      <circle cx="84" cy="40" r="3.5" fill="url(#co-tip)" opacity="0.9"/>
+      {/* 오른쪽 아래 가지 */}
+      <path d="M66 82 Q74 78 80 72 Q84 68 86 64 Q88 62 84 64 Q78 68 72 74 Q68 78 66 80Z" fill="url(#co-branch1)" opacity="0.75"/>
+      <circle cx="86" cy="63" r="3" fill="url(#co-tip)" opacity="0.8"/>
+      {/* 줄기 하이라이트 */}
+      <path d="M58 100 Q56 85 56 70 Q56 55 58 44" stroke="white" strokeWidth="0.8" opacity="0.2" fill="none"/>
+      {/* 줄기 질감 */}
+      <path d="M54 90 Q58 88 64 90" stroke="#B71C1C" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M53 80 Q58 78 67 80" stroke="#B71C1C" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M54 70 Q58 68 66 70" stroke="#B71C1C" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M55 60 Q58 58 65 60" stroke="#B71C1C" strokeWidth="0.5" opacity="0.2" fill="none"/>
+      {/* 작은 폴립 디테일 */}
+      <circle cx="28" cy="32" r="1" fill="#FFB3C6" opacity="0.6"/>
+      <circle cx="26" cy="36" r="0.8" fill="#FFB3C6" opacity="0.5"/>
+      <circle cx="30" cy="32" r="0.8" fill="#FFB3C6" opacity="0.5"/>
+      <circle cx="92" cy="32" r="1" fill="#FFB3C6" opacity="0.6"/>
+      <circle cx="90" cy="36" r="0.8" fill="#FFB3C6" opacity="0.5"/>
+      <circle cx="94" cy="32" r="0.8" fill="#FFB3C6" opacity="0.5"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   20. EelSVG (뱀장어/곰치)
+   ====================================================================== */
+const EelSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="el-body" x1="0" y1="0" x2="1" y2="0.5">
+        <stop offset="0%" stopColor="#5D4037"/>
+        <stop offset="50%" stopColor="#6D7B3A"/>
+        <stop offset="100%" stopColor="#4E6B2E"/>
+      </linearGradient>
+      <linearGradient id="el-belly" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#8D9B6A"/>
+        <stop offset="100%" stopColor="#C5CFA0"/>
+      </linearGradient>
+      <linearGradient id="el-fin" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#5D6B3A"/>
+        <stop offset="100%" stopColor="#4E5B2E" stopOpacity="0.5"/>
+      </linearGradient>
+      <radialGradient id="el-head" cx="40%" cy="40%" r="50%">
+        <stop offset="0%" stopColor="#6D7B4A"/>
+        <stop offset="100%" stopColor="#4E5B2E"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 몸통 - 물결치는 뱀 형태 */}
+      <path d="M14 52 Q20 40 32 38 Q44 36 52 44 Q60 52 68 50 Q76 48 84 42 Q92 36 100 38 Q108 40 112 48 Q114 54 112 58 Q108 64 100 62 Q92 60 84 64 Q76 68 68 66 Q60 64 52 68 Q44 72 32 68 Q20 64 14 56Z" fill="url(#el-body)"/>
+      {/* 배 부분 */}
+      <path d="M16 56 Q24 62 36 66 Q48 70 58 66 Q68 62 78 66 Q88 62 98 60 Q106 58 110 56 Q108 60 100 64 Q90 66 80 68 Q70 70 60 68 Q50 72 38 70 Q26 68 16 58Z" fill="url(#el-belly)" opacity="0.5"/>
+      {/* 등 지느러미 (길게 이어지는) */}
+      <path d="M30 40 Q36 34 42 38 Q48 34 54 44 Q60 38 66 50 Q72 42 78 44 Q84 36 90 38 Q96 34 102 40" stroke="url(#el-fin)" strokeWidth="1.5" fill="none" opacity="0.6"/>
+      <path d="M30 40 Q36 36 42 38" fill="url(#el-fin)" opacity="0.3"/>
+      <path d="M54 44 Q60 40 66 50" fill="url(#el-fin)" opacity="0.3"/>
+      <path d="M78 44 Q84 38 90 38" fill="url(#el-fin)" opacity="0.3"/>
+      {/* 머리 */}
+      <path d="M10 50 Q8 46 10 42 Q14 36 22 36 Q28 36 30 40 Q32 44 30 50 Q28 56 22 58 Q14 58 10 54Z" fill="url(#el-head)"/>
+      {/* 머리 하이라이트 */}
+      <path d="M14 44 Q18 40 24 40 Q28 42 26 46" fill="white" opacity="0.1"/>
+      {/* 비늘/피부 질감 */}
+      <path d="M36 44 Q38 42 40 44" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M44 48 Q46 46 48 48" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M56 50 Q58 48 60 50" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M68 52 Q70 50 72 52" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M80 48 Q82 46 84 48" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M92 44 Q94 42 96 44" stroke="#3E4F20" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M40 58 Q42 56 44 58" stroke="#3E4F20" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M52 60 Q54 58 56 60" stroke="#3E4F20" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M64 58 Q66 56 68 58" stroke="#3E4F20" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      <path d="M76 60 Q78 58 80 60" stroke="#3E4F20" strokeWidth="0.4" opacity="0.25" fill="none"/>
+      {/* 꼬리 끝 */}
+      <path d="M110 48 Q116 44 118 40 Q116 46 118 52 Q116 56 110 56" fill="url(#el-fin)" opacity="0.5"/>
+      {/* 눈 */}
+      <ellipse cx="16" cy="46" rx="3.5" ry="4" fill="#FFFFCC"/>
+      <ellipse cx="16.5" cy="46" rx="2" ry="3" fill="#1A1A1A"/>
+      <circle cx="15.5" cy="44.5" r="1" fill="white" opacity="0.9"/>
+      <circle cx="17" cy="47" r="0.5" fill="white" opacity="0.5"/>
+      {/* 입 (곰치 특유의 벌린 입) */}
+      <path d="M8 50 Q6 52 8 54" stroke="#3E4F20" strokeWidth="1" fill="none"/>
+      {/* 콧구멍 */}
+      <circle cx="12" cy="44" r="0.8" fill="#3E4F20" opacity="0.5"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   21. SeaCucumberSVG (해삼)
+   ====================================================================== */
+const SeaCucumberSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sc-body" x1="0" y1="0" x2="1" y2="0.5">
+        <stop offset="0%" stopColor="#8D6E4C"/>
+        <stop offset="50%" stopColor="#A0784E"/>
+        <stop offset="100%" stopColor="#C68C50"/>
+      </linearGradient>
+      <linearGradient id="sc-belly" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#B8956A"/>
+        <stop offset="100%" stopColor="#D4A870"/>
+      </linearGradient>
+      <radialGradient id="sc-bump" cx="50%" cy="40%" r="50%">
+        <stop offset="0%" stopColor="#A0784E"/>
+        <stop offset="100%" stopColor="#8D6E4C"/>
+      </radialGradient>
+      <radialGradient id="sc-shine" cx="40%" cy="30%" r="50%">
+        <stop offset="0%" stopColor="white" stopOpacity="0.2"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 그림자 */}
+      <ellipse cx="60" cy="82" rx="38" ry="6" fill="#5D4037" opacity="0.2"/>
+      {/* 몸통 - 통통한 원통형 */}
+      <path d="M16 62 Q14 52 20 44 Q28 36 40 34 Q52 32 64 32 Q78 32 88 36 Q98 40 104 50 Q108 58 104 66 Q98 74 88 78 Q76 82 62 82 Q48 82 36 80 Q24 76 18 68Z" fill="url(#sc-body)"/>
+      {/* 배 부분 */}
+      <path d="M22 66 Q30 74 44 78 Q58 80 72 80 Q86 78 96 72 Q100 68 96 66 Q88 72 74 76 Q58 78 42 76 Q28 72 22 66Z" fill="url(#sc-belly)" opacity="0.6"/>
+      {/* 광택 */}
+      <path d="M28 48 Q40 40 58 38 Q76 38 90 44" fill="url(#sc-shine)" opacity="0.5"/>
+      {/* 돌기 - 상단 */}
+      <ellipse cx="32" cy="42" rx="3.5" ry="3" fill="url(#sc-bump)"/>
+      <ellipse cx="44" cy="38" rx="4" ry="3.5" fill="url(#sc-bump)"/>
+      <ellipse cx="56" cy="36" rx="4" ry="3.5" fill="url(#sc-bump)"/>
+      <ellipse cx="68" cy="36" rx="3.5" ry="3" fill="url(#sc-bump)"/>
+      <ellipse cx="80" cy="38" rx="4" ry="3.5" fill="url(#sc-bump)"/>
+      <ellipse cx="92" cy="42" rx="3.5" ry="3" fill="url(#sc-bump)"/>
+      {/* 돌기 - 측면 */}
+      <ellipse cx="24" cy="54" rx="3" ry="3.5" fill="url(#sc-bump)" opacity="0.8"/>
+      <ellipse cx="28" cy="66" rx="3" ry="3" fill="url(#sc-bump)" opacity="0.7"/>
+      <ellipse cx="100" cy="54" rx="3" ry="3.5" fill="url(#sc-bump)" opacity="0.8"/>
+      <ellipse cx="96" cy="66" rx="3" ry="3" fill="url(#sc-bump)" opacity="0.7"/>
+      {/* 돌기 하이라이트 */}
+      <circle cx="43" cy="37" r="1" fill="white" opacity="0.2"/>
+      <circle cx="55" cy="35" r="1" fill="white" opacity="0.2"/>
+      <circle cx="67" cy="35" r="1" fill="white" opacity="0.2"/>
+      <circle cx="79" cy="37" r="1" fill="white" opacity="0.2"/>
+      {/* 피부 질감 - 주름 */}
+      <path d="M26 50 Q34 48 42 50" stroke="#6D5030" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M44 48 Q52 46 60 48" stroke="#6D5030" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M62 48 Q70 46 78 48" stroke="#6D5030" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M80 50 Q88 48 96 52" stroke="#6D5030" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M30 60 Q40 58 50 60" stroke="#6D5030" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M52 58 Q62 56 72 58" stroke="#6D5030" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      <path d="M74 60 Q84 58 92 60" stroke="#6D5030" strokeWidth="0.4" opacity="0.2" fill="none"/>
+      {/* 앞쪽 촉수 (먹이 잡는) */}
+      <path d="M16 56 Q10 50 8 44 Q6 40 8 42 Q10 46 14 52" stroke="#A0784E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.7"/>
+      <path d="M16 58 Q8 56 4 52 Q2 50 4 52 Q8 54 14 56" stroke="#A0784E" strokeWidth="1.2" strokeLinecap="round" fill="none" opacity="0.6"/>
+      <path d="M16 60 Q10 62 6 66 Q4 68 6 66 Q10 62 14 58" stroke="#A0784E" strokeWidth="1.2" strokeLinecap="round" fill="none" opacity="0.6"/>
+      {/* 점 디테일 */}
+      <circle cx="40" cy="56" r="0.8" fill="#6D5030" opacity="0.3"/>
+      <circle cx="55" cy="54" r="0.8" fill="#6D5030" opacity="0.3"/>
+      <circle cx="70" cy="56" r="0.8" fill="#6D5030" opacity="0.3"/>
+      <circle cx="85" cy="54" r="0.8" fill="#6D5030" opacity="0.3"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   22. WhaleSVG (고래 - 대왕고래/범고래/향유고래용)
+   ====================================================================== */
+const WhaleSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="wh-body" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#1A3A5C"/>
+        <stop offset="100%" stopColor="#2C5F8A"/>
+      </linearGradient>
+      <linearGradient id="wh-belly" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#6B9DC2"/>
+        <stop offset="100%" stopColor="#B8D6E8"/>
+      </linearGradient>
+      <linearGradient id="wh-tail" x1="1" y1="0" x2="0" y2="0">
+        <stop offset="0%" stopColor="#1A3A5C"/>
+        <stop offset="100%" stopColor="#2C5F8A"/>
+      </linearGradient>
+      <linearGradient id="wh-fin" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#1A3A5C"/>
+        <stop offset="100%" stopColor="#4A7FA5"/>
+      </linearGradient>
+      <radialGradient id="wh-shine" cx="40%" cy="30%" r="50%">
+        <stop offset="0%" stopColor="white" stopOpacity="0.15"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 꼬리 지느러미 */}
+      <path d="M98 56 Q106 44 116 38 Q118 36 116 42 Q112 50 108 56 Q112 62 116 70 Q118 76 116 74 Q106 68 98 60Z" fill="url(#wh-tail)"/>
+      {/* 꼬리 ray */}
+      <path d="M100 56 Q108 48 114 40" stroke="#4A7FA5" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M100 60 Q108 66 114 72" stroke="#4A7FA5" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      {/* 몸통 메인 - 유선형 */}
+      <path d="M8 56 Q6 42 16 34 Q28 26 44 24 Q62 22 78 28 Q92 34 100 48 Q104 56 100 64 Q92 76 78 82 Q62 86 44 84 Q28 82 16 74 Q6 66 8 56Z" fill="url(#wh-body)"/>
+      {/* 배 밝은 부분 */}
+      <path d="M14 62 Q22 74 38 78 Q54 82 70 80 Q84 76 92 66 Q88 74 76 80 Q60 84 44 82 Q28 80 18 72 Q12 66 14 62Z" fill="url(#wh-belly)" opacity="0.7"/>
+      {/* 배 경계선 */}
+      <path d="M10 58 Q20 66 36 70 Q54 74 72 72 Q88 68 98 58" stroke="#4A7FA5" strokeWidth="0.6" opacity="0.2" fill="none"/>
+      {/* 광택 */}
+      <ellipse cx="40" cy="40" rx="20" ry="12" fill="url(#wh-shine)"/>
+      {/* 등 지느러미 */}
+      <path d="M70 30 Q72 22 76 18 Q78 16 78 20 Q78 24 76 30Z" fill="url(#wh-fin)"/>
+      {/* 가슴 지느러미 */}
+      <path d="M28 60 Q22 68 16 78 Q14 82 18 80 Q26 74 30 66Z" fill="url(#wh-fin)" opacity="0.85"/>
+      <path d="M28 62 Q24 68 20 76" stroke="#4A7FA5" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      {/* 주름/골 */}
+      <path d="M14 64 Q22 68 32 70" stroke="#6B9DC2" strokeWidth="0.5" opacity="0.2" fill="none"/>
+      <path d="M16 68 Q24 72 36 74" stroke="#6B9DC2" strokeWidth="0.5" opacity="0.2" fill="none"/>
+      <path d="M18 72 Q28 76 40 78" stroke="#6B9DC2" strokeWidth="0.5" opacity="0.2" fill="none"/>
+      {/* 피부 질감 */}
+      <circle cx="40" cy="46" r="0.6" fill="#4A7FA5" opacity="0.2"/>
+      <circle cx="55" cy="40" r="0.6" fill="#4A7FA5" opacity="0.2"/>
+      <circle cx="68" cy="44" r="0.6" fill="#4A7FA5" opacity="0.2"/>
+      <circle cx="80" cy="50" r="0.6" fill="#4A7FA5" opacity="0.2"/>
+      <circle cx="50" cy="52" r="0.6" fill="#4A7FA5" opacity="0.15"/>
+      <circle cx="65" cy="54" r="0.6" fill="#4A7FA5" opacity="0.15"/>
+      {/* 분수구멍 */}
+      <ellipse cx="34" cy="30" rx="2" ry="1" fill="#2C5F8A" opacity="0.5"/>
+      {/* 눈 */}
+      <ellipse cx="16" cy="52" rx="3.5" ry="4" fill="white"/>
+      <circle cx="16.5" cy="52" r="2.5" fill="#1A1A1A"/>
+      <circle cx="15.5" cy="51" r="1" fill="white" opacity="0.9"/>
+      <circle cx="17" cy="53" r="0.5" fill="white" opacity="0.5"/>
+      {/* 입 */}
+      <path d="M6 58 Q10 62 16 60" stroke="#1A3A5C" strokeWidth="0.8" fill="none"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   23. SquidSVG (오징어)
+   ====================================================================== */
+const SquidSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sq-body" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#F8E8F0"/>
+        <stop offset="100%" stopColor="#E8B8CC"/>
+      </linearGradient>
+      <linearGradient id="sq-tentacle" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#E8C8D8"/>
+        <stop offset="100%" stopColor="#D4A0B8" stopOpacity="0.6"/>
+      </linearGradient>
+      <radialGradient id="sq-mantle" cx="50%" cy="30%" r="60%">
+        <stop offset="0%" stopColor="#FFF0F6" stopOpacity="0.8"/>
+        <stop offset="100%" stopColor="#E8B8CC" stopOpacity="0.4"/>
+      </radialGradient>
+      <linearGradient id="sq-fin" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#F0D0E0" stopOpacity="0.7"/>
+        <stop offset="50%" stopColor="#E8B8CC" stopOpacity="0.5"/>
+        <stop offset="100%" stopColor="#F0D0E0" stopOpacity="0.7"/>
+      </linearGradient>
+    </defs>
+    <g>
+      {/* 촉수 8개 (뒤에 그리기) */}
+      <path d="M48 72 Q44 82 40 94 Q38 100 36 106 Q34 110 36 108 Q40 100 44 90 Q46 82 48 74" stroke="url(#sq-tentacle)" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      <path d="M52 74 Q50 86 46 96 Q44 104 42 110 Q40 114 42 112 Q46 104 50 94 Q52 84 52 76" stroke="url(#sq-tentacle)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      <path d="M56 75 Q56 88 54 98 Q52 106 52 112 Q52 116 54 112 Q56 106 56 96 Q56 86 56 76" stroke="url(#sq-tentacle)" strokeWidth="2" strokeLinecap="round" fill="none"/>
+      <path d="M60 76 Q62 88 62 98 Q62 106 64 112 Q66 116 64 112 Q62 106 62 96 Q60 86 60 76" stroke="url(#sq-tentacle)" strokeWidth="2" strokeLinecap="round" fill="none"/>
+      <path d="M64 75 Q66 86 68 96 Q70 104 72 110 Q74 114 72 112 Q68 104 66 94 Q64 84 64 76" stroke="url(#sq-tentacle)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      <path d="M68 74 Q72 84 76 94 Q78 100 80 106 Q82 110 80 108 Q76 100 72 90 Q68 82 68 74" stroke="url(#sq-tentacle)" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+      {/* 긴 촉수 2개 */}
+      <path d="M44 72 Q36 86 30 100 Q26 110 24 116 Q22 118 26 114 Q32 104 38 92 Q44 80 46 74" stroke="#D4A0B8" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.6"/>
+      <path d="M72 72 Q80 86 86 100 Q90 110 92 116 Q94 118 90 114 Q84 104 78 92 Q72 80 70 74" stroke="#D4A0B8" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.6"/>
+      {/* 흡반 (일부) */}
+      <circle cx="42" cy="88" r="1.2" fill="#D4A0B8" opacity="0.4"/>
+      <circle cx="44" cy="96" r="1" fill="#D4A0B8" opacity="0.3"/>
+      <circle cx="52" cy="90" r="1.2" fill="#D4A0B8" opacity="0.4"/>
+      <circle cx="66" cy="90" r="1.2" fill="#D4A0B8" opacity="0.4"/>
+      <circle cx="74" cy="88" r="1.2" fill="#D4A0B8" opacity="0.4"/>
+      <circle cx="76" cy="96" r="1" fill="#D4A0B8" opacity="0.3"/>
+      {/* 외투막(몸통) */}
+      <path d="M40 72 Q36 60 36 44 Q36 28 44 18 Q52 10 60 10 Q68 10 76 18 Q84 28 84 44 Q84 60 80 72 Q72 76 60 76 Q48 76 40 72Z" fill="url(#sq-body)"/>
+      {/* 외투막 내부 투명감 */}
+      <path d="M44 68 Q40 56 40 44 Q40 30 48 22 Q54 14 60 14 Q66 14 72 22 Q80 30 80 44 Q80 56 76 68" fill="url(#sq-mantle)" opacity="0.5"/>
+      {/* 지느러미 (양 옆) */}
+      <path d="M36 36 Q28 30 22 28 Q20 26 22 30 Q26 36 36 42Z" fill="url(#sq-fin)"/>
+      <path d="M84 36 Q92 30 98 28 Q100 26 98 30 Q94 36 84 42Z" fill="url(#sq-fin)"/>
+      {/* 외투막 하이라이트 */}
+      <path d="M48 24 Q54 16 62 16 Q68 18 72 24" stroke="white" strokeWidth="0.6" opacity="0.3" fill="none"/>
+      {/* 눈 - 왼쪽 */}
+      <ellipse cx="48" cy="50" rx="6" ry="7" fill="white"/>
+      <ellipse cx="49" cy="50" rx="4" ry="5" fill="#1A237E"/>
+      <ellipse cx="49.5" cy="50.5" rx="2.5" ry="3" fill="#000"/>
+      <circle cx="47" cy="48" r="1.5" fill="white" opacity="0.9"/>
+      <circle cx="50" cy="52" r="0.7" fill="white" opacity="0.5"/>
+      {/* 눈 - 오른쪽 */}
+      <ellipse cx="72" cy="50" rx="6" ry="7" fill="white"/>
+      <ellipse cx="71" cy="50" rx="4" ry="5" fill="#1A237E"/>
+      <ellipse cx="70.5" cy="50.5" rx="2.5" ry="3" fill="#000"/>
+      <circle cx="73" cy="48" r="1.5" fill="white" opacity="0.9"/>
+      <circle cx="70" cy="52" r="0.7" fill="white" opacity="0.5"/>
+      {/* 색소반 (chromatophore) */}
+      <circle cx="52" cy="36" r="1.5" fill="#C87098" opacity="0.25"/>
+      <circle cx="60" cy="30" r="1.2" fill="#C87098" opacity="0.2"/>
+      <circle cx="68" cy="36" r="1.5" fill="#C87098" opacity="0.25"/>
+      <circle cx="56" cy="62" r="1.2" fill="#C87098" opacity="0.2"/>
+      <circle cx="64" cy="62" r="1.2" fill="#C87098" opacity="0.2"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   24. SealSVG (물개/해달)
+   ====================================================================== */
+const SealSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="se-body" x1="0" y1="0" x2="1" y2="0.5">
+        <stop offset="0%" stopColor="#8D7B6B"/>
+        <stop offset="100%" stopColor="#6D5B4B"/>
+      </linearGradient>
+      <linearGradient id="se-belly" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#A89888"/>
+        <stop offset="100%" stopColor="#C8B8A8"/>
+      </linearGradient>
+      <radialGradient id="se-head" cx="45%" cy="40%" r="55%">
+        <stop offset="0%" stopColor="#9D8D7D"/>
+        <stop offset="100%" stopColor="#7D6D5D"/>
+      </radialGradient>
+      <linearGradient id="se-flipper" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#7D6D5D"/>
+        <stop offset="100%" stopColor="#5D4D3D"/>
+      </linearGradient>
+      <radialGradient id="se-nose" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#3D3530"/>
+        <stop offset="100%" stopColor="#1A1510"/>
+      </radialGradient>
+    </defs>
+    <g>
+      {/* 뒷 물갈퀴(꼬리) */}
+      <path d="M98 64 Q106 56 112 50 Q114 48 112 52 Q108 58 106 62 Q108 66 112 72 Q114 76 112 74 Q106 68 98 66Z" fill="url(#se-flipper)" opacity="0.85"/>
+      <path d="M100 64 Q106 58 110 52" stroke="#5D4D3D" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      <path d="M100 66 Q106 70 110 74" stroke="#5D4D3D" strokeWidth="0.4" opacity="0.3" fill="none"/>
+      {/* 몸통 - 통통한 유선형 */}
+      <path d="M20 58 Q18 46 26 38 Q36 30 50 28 Q66 26 80 32 Q92 38 100 50 Q104 58 100 66 Q92 76 80 80 Q66 84 50 82 Q36 80 26 74 Q18 68 20 58Z" fill="url(#se-body)"/>
+      {/* 배 부분 */}
+      <path d="M26 64 Q34 74 48 78 Q64 82 78 78 Q90 72 96 64 Q92 72 80 78 Q66 82 50 80 Q36 78 26 70Z" fill="url(#se-belly)" opacity="0.6"/>
+      {/* 앞 물갈퀴 (가슴 지느러미) */}
+      <path d="M34 62 Q26 70 20 80 Q18 84 16 86 Q14 88 16 86 Q20 82 26 74 Q30 68 36 64Z" fill="url(#se-flipper)" opacity="0.85"/>
+      <path d="M18 82 Q16 84 14 86" stroke="#5D4D3D" strokeWidth="0.3" opacity="0.3" fill="none"/>
+      <path d="M20 80 Q18 84 16 86" stroke="#5D4D3D" strokeWidth="0.3" opacity="0.3" fill="none"/>
+      {/* 머리 */}
+      <path d="M14 52 Q10 44 14 36 Q20 28 30 28 Q38 28 42 34 Q46 40 44 48 Q42 56 36 60 Q28 64 20 60 Q14 56 14 52Z" fill="url(#se-head)"/>
+      {/* 머리 하이라이트 */}
+      <path d="M18 40 Q24 34 32 34 Q38 36 38 42" fill="white" opacity="0.08"/>
+      {/* 코 */}
+      <ellipse cx="14" cy="48" rx="3.5" ry="3" fill="url(#se-nose)"/>
+      <circle cx="13" cy="47" r="0.8" fill="white" opacity="0.3"/>
+      {/* 수염 - 왼쪽 */}
+      <path d="M12 50 Q6 48 2 46" stroke="#8D7B6B" strokeWidth="0.5" opacity="0.4" fill="none"/>
+      <path d="M12 51 Q6 51 2 50" stroke="#8D7B6B" strokeWidth="0.5" opacity="0.4" fill="none"/>
+      <path d="M12 52 Q6 54 2 55" stroke="#8D7B6B" strokeWidth="0.5" opacity="0.4" fill="none"/>
+      {/* 수염 - 오른쪽은 머리 안쪽이라 안 보임 */}
+      {/* 눈 */}
+      <ellipse cx="22" cy="42" rx="4.5" ry="5" fill="#1A1510"/>
+      <ellipse cx="22" cy="42" rx="3.5" ry="4" fill="#2D2520"/>
+      <circle cx="21" cy="41" r="1.5" fill="white" opacity="0.85"/>
+      <circle cx="23" cy="43" r="0.7" fill="white" opacity="0.5"/>
+      {/* 귀 */}
+      <path d="M28 30 Q30 26 34 28" stroke="#7D6D5D" strokeWidth="1.5" strokeLinecap="round" fill="none"/>
+      {/* 입 */}
+      <path d="M12 52 Q16 56 20 54" stroke="#5D4D3D" strokeWidth="0.7" fill="none"/>
+      {/* 몸 질감 - 반점 */}
+      <circle cx="44" cy="48" r="1.5" fill="#5D4D3D" opacity="0.15"/>
+      <circle cx="56" cy="44" r="1.8" fill="#5D4D3D" opacity="0.12"/>
+      <circle cx="68" cy="48" r="1.5" fill="#5D4D3D" opacity="0.15"/>
+      <circle cx="80" cy="52" r="1.8" fill="#5D4D3D" opacity="0.12"/>
+      <circle cx="50" cy="56" r="1.2" fill="#5D4D3D" opacity="0.1"/>
+      <circle cx="62" cy="56" r="1.5" fill="#5D4D3D" opacity="0.1"/>
+      <circle cx="74" cy="58" r="1.2" fill="#5D4D3D" opacity="0.1"/>
+      <circle cx="86" cy="56" r="1" fill="#5D4D3D" opacity="0.1"/>
+      {/* 몸 광택 */}
+      <path d="M30 40 Q46 34 66 34 Q82 36 92 42" stroke="white" strokeWidth="0.5" opacity="0.15" fill="none"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
+   25. SeaUrchinSVG (성게)
+   ====================================================================== */
+const SeaUrchinSVG = ({ size = 120 }: { size: number }) => (
+  <svg viewBox="0 0 120 120" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="su-body" cx="45%" cy="42%" r="50%">
+        <stop offset="0%" stopColor="#6A1B9A"/>
+        <stop offset="100%" stopColor="#2C0040"/>
+      </radialGradient>
+      <radialGradient id="su-shine" cx="35%" cy="30%" r="40%">
+        <stop offset="0%" stopColor="white" stopOpacity="0.2"/>
+        <stop offset="100%" stopColor="white" stopOpacity="0"/>
+      </radialGradient>
+      <linearGradient id="su-spine" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stopColor="#4A148C"/>
+        <stop offset="100%" stopColor="#1A0030"/>
+      </linearGradient>
+      <linearGradient id="su-spine2" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stopColor="#6A1B9A"/>
+        <stop offset="100%" stopColor="#2C0040"/>
+      </linearGradient>
+    </defs>
+    <g>
+      {/* 가시 - 상단 */}
+      <line x1="60" y1="36" x2="60" y2="8" stroke="url(#su-spine)" strokeWidth="1.8" strokeLinecap="round"/>
+      <line x1="50" y1="38" x2="42" y2="10" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="70" y1="38" x2="78" y2="10" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="42" y1="42" x2="26" y2="18" stroke="url(#su-spine2)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="78" y1="42" x2="94" y2="18" stroke="url(#su-spine2)" strokeWidth="1.5" strokeLinecap="round"/>
+      {/* 가시 - 좌측 */}
+      <line x1="36" y1="50" x2="10" y2="38" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="34" y1="60" x2="6" y2="58" stroke="url(#su-spine)" strokeWidth="1.8" strokeLinecap="round"/>
+      <line x1="36" y1="70" x2="10" y2="78" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      {/* 가시 - 우측 */}
+      <line x1="84" y1="50" x2="110" y2="38" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="86" y1="60" x2="114" y2="58" stroke="url(#su-spine)" strokeWidth="1.8" strokeLinecap="round"/>
+      <line x1="84" y1="70" x2="110" y2="78" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      {/* 가시 - 하단 */}
+      <line x1="60" y1="84" x2="60" y2="112" stroke="url(#su-spine)" strokeWidth="1.8" strokeLinecap="round"/>
+      <line x1="50" y1="82" x2="42" y2="108" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="70" y1="82" x2="78" y2="108" stroke="url(#su-spine)" strokeWidth="1.6" strokeLinecap="round"/>
+      <line x1="42" y1="78" x2="26" y2="100" stroke="url(#su-spine2)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="78" y1="78" x2="94" y2="100" stroke="url(#su-spine2)" strokeWidth="1.5" strokeLinecap="round"/>
+      {/* 가시 - 대각선 추가 */}
+      <line x1="40" y1="40" x2="18" y2="26" stroke="url(#su-spine2)" strokeWidth="1.3" strokeLinecap="round" opacity="0.7"/>
+      <line x1="80" y1="40" x2="102" y2="26" stroke="url(#su-spine2)" strokeWidth="1.3" strokeLinecap="round" opacity="0.7"/>
+      <line x1="40" y1="80" x2="18" y2="94" stroke="url(#su-spine2)" strokeWidth="1.3" strokeLinecap="round" opacity="0.7"/>
+      <line x1="80" y1="80" x2="102" y2="94" stroke="url(#su-spine2)" strokeWidth="1.3" strokeLinecap="round" opacity="0.7"/>
+      {/* 본체 (둥근 구체) */}
+      <circle cx="60" cy="60" r="26" fill="url(#su-body)"/>
+      {/* 광택 */}
+      <circle cx="52" cy="52" r="14" fill="url(#su-shine)"/>
+      {/* 구체 표면 질감 - 패턴 */}
+      <path d="M42 50 Q48 46 54 50" stroke="#8E24AA" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M48 56 Q54 52 60 56" stroke="#8E24AA" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M54 62 Q60 58 66 62" stroke="#8E24AA" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M60 50 Q66 46 72 50" stroke="#8E24AA" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M66 56 Q72 52 78 56" stroke="#8E24AA" strokeWidth="0.5" opacity="0.3" fill="none"/>
+      <path d="M42 62 Q48 58 54 62" stroke="#8E24AA" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      <path d="M60 68 Q66 64 72 68" stroke="#8E24AA" strokeWidth="0.5" opacity="0.25" fill="none"/>
+      {/* 가시 기저부 점 */}
+      <circle cx="60" cy="36" r="2" fill="#4A148C" opacity="0.5"/>
+      <circle cx="50" cy="38" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="70" cy="38" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="36" cy="50" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="84" cy="50" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="34" cy="60" r="2" fill="#4A148C" opacity="0.5"/>
+      <circle cx="86" cy="60" r="2" fill="#4A148C" opacity="0.5"/>
+      <circle cx="36" cy="70" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="84" cy="70" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="60" cy="84" r="2" fill="#4A148C" opacity="0.5"/>
+      <circle cx="50" cy="82" r="1.8" fill="#4A148C" opacity="0.4"/>
+      <circle cx="70" cy="82" r="1.8" fill="#4A148C" opacity="0.4"/>
+    </g>
+  </svg>
+);
+
+/* ======================================================================
    SVG_MAP & Export
    ====================================================================== */
 const SVG_MAP: Record<string, React.FC<{ size: number }>> = {
@@ -1122,6 +1848,16 @@ const SVG_MAP: Record<string, React.FC<{ size: number }>> = {
   deep_sea_jellyfish: DeepSeaJellyfishSVG,
   humpback_whale: HumpbackWhaleSVG,
   shrimp: ShrimpSVG,
+  generic_fish: GenericFishSVG,
+  crab: CrabSVG,
+  shell: ShellSVG,
+  coral: CoralSVG,
+  eel: EelSVG,
+  sea_cucumber: SeaCucumberSVG,
+  whale: WhaleSVG,
+  squid: SquidSVG,
+  seal: SealSVG,
+  sea_urchin: SeaUrchinSVG,
 };
 
 export const CreatureSVG: React.FC<CreatureSVGProps> = ({ svgId, size = 120, className = '' }) => {

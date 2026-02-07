@@ -378,7 +378,7 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -409,7 +409,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -441,7 +441,7 @@
     "rarity": "common",
     "diet": "작은 물고기, 새우",
     "animation_type": "jet",
-    "svg_id": "giant_squid",
+    "svg_id": "squid",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -472,7 +472,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 갑각류",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -505,7 +505,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 게",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -538,7 +538,7 @@
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -572,7 +572,7 @@
     "rarity": "uncommon",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -672,7 +672,7 @@
     "rarity": "common",
     "diet": "작은 물고기, 조개",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -703,7 +703,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 새우",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -736,7 +736,7 @@
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -770,7 +770,7 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -839,7 +839,7 @@
     "rarity": "uncommon",
     "diet": "플랑크톤",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "coral",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -873,7 +873,7 @@
     "rarity": "common",
     "diet": "유기물, 플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -907,7 +907,7 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "sea_urchin",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -944,7 +944,7 @@
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -1045,7 +1045,7 @@
     "rarity": "rare",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1078,7 +1078,7 @@
     "rarity": "uncommon",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1114,7 +1114,7 @@
     "rarity": "legendary",
     "diet": "크릴",
     "animation_type": "swim_glide",
-    "svg_id": "humpback_whale",
+    "svg_id": "whale",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1147,7 +1147,7 @@
     "rarity": "rare",
     "diet": "조개, 게, 성게",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "seal",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1180,7 +1180,7 @@
     "rarity": "legendary",
     "diet": "작은 갑각류, 물고기",
     "animation_type": "jet",
-    "svg_id": "giant_squid",
+    "svg_id": "shell",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1212,7 +1212,7 @@
     "rarity": "uncommon",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "seal",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1279,7 +1279,7 @@
     "rarity": "uncommon",
     "diet": "해면동물, 조류",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1314,7 +1314,7 @@
     "rarity": "legendary",
     "diet": "물고기, 물개, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "humpback_whale",
+    "svg_id": "whale",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1347,7 +1347,7 @@
     "rarity": "uncommon",
     "diet": "해면동물",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "shell",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1381,7 +1381,7 @@
     "rarity": "common",
     "diet": "산호, 해조류",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1414,7 +1414,7 @@
     "rarity": "common",
     "diet": "산호 폴립, 작은 갑각류",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1481,7 +1481,7 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1516,7 +1516,7 @@
     "rarity": "common",
     "diet": "기생충, 작은 갑각류",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1584,7 +1584,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1616,7 +1616,7 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -1650,7 +1650,7 @@
     "rarity": "common",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1685,7 +1685,7 @@
     "rarity": "uncommon",
     "diet": "물고기, 문어, 게",
     "animation_type": "swim_wiggle",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1787,7 +1787,7 @@
     "rarity": "common",
     "diet": "해조류, 유기물",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -1818,7 +1818,7 @@
     "rarity": "rare",
     "diet": "작은 갑각류, 벌레",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -1916,7 +1916,7 @@
     "rarity": "common",
     "diet": "기생충, 먹이 찌꺼기",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1950,7 +1950,7 @@
     "rarity": "common",
     "diet": "기생충, 먹이 찌꺼기",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1983,7 +1983,7 @@
     "rarity": "common",
     "diet": "해조류",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2016,7 +2016,7 @@
     "rarity": "common",
     "diet": "해면동물, 해조류",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -2050,7 +2050,7 @@
     "rarity": "uncommon",
     "diet": "해면동물, 산호",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "shell",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -2084,7 +2084,7 @@
     "rarity": "uncommon",
     "diet": "플랑크톤",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "coral",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2117,7 +2117,7 @@
     "rarity": "uncommon",
     "diet": "플랑크톤",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "coral",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2152,7 +2152,7 @@
     "rarity": "common",
     "diet": "광합성",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "coral",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2184,7 +2184,7 @@
     "rarity": "rare",
     "diet": "해초, 수초",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "seal",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2217,7 +2217,7 @@
     "rarity": "rare",
     "diet": "해초",
     "animation_type": "swim_glide",
-    "svg_id": "dolphin",
+    "svg_id": "seal",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -2249,7 +2249,7 @@
     "rarity": "uncommon",
     "diet": "물고기, 물고기 알",
     "animation_type": "swim_wiggle",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -2381,7 +2381,7 @@
     "rarity": "common",
     "diet": "해조류, 플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -2415,7 +2415,7 @@
     "rarity": "common",
     "diet": "작은 갑각류, 플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -2450,7 +2450,7 @@
     "rarity": "common",
     "diet": "해조류, 작은 갑각류",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -2517,7 +2517,7 @@
     "rarity": "uncommon",
     "diet": "해조류, 플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -2584,7 +2584,7 @@
     "rarity": "uncommon",
     "diet": "작은 물고기, 새우",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -2618,7 +2618,7 @@
     "rarity": "common",
     "diet": "작은 물고기",
     "animation_type": "swim_glide",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -2651,7 +2651,7 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 갑각류",
     "animation_type": "swim_glide",
-    "svg_id": "clownfish",
+    "svg_id": "eel",
     "source": "국립해양생물자원관",
     "photo_url": "",
     "photo_credit": ""
@@ -2686,7 +2686,7 @@
     "rarity": "common",
     "diet": "플랑크톤",
     "animation_type": "swim_wiggle",
-    "svg_id": "clownfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""

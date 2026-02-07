@@ -27,7 +27,7 @@
     "rarity": "uncommon",
     "diet": "유기물, 침전물",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -59,7 +59,7 @@
     "rarity": "legendary",
     "diet": "죽은 물고기, 조개",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -127,7 +127,7 @@
     "rarity": "uncommon",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -161,7 +161,7 @@
     "rarity": "uncommon",
     "diet": "유기물, 침전물",
     "animation_type": "crawl",
-    "svg_id": "pufferfish",
+    "svg_id": "sea_cucumber",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -226,7 +226,7 @@
     "rarity": "rare",
     "diet": "고래 뼈",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "MBARI",
     "photo_url": "",
     "photo_credit": ""
@@ -259,7 +259,7 @@
     "rarity": "rare",
     "diet": "박테리아",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "MBARI",
     "photo_url": "",
     "photo_credit": ""
@@ -291,7 +291,7 @@
     "rarity": "rare",
     "diet": "열수구 박테리아",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "shell",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -323,7 +323,7 @@
     "rarity": "rare",
     "diet": "열수구 박테리아",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -357,7 +357,7 @@
     "rarity": "rare",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "eel",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -389,7 +389,7 @@
     "rarity": "rare",
     "diet": "열수구 화학에너지 (공생 박테리아)",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -422,7 +422,7 @@
     "rarity": "rare",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -556,7 +556,7 @@
     "rarity": "legendary",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -590,7 +590,7 @@
     "rarity": "legendary",
     "diet": "작은 갑각류",
     "animation_type": "swim_glide",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -642,12 +642,20 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "유기물, 침전물",
     "animation_type": "swim_wiggle",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -667,12 +675,21 @@
     "depth_min": 4000,
     "depth_max": 5500,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "유기물, 박테리아",
     "animation_type": "crawl",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -692,12 +709,20 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "유기물, 작은 생물",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -717,12 +742,21 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic", "arctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "arctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "작은 갑각류",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -742,8 +776,17 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "진흙 속 유기물",
     "animation_type": "crawl",
@@ -767,12 +810,19 @@
     "depth_min": 4000,
     "depth_max": 6000,
     "zone": "abyssal",
-    "oceans": ["pacific"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "legendary",
     "diet": "작은 갑각류, 단각류",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "MBARI",
     "photo_url": "",
     "photo_credit": ""

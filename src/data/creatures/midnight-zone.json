@@ -129,7 +129,7 @@
     "rarity": "rare",
     "diet": "해양 눈(유기물 조각)",
     "animation_type": "jet",
-    "svg_id": "giant_squid",
+    "svg_id": "squid",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -162,7 +162,7 @@
     "rarity": "uncommon",
     "diet": "유기물",
     "animation_type": "float",
-    "svg_id": "jellyfish",
+    "svg_id": "sea_cucumber",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -429,7 +429,7 @@
     "rarity": "uncommon",
     "diet": "작은 갑각류, 플랑크톤",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "anglerfish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -497,7 +497,7 @@
     "rarity": "common",
     "diet": "죽은 생물, 유기물",
     "animation_type": "swim_wiggle",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -531,7 +531,7 @@
     "rarity": "common",
     "diet": "플랑크톤, 박테리아",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -564,7 +564,7 @@
     "rarity": "common",
     "diet": "플랑크톤, 작은 유기물",
     "animation_type": "swim_wiggle",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -698,7 +698,7 @@
     "rarity": "rare",
     "diet": "해면동물, 말미잘",
     "animation_type": "crawl",
-    "svg_id": "shrimp",
+    "svg_id": "crab",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -732,7 +732,7 @@
     "rarity": "rare",
     "diet": "플랑크톤, 유기물",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "coral",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -765,7 +765,7 @@
     "rarity": "rare",
     "diet": "갑각류, 연체동물",
     "animation_type": "float",
-    "svg_id": "pufferfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -831,7 +831,7 @@
     "rarity": "legendary",
     "diet": "물고기, 다른 오징어",
     "animation_type": "jet",
-    "svg_id": "giant_squid",
+    "svg_id": "squid",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -864,7 +864,7 @@
     "rarity": "legendary",
     "diet": "물고기, 오징어",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -884,12 +884,21 @@
     "depth_min": 1000,
     "depth_max": 3000,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "유기물, 해조류 잔해",
     "animation_type": "crawl",
-    "svg_id": "starfish",
+    "svg_id": "sea_urchin",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -909,12 +918,20 @@
     "depth_min": 1000,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["atlantic", "arctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "atlantic",
+      "arctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "박테리아, 플랑크톤",
     "animation_type": "float",
-    "svg_id": "starfish",
+    "svg_id": "sea_cucumber",
     "source": "WoRMS",
     "photo_url": "",
     "photo_credit": ""
@@ -934,12 +951,20 @@
     "depth_min": 1000,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "화학에너지 (공생 박테리아)",
     "animation_type": "float",
-    "svg_id": "seahorse",
+    "svg_id": "eel",
     "source": "NOAA",
     "photo_url": "",
     "photo_credit": ""
@@ -959,8 +984,17 @@
     "depth_min": 1000,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "플랑크톤, 작은 갑각류",
     "animation_type": "float",
@@ -984,12 +1018,20 @@
     "depth_min": 1000,
     "depth_max": 2500,
     "zone": "midnight",
-    "oceans": ["pacific", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "작은 물고기, 갑각류",
     "animation_type": "crawl",
-    "svg_id": "pufferfish",
+    "svg_id": "anglerfish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1009,12 +1051,20 @@
     "depth_min": 1000,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "작은 갑각류, 유기물",
     "animation_type": "swim_glide",
-    "svg_id": "anglerfish",
+    "svg_id": "generic_fish",
     "source": "FishBase",
     "photo_url": "",
     "photo_credit": ""
@@ -1034,8 +1084,17 @@
     "depth_min": 1000,
     "depth_max": 3000,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic", "indian"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "indian"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "uncommon",
     "diet": "작은 물고기",
     "animation_type": "swim_glide",
@@ -1059,8 +1118,16 @@
     "depth_min": 1500,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "rare",
     "diet": "갑각류, 작은 조개",
     "animation_type": "float",
@@ -1084,8 +1151,18 @@
     "depth_min": 1000,
     "depth_max": 3500,
     "zone": "midnight",
-    "oceans": ["pacific", "atlantic", "arctic", "antarctic"],
-    "seasons": ["spring", "summer", "fall", "winter"],
+    "oceans": [
+      "pacific",
+      "atlantic",
+      "arctic",
+      "antarctic"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
     "rarity": "common",
     "diet": "플랑크톤, 작은 물고기",
     "animation_type": "pulse",
