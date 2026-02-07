@@ -216,20 +216,31 @@ function ExploreContent() {
         className="h-full overflow-y-auto overflow-x-hidden relative z-10"
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
-        <div style={{ height: `${ZONES.length * 400}vh` }} className="relative">
-          {/* 생물들 */}
-          {spawnedCreatures.map((spawned) => (
+        <div style={{ height: `${ZONES.length * 400}vh` }} className="relative" />
+      </div>
+
+      {/* 생물들 (화면 위에 오버레이) */}
+      <div className="fixed inset-0 z-15 pointer-events-none">
+        {spawnedCreatures.map((spawned) => (
+          <div
+            key={spawned.id}
+            className="absolute pointer-events-auto"
+            style={{
+              left: `${spawned.x}%`,
+              top: `${spawned.y}%`,
+              transform: 'translate(-50%, -50%)',
+            }}
+          >
             <CreatureRenderer
-              key={spawned.id}
               creature={spawned.creature}
               x={spawned.x}
-              y={spawned.y * (ZONES.length * 400)}
+              y={spawned.y}
               animationType={spawned.creature.animation_type}
               onTap={() => handleCreatureTap(spawned)}
               isVisible={true}
             />
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
 
       {/* 잠수함 (화면 중앙 고정) */}

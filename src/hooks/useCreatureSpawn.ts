@@ -13,10 +13,10 @@ import { getAvailableCreatures } from '@/lib/creatures';
 
 export interface SpawnedCreature {
   creature: Creature;
-  x: number; // 화면 내 위치 (0~100%)
-  y: number; // 화면 내 위치 (0~100%)
-  spawnedAt: number; // timestamp
-  id: string; // 고유 인스턴스 ID
+  x: number;
+  y: number;
+  spawnedAt: number;
+  id: string;
 }
 
 type SpawnState = 'running' | 'paused' | 'disabled';
@@ -37,17 +37,6 @@ interface UseCreatureSpawnReturn {
   removeCreature: (instanceId: string) => void;
 }
 
-/**
- * 생물 Spawn 엔진 훅
- *
- * 파이프라인:
- * 1. zone × ocean × season 후보군 필터
- * 2. 쿨다운 필터 (30초)
- * 3. 동시 등장 필터 (화면에 있는 생물 제거)
- * 4. rarity 가중치 적용 (존별 희귀도 분포)
- * 5. 미수집 가중치 적용 (×2.0)
- * 6. RNG 선택
- */
 export function useCreatureSpawn({
   creatures,
   currentZone,
@@ -59,17 +48,18 @@ export function useCreatureSpawn({
   const [spawnState, setSpawnState] = useState<SpawnState>('running');
 
   const lastSpawnTimeRef = useRef<Map<string, number>>(new Map());
-  const spawnTimerRef = useRef<number | null>(null);
+  const spawnTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // 다음 spawn까지의 랜덤 간격 계산
-  const getRandomInterval = useCallback(() => {
-    return (
-      SPAWN_INTERVAL_MIN_MS +
-      Math.random() * (SPAWN_INTERVAL_MAX_MS - SPAWN_INTERVAL_MIN_MS)
-    );
-  }, []);
+  // refs로 최신 값 참조 (클로저 문제 방지)
+  const spawnedRef = useRef(spawnedCreatures);
+  spawnedRef.current = spawnedCreatures;
 
-  // 생물 제거
+  const optionsRef = useRef({ creatures, currentZone, oceanId, season, collectedIds });
+  optionsRef.current = { creatures, currentZone, oceanId, season, collectedIds };
+
+  const stateRef = useRef(spawnState);
+  stateRef.current = spawnState;
+
   const removeCreature = useCallback((instanceId: string) => {
     setSpawnedCreatures(prev => prev.filter(sc => sc.id !== instanceId));
   }, []);
@@ -92,44 +82,39 @@ export function useCreatureSpawn({
     []
   );
 
-  // Spawn 로직
+  // Spawn 로직 (ref 기반으로 항상 최신 상태 참조)
   const trySpawn = useCallback(() => {
-    if (spawnState !== 'running') return;
+    if (stateRef.current !== 'running') return;
 
-    // 화면에 이미 최대 개수가 있으면 skip
-    if (spawnedCreatures.length >= MAX_CREATURES_ON_SCREEN) {
-      return;
-    }
+    const currentSpawned = spawnedRef.current;
+    if (currentSpawned.length >= MAX_CREATURES_ON_SCREEN) return;
 
+    const { creatures: crts, currentZone: zone, oceanId: oid, season: ssn, collectedIds: cids } = optionsRef.current;
     const now = Date.now();
 
     // 1. zone × ocean × season 후보군 필터
-    const available = getAvailableCreatures(creatures, currentZone, oceanId, season);
+    const available = getAvailableCreatures(crts, zone, oid, ssn);
     if (available.length === 0) return;
 
-    // 2. 쿨다운 필터 (30초)
+    // 2. 쿨다운 필터
     const cooledDown = available.filter(c => {
       const lastSpawn = lastSpawnTimeRef.current.get(c.id);
       if (!lastSpawn) return true;
       return now - lastSpawn >= CREATURE_COOLDOWN_MS;
     });
-
     if (cooledDown.length === 0) return;
 
-    // 3. 동시 등장 필터 (화면에 있는 생물 제거)
-    const spawnedIds = new Set(spawnedCreatures.map(sc => sc.creature.id));
+    // 3. 동시 등장 필터
+    const spawnedIds = new Set(currentSpawned.map(sc => sc.creature.id));
     const notOnScreen = cooledDown.filter(c => !spawnedIds.has(c.id));
-
     if (notOnScreen.length === 0) return;
 
-    // 4. rarity 가중치 적용 (존별 희귀도 분포)
-    // 5. 미수집 가중치 적용 (×2.0)
-    const rarityWeights = RARITY_WEIGHTS[currentZone];
+    // 4. rarity 가중치 + 5. 미수집 보너스
+    const rarityWeights = RARITY_WEIGHTS[zone];
     const candidates = notOnScreen.map(creature => {
       const baseWeight = rarityWeights[creature.rarity] || 1;
-      const isCollected = collectedIds.has(creature.id);
+      const isCollected = cids.has(creature.id);
       const finalWeight = isCollected ? baseWeight : baseWeight * UNCOLLECTED_WEIGHT_BONUS;
-
       return { creature, weight: finalWeight };
     });
 
@@ -137,7 +122,6 @@ export function useCreatureSpawn({
     const selected = weightedRandom(candidates);
     if (!selected) return;
 
-    // Spawn 위치 랜덤 (x: 10~90%, y: 20~80%)
     const x = 10 + Math.random() * 80;
     const y = 20 + Math.random() * 60;
 
@@ -151,60 +135,43 @@ export function useCreatureSpawn({
 
     setSpawnedCreatures(prev => [...prev, spawned]);
     lastSpawnTimeRef.current.set(selected.id, now);
+  }, [weightedRandom]);
 
-  }, [
-    spawnState,
-    spawnedCreatures,
-    creatures,
-    currentZone,
-    oceanId,
-    season,
-    collectedIds,
-    weightedRandom,
-  ]);
-
-  // Spawn 타이머 설정
-  const scheduleNextSpawn = useCallback(() => {
-    if (spawnTimerRef.current !== null) {
-      window.clearTimeout(spawnTimerRef.current);
-    }
-
-    if (spawnState === 'running') {
-      const interval = getRandomInterval();
-      spawnTimerRef.current = window.setTimeout(() => {
-        trySpawn();
-        scheduleNextSpawn();
-      }, interval);
-    }
-  }, [spawnState, getRandomInterval, trySpawn]);
-
-  // pause/resume
-  const pause = useCallback(() => {
-    setSpawnState('paused');
-  }, []);
-
-  const resume = useCallback(() => {
-    setSpawnState('running');
-  }, []);
-
-  // 상태 변경 시 타이머 재설정
+  // Spawn 타이머 루프
   useEffect(() => {
-    if (spawnState === 'running') {
-      scheduleNextSpawn();
-    } else {
+    if (spawnState !== 'running') {
       if (spawnTimerRef.current !== null) {
-        window.clearTimeout(spawnTimerRef.current);
+        clearTimeout(spawnTimerRef.current);
         spawnTimerRef.current = null;
       }
+      return;
     }
+
+    const scheduleNext = () => {
+      const interval = SPAWN_INTERVAL_MIN_MS + Math.random() * (SPAWN_INTERVAL_MAX_MS - SPAWN_INTERVAL_MIN_MS);
+      spawnTimerRef.current = setTimeout(() => {
+        trySpawn();
+        scheduleNext();
+      }, interval);
+    };
+
+    scheduleNext();
 
     return () => {
       if (spawnTimerRef.current !== null) {
-        window.clearTimeout(spawnTimerRef.current);
+        clearTimeout(spawnTimerRef.current);
         spawnTimerRef.current = null;
       }
     };
-  }, [spawnState, scheduleNextSpawn]);
+  }, [spawnState, trySpawn]);
+
+  // 존 변경 시 화면 생물 초기화
+  useEffect(() => {
+    setSpawnedCreatures([]);
+  }, [currentZone]);
+
+  const pause = useCallback(() => setSpawnState('paused'), []);
+  const resume = useCallback(() => setSpawnState('running'), []);
 
   return {
     spawnedCreatures,
