@@ -29,8 +29,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "clownfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/400px-Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+    "photo_credit": "Wikipedia: Ocellaris clownfish"
   },
   {
     "id": "moon_jellyfish",
@@ -65,8 +65,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg/400px-Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg",
+    "photo_credit": "Wikipedia: Aurelia aurita"
   },
   {
     "id": "green_sea_turtle",
@@ -99,8 +99,8 @@
     "animation_type": "swim_glide",
     "svg_id": "sea_turtle",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/400px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+    "photo_credit": "Wikipedia: Green sea turtle"
   },
   {
     "id": "bottlenose_dolphin",
@@ -135,8 +135,8 @@
     "animation_type": "swim_glide",
     "svg_id": "dolphin",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/400px-Tursiops_truncatus_01-cropped.jpg",
+    "photo_credit": "Wikipedia: Common bottlenose dolphin"
   },
   {
     "id": "great_white_shark",
@@ -169,8 +169,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/400px-White_shark.jpg",
+    "photo_credit": "Wikipedia: Great white shark"
   },
   {
     "id": "humpback_whale",
@@ -204,8 +204,8 @@
     "animation_type": "swim_glide",
     "svg_id": "humpback_whale",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/400px-Humpback_Whale_underwater_shot.jpg",
+    "photo_credit": "Wikipedia: Humpback whale"
   },
   {
     "id": "octopus",
@@ -240,8 +240,8 @@
     "animation_type": "crawl",
     "svg_id": "octopus",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/400px-Octopus2.jpg",
+    "photo_credit": "Wikipedia: Common octopus"
   },
   {
     "id": "starfish",
@@ -277,8 +277,8 @@
     "animation_type": "crawl",
     "svg_id": "starfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Asterias_rubens.jpg/400px-Asterias_rubens.jpg",
+    "photo_credit": "Wikipedia: Common starfish"
   },
   {
     "id": "shrimp",
@@ -314,8 +314,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "shrimp",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/CSIRO_ScienceImage_2992_The_Giant_Tiger_Prawn.jpg/400px-CSIRO_ScienceImage_2992_The_Giant_Tiger_Prawn.jpg",
+    "photo_credit": "Wikipedia: Penaeus monodon"
   },
   {
     "id": "pufferfish",
@@ -348,8 +348,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Fugu_in_Tank.jpg/400px-Fugu_in_Tank.jpg",
+    "photo_credit": "Wikipedia: Takifugu rubripes"
   },
   {
     "id": "alaska_pollock",
@@ -380,8 +380,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Theragra_chalcogramma.png",
+    "photo_credit": "Wikipedia: Alaska pollock"
   },
   {
     "id": "snow_crab",
@@ -411,8 +411,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chionoecetes_opilio_Kanikkokan.jpg/400px-Chionoecetes_opilio_Kanikkokan.jpg",
+    "photo_credit": "Wikipedia: Chionoecetes opilio"
   },
   {
     "id": "common_squid",
@@ -443,8 +443,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Todarodes_pacificus_ruler.jpg/400px-Todarodes_pacificus_ruler.jpg",
+    "photo_credit": "Wikipedia: Japanese flying squid"
   },
   {
     "id": "chum_salmon",
@@ -474,8 +474,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dog_Salmon_Breeding_Male.jpg/400px-Dog_Salmon_Breeding_Male.jpg",
+    "photo_credit": "Wikipedia: Chum salmon"
   },
   {
     "id": "red_seabream",
@@ -507,8 +507,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pagrus_major_Red_seabream_ja01.jpg/400px-Pagrus_major_Red_seabream_ja01.jpg",
+    "photo_credit": "Wikipedia: Pagrus major"
   },
   {
     "id": "anchovy",
@@ -540,8 +540,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Engraulis_japonicus_01.JPG/400px-Engraulis_japonicus_01.JPG",
+    "photo_credit": "Wikipedia: Japanese anchovy"
   },
   {
     "id": "abalone",
@@ -574,8 +574,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LivingAbalone.JPG/400px-LivingAbalone.JPG",
+    "photo_credit": "Wikipedia: Abalone"
   },
   {
     "id": "flounder",
@@ -608,8 +608,8 @@
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Paralichthys-olivaceus-Federal-Way-3583.jpg/400px-Paralichthys-olivaceus-Federal-Way-3583.jpg",
+    "photo_credit": "Wikipedia: Olive flounder"
   },
   {
     "id": "seahorse",
@@ -641,8 +641,8 @@
     "animation_type": "float",
     "svg_id": "seahorse",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Hal_-_Hippocampus_kuda_-_4.jpg/400px-Hal_-_Hippocampus_kuda_-_4.jpg",
+    "photo_credit": "Wikipedia: Hippocampus kuda"
   },
   {
     "id": "blue_crab",
@@ -674,8 +674,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Portunus_trituberculatus.jpg/400px-Portunus_trituberculatus.jpg",
+    "photo_credit": "Wikipedia: Portunus trituberculatus"
   },
   {
     "id": "yellow_croaker",
@@ -705,8 +705,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Larimichthys_polyactis.jpg/400px-Larimichthys_polyactis.jpg",
+    "photo_credit": "Wikipedia: Larimichthys polyactis"
   },
   {
     "id": "lugworm",
@@ -738,8 +738,8 @@
     "animation_type": "crawl",
     "svg_id": "eel",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Arenicola_marina_2010.JPG/400px-Arenicola_marina_2010.JPG",
+    "photo_credit": "Wikipedia: Blow lugworm"
   },
   {
     "id": "turban_shell",
@@ -772,8 +772,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Turbo_chinensis_01.JPG/400px-Turbo_chinensis_01.JPG",
+    "photo_credit": "Wikipedia: Turbo cornutus"
   },
   {
     "id": "manta_ray",
@@ -806,8 +806,8 @@
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Manta_birostris-Thailand4.jpg/400px-Manta_birostris-Thailand4.jpg",
+    "photo_credit": "Wikipedia: Giant oceanic manta ray"
   },
   {
     "id": "coral",
@@ -841,8 +841,8 @@
     "animation_type": "float",
     "svg_id": "coral",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hertshoon.jpg/400px-Hertshoon.jpg",
+    "photo_credit": "Wikipedia: Staghorn coral"
   },
   {
     "id": "sea_cucumber",
@@ -875,8 +875,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_cucumber",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Apostichopus_japonicus.jpg/400px-Apostichopus_japonicus.jpg",
+    "photo_credit": "Wikipedia: Apostichopus japonicus"
   },
   {
     "id": "sea_urchin",
@@ -909,8 +909,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_urchin",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg/400px-Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg",
+    "photo_credit": "Wikipedia: Sea urchin"
   },
   {
     "id": "clam",
@@ -946,8 +946,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Meretrix_lusoria.jpg/400px-Meretrix_lusoria.jpg",
+    "photo_credit": "Wikipedia: Meretrix lusoria"
   },
   {
     "id": "sea_anemone",
@@ -980,8 +980,8 @@
     "animation_type": "float",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sea_anemone_in_tidepools.jpg/400px-Sea_anemone_in_tidepools.jpg",
+    "photo_credit": "Wikipedia: Starburst anemone"
   },
   {
     "id": "lobster",
@@ -1013,8 +1013,8 @@
     "animation_type": "crawl",
     "svg_id": "shrimp",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nur01521_-_Flickr_-_NOAA_Photo_Library.jpg/400px-Nur01521_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "photo_credit": "Wikipedia: American lobster"
   },
   {
     "id": "swordfish",
@@ -1047,8 +1047,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg/400px-Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg",
+    "photo_credit": "Wikipedia: Swordfish"
   },
   {
     "id": "flying_fish",
@@ -1080,8 +1080,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Exvol_u0.gif/400px-Exvol_u0.gif",
+    "photo_credit": "Wikipedia: Exocoetus volitans"
   },
   {
     "id": "blue_whale",
@@ -1116,8 +1116,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/400px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "photo_credit": "Wikipedia: Blue whale"
   },
   {
     "id": "sea_otter",
@@ -1149,8 +1149,8 @@
     "animation_type": "swim_glide",
     "svg_id": "seal",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/400px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "photo_credit": "Wikipedia: Sea otter"
   },
   {
     "id": "nautilus",
@@ -1182,8 +1182,8 @@
     "animation_type": "jet",
     "svg_id": "shell",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nautilus_pompilius_%28detail%29.jpg/400px-Nautilus_pompilius_%28detail%29.jpg",
+    "photo_credit": "Wikipedia: Chambered nautilus"
   },
   {
     "id": "sea_lion",
@@ -1214,8 +1214,8 @@
     "animation_type": "swim_glide",
     "svg_id": "seal",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg/400px-California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg",
+    "photo_credit": "Wikipedia: California sea lion"
   },
   {
     "id": "hammerhead_shark",
@@ -1248,8 +1248,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Great_hammerhead2.jpg/400px-Great_hammerhead2.jpg",
+    "photo_credit": "Wikipedia: Great hammerhead"
   },
   {
     "id": "angel_fish",
@@ -1281,8 +1281,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Emperor_Angelfish%2C_Western_form_-_Pomacanthus_imperator_1.jpg/400px-Emperor_Angelfish%2C_Western_form_-_Pomacanthus_imperator_1.jpg",
+    "photo_credit": "Wikipedia: Emperor angelfish"
   },
   {
     "id": "orca",
@@ -1316,8 +1316,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/400px-Killerwhales_jumping.jpg",
+    "photo_credit": "Wikipedia: Orca"
   },
   {
     "id": "sea_slug",
@@ -1349,8 +1349,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Chromagn_2-1.jpg/400px-Chromagn_2-1.jpg",
+    "photo_credit": "Wikipedia: Chromodoris magnifica"
   },
   {
     "id": "parrotfish",
@@ -1383,8 +1383,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Scarus_frenatus_by_Ewa_Barska.jpg/400px-Scarus_frenatus_by_Ewa_Barska.jpg",
+    "photo_credit": "Wikipedia: Parrotfish"
   },
   {
     "id": "butterflyfish",
@@ -1416,8 +1416,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bep_chaetodon_auriga_pemba.jpg/400px-Bep_chaetodon_auriga_pemba.jpg",
+    "photo_credit": "Wikipedia: Threadfin butterflyfish"
   },
   {
     "id": "triggerfish",
@@ -1450,8 +1450,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Picasso.triggerfish.arp.jpg/400px-Picasso.triggerfish.arp.jpg",
+    "photo_credit": "Wikipedia: Triggerfish"
   },
   {
     "id": "surgeonfish",
@@ -1483,8 +1483,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Acanthurus_olivaceus_1.jpg/400px-Acanthurus_olivaceus_1.jpg",
+    "photo_credit": "Wikipedia: Acanthurus olivaceus"
   },
   {
     "id": "wrasse",
@@ -1518,8 +1518,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Vieille_coquette_%28Labrus_mixtus%29_%28Ifremer_00563-67488_-_23544%29_%28cropped_2%29.jpg/400px-Vieille_coquette_%28Labrus_mixtus%29_%28Ifremer_00563-67488_-_23544%29_%28cropped_2%29.jpg",
+    "photo_credit": "Wikipedia: Wrasse"
   },
   {
     "id": "grouper",
@@ -1552,8 +1552,8 @@
     "animation_type": "swim_glide",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kelp_bass_with_streak_cleaner_wrasse.jpg/400px-Kelp_bass_with_streak_cleaner_wrasse.jpg",
+    "photo_credit": "Wikipedia: Epinephelus bruneus"
   },
   {
     "id": "tuna",
@@ -1586,8 +1586,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bluefin-big.jpg/400px-Bluefin-big.jpg",
+    "photo_credit": "Wikipedia: Atlantic bluefin tuna"
   },
   {
     "id": "mackerel",
@@ -1618,8 +1618,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Scomber_japonicus.png",
+    "photo_credit": "Wikipedia: Chub mackerel"
   },
   {
     "id": "barracuda",
@@ -1652,8 +1652,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Barracuda_laban.jpg/400px-Barracuda_laban.jpg",
+    "photo_credit": "Wikipedia: Great barracuda"
   },
   {
     "id": "moray_eel",
@@ -1687,8 +1687,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Utsubo.jpg/400px-Utsubo.jpg",
+    "photo_credit": "Wikipedia: Kidako moray"
   },
   {
     "id": "stingray",
@@ -1720,8 +1720,8 @@
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Japan_stingrays.jpg/400px-Japan_stingrays.jpg",
+    "photo_credit": "Wikipedia: Red stingray"
   },
   {
     "id": "eagle_ray",
@@ -1754,8 +1754,8 @@
     "animation_type": "swim_glide",
     "svg_id": "manta_ray",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Eagle_Ray_Turks_and_Caicos_Dec_15_2006.JPG/400px-Eagle_Ray_Turks_and_Caicos_Dec_15_2006.JPG",
+    "photo_credit": "Wikipedia: Spotted eagle ray"
   },
   {
     "id": "hermit_crab",
@@ -1789,8 +1789,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Calliactis_and_Dardanus_001.JPG/400px-Calliactis_and_Dardanus_001.JPG",
+    "photo_credit": "Wikipedia: Hermit crab"
   },
   {
     "id": "horseshoe_crab",
@@ -1820,8 +1820,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Tachypleus_tridentatus.jpg/400px-Tachypleus_tridentatus.jpg",
+    "photo_credit": "Wikipedia: Tachypleus tridentatus"
   },
   {
     "id": "portuguese_man_of_war",
@@ -1853,8 +1853,8 @@
     "animation_type": "float",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portuguese_Man-O-War_%28Physalia_physalis%29.jpg/400px-Portuguese_Man-O-War_%28Physalia_physalis%29.jpg",
+    "photo_credit": "Wikipedia: Portuguese man o' war"
   },
   {
     "id": "box_jellyfish",
@@ -1884,8 +1884,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Avispa_marina_cropped.png/400px-Avispa_marina_cropped.png",
+    "photo_credit": "Wikipedia: Chironex fleckeri"
   },
   {
     "id": "remora",
@@ -1918,8 +1918,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Remora_Belize_Reef.jpg/400px-Remora_Belize_Reef.jpg",
+    "photo_credit": "Wikipedia: Live sharksucker"
   },
   {
     "id": "pilot_fish",
@@ -1952,8 +1952,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pilot_fish%2C_India.jpg/400px-Pilot_fish%2C_India.jpg",
+    "photo_credit": "Wikipedia: Pilot fish"
   },
   {
     "id": "conch",
@@ -1985,8 +1985,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Researcher_holding_juvenile_queen_conch.jpg/400px-Researcher_holding_juvenile_queen_conch.jpg",
+    "photo_credit": "Wikipedia: Aliger gigas"
   },
   {
     "id": "cowrie",
@@ -2018,8 +2018,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Cypraea_tigris_%28Tiger_cowrie%29.jpg/400px-Cypraea_tigris_%28Tiger_cowrie%29.jpg",
+    "photo_credit": "Wikipedia: Cypraea tigris"
   },
   {
     "id": "nudibranch",
@@ -2052,8 +2052,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Berghia_coerulescens_%28Laurillard%2C_1830%29.jpg/400px-Berghia_coerulescens_%28Laurillard%2C_1830%29.jpg",
+    "photo_credit": "Wikipedia: Nudibranch"
   },
   {
     "id": "sea_fan",
@@ -2086,8 +2086,8 @@
     "animation_type": "float",
     "svg_id": "coral",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gorgonia_del_Pac%C3%ADfico_%28Pacifigorgia_sp.%29%2C_Los_Cabos%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-17%2C_DD_07.jpg/400px-Gorgonia_del_Pac%C3%ADfico_%28Pacifigorgia_sp.%29%2C_Los_Cabos%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-17%2C_DD_07.jpg",
+    "photo_credit": "Wikipedia: Gorgoniidae"
   },
   {
     "id": "brain_coral",
@@ -2119,8 +2119,8 @@
     "animation_type": "float",
     "svg_id": "coral",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Brain_coral.jpg/400px-Brain_coral.jpg",
+    "photo_credit": "Wikipedia: Diploria"
   },
   {
     "id": "sea_grass",
@@ -2154,8 +2154,8 @@
     "animation_type": "float",
     "svg_id": "coral",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Zostera_marina_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07663.JPG/400px-Zostera_marina_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07663.JPG",
+    "photo_credit": "Wikipedia: Zostera marina"
   },
   {
     "id": "manatee",
@@ -2186,8 +2186,8 @@
     "animation_type": "swim_glide",
     "svg_id": "seal",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Manatee_with_calf.PD_-_colour_corrected.jpg/400px-Manatee_with_calf.PD_-_colour_corrected.jpg",
+    "photo_credit": "Wikipedia: West Indian manatee"
   },
   {
     "id": "dugong",
@@ -2219,8 +2219,8 @@
     "animation_type": "swim_glide",
     "svg_id": "seal",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dugong.JPG/400px-Dugong.JPG",
+    "photo_credit": "Wikipedia: Dugong"
   },
   {
     "id": "sea_snake",
@@ -2251,8 +2251,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "eel",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hydrophis_cyanocinctus_lores.jpg/400px-Hydrophis_cyanocinctus_lores.jpg",
+    "photo_credit": "Wikipedia: Hydrophis cyanocinctus"
   },
   {
     "id": "marine_iguana",
@@ -2283,8 +2283,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_turtle",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Amblyrhynchus_cristatus_%283838137696%29.jpg/400px-Amblyrhynchus_cristatus_%283838137696%29.jpg",
+    "photo_credit": "Wikipedia: Marine iguana"
   },
   {
     "id": "lionfish",
@@ -2317,8 +2317,8 @@
     "animation_type": "float",
     "svg_id": "pufferfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pterois_volitans_Manado-e_edit.jpg/400px-Pterois_volitans_Manado-e_edit.jpg",
+    "photo_credit": "Wikipedia: Red lionfish"
   },
   {
     "id": "tomato_clownfish",
@@ -2350,8 +2350,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "clownfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pez_payaso_tomate_%28Amphiprion_frenatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_208.jpg/400px-Pez_payaso_tomate_%28Amphiprion_frenatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_208.jpg",
+    "photo_credit": "Wikipedia: Tomato clownfish"
   },
   {
     "id": "damselfish",
@@ -2383,8 +2383,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SuzumeDai.jpg/400px-SuzumeDai.jpg",
+    "photo_credit": "Wikipedia: Chromis notata"
   },
   {
     "id": "goby",
@@ -2417,8 +2417,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gobius_niger_%28Stefano_Guerrieri%29_1.jpg/400px-Gobius_niger_%28Stefano_Guerrieri%29_1.jpg",
+    "photo_credit": "Wikipedia: Gobiidae"
   },
   {
     "id": "blenny",
@@ -2452,8 +2452,8 @@
     "animation_type": "crawl",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Scartella_cristata_25-09-07_DSCF1035.jpg/400px-Scartella_cristata_25-09-07_DSCF1035.jpg",
+    "photo_credit": "Wikipedia: Combtooth blenny"
   },
   {
     "id": "filefish",
@@ -2486,8 +2486,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stephanolepis_hispida_442260436_%28cropped%29.jpg/400px-Stephanolepis_hispida_442260436_%28cropped%29.jpg",
+    "photo_credit": "Wikipedia: Filefish"
   },
   {
     "id": "tang",
@@ -2519,8 +2519,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Paletten-Doktorfisch_M%C3%BCnster.JPG/400px-Paletten-Doktorfisch_M%C3%BCnster.JPG",
+    "photo_credit": "Wikipedia: Paracanthurus"
   },
   {
     "id": "batfish",
@@ -2552,8 +2552,8 @@
     "animation_type": "swim_glide",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Platax%2C_Mauritius.jpg/400px-Platax%2C_Mauritius.jpg",
+    "photo_credit": "Wikipedia: Platax teira"
   },
   {
     "id": "trumpetfish",
@@ -2586,8 +2586,8 @@
     "animation_type": "float",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Aulostomus_chinensis_1.jpg/400px-Aulostomus_chinensis_1.jpg",
+    "photo_credit": "Wikipedia: Chinese trumpetfish"
   },
   {
     "id": "needlefish",
@@ -2620,8 +2620,8 @@
     "animation_type": "swim_glide",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tylosurus_crocodilus.jpg/400px-Tylosurus_crocodilus.jpg",
+    "photo_credit": "Wikipedia: Houndfish"
   },
   {
     "id": "halfbeak",
@@ -2653,8 +2653,8 @@
     "animation_type": "swim_glide",
     "svg_id": "eel",
     "source": "국립해양생물자원관",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Hyporhamphus_sajori.jpg/400px-Hyporhamphus_sajori.jpg",
+    "photo_credit": "Wikipedia: Hyporhamphus sajori"
   },
   {
     "id": "sardine",
@@ -2688,7 +2688,7 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Japan_fish%2C_South_American_pilchard_%28Sardinops_sagax%29_%2815579000828%29.jpg/400px-Japan_fish%2C_South_American_pilchard_%28Sardinops_sagax%29_%2815579000828%29.jpg",
+    "photo_credit": "Wikipedia: Sardinops"
   }
 ]

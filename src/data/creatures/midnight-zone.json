@@ -30,8 +30,8 @@
     "animation_type": "float",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Humpback_anglerfish.png/400px-Humpback_anglerfish.png",
+    "photo_credit": "Wikipedia: Humpback anglerfish"
   },
   {
     "id": "ghost_shark",
@@ -63,8 +63,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/100578086_Chimaera_monstrosa.jpg/400px-100578086_Chimaera_monstrosa.jpg",
+    "photo_credit": "Wikipedia: Rabbit fish"
   },
   {
     "id": "dumbo_octopus",
@@ -97,8 +97,8 @@
     "animation_type": "float",
     "svg_id": "octopus",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FMIB_53371_Cirroteuthis_umbellata_Fischer_%28Princesse-Alice%29.jpeg/400px-FMIB_53371_Cirroteuthis_umbellata_Fischer_%28Princesse-Alice%29.jpeg",
+    "photo_credit": "Wikipedia: Grimpoteuthis umbellata"
   },
   {
     "id": "vampire_squid",
@@ -131,8 +131,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Vampyroteuthis_illustration.jpg/400px-Vampyroteuthis_illustration.jpg",
+    "photo_credit": "Wikipedia: Vampire squid"
   },
   {
     "id": "deep_sea_cucumber",
@@ -164,8 +164,8 @@
     "animation_type": "float",
     "svg_id": "sea_cucumber",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Enypniastes_sp.jpg/400px-Enypniastes_sp.jpg",
+    "photo_credit": "Wikipedia: Enypniastes"
   },
   {
     "id": "frilled_shark",
@@ -197,8 +197,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Chlamydoselachus_anguineus1.jpg/400px-Chlamydoselachus_anguineus1.jpg",
+    "photo_credit": "Wikipedia: Frilled shark"
   },
   {
     "id": "goblin_shark",
@@ -230,8 +230,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Goblin_shark_size.svg/400px-Goblin_shark_size.svg.png",
+    "photo_credit": "Wikipedia: Goblin shark"
   },
   {
     "id": "bigmouth_gulper",
@@ -263,8 +263,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saccopharynx_ampullaceus_drawing.jpg/400px-Saccopharynx_ampullaceus_drawing.jpg",
+    "photo_credit": "Wikipedia: Saccopharynx ampullaceus"
   },
   {
     "id": "deep_sea_dragonfish",
@@ -297,8 +297,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Stomias_boa_preserved.jpg/400px-Stomias_boa_preserved.jpg",
+    "photo_credit": "Wikipedia: Stomias boa"
   },
   {
     "id": "fangtooth_fish",
@@ -331,8 +331,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Anoplogaster_cornuta_SI.jpg/400px-Anoplogaster_cornuta_SI.jpg",
+    "photo_credit": "Wikipedia: Anoplogaster cornuta"
   },
   {
     "id": "pelican_eel",
@@ -364,8 +364,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Eurypharynx_pelecanoides.jpg/400px-Eurypharynx_pelecanoides.jpg",
+    "photo_credit": "Wikipedia: Pelican eel"
   },
   {
     "id": "squat_lobster",
@@ -397,8 +397,8 @@
     "animation_type": "crawl",
     "svg_id": "shrimp",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Munidopsis_polymorpha_%28Blind_albino_crab%29_%28Martyx%29.jpg/400px-Munidopsis_polymorpha_%28Blind_albino_crab%29_%28Martyx%29.jpg",
+    "photo_credit": "Wikipedia: Munidopsis polymorpha"
   },
   {
     "id": "tripod_fish",
@@ -431,8 +431,8 @@
     "animation_type": "float",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29_1.jpg/400px-Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29_1.jpg",
+    "photo_credit": "Wikipedia: Bathypterois grallator"
   },
   {
     "id": "deep_sea_lizardfish",
@@ -464,8 +464,8 @@
     "animation_type": "crawl",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bathysaurus_ferox0.jpg/400px-Bathysaurus_ferox0.jpg",
+    "photo_credit": "Wikipedia: Deepsea lizardfish"
   },
   {
     "id": "deep_sea_amphipod",
@@ -499,8 +499,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Eurythenes_gryllus_-_Castelnau.jpg/400px-Eurythenes_gryllus_-_Castelnau.jpg",
+    "photo_credit": "Wikipedia: Eurythenes gryllus"
   },
   {
     "id": "glass_sponge",
@@ -533,8 +533,8 @@
     "animation_type": "float",
     "svg_id": "sea_cucumber",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Euplectella_aspergillum_Okeanos.jpg/400px-Euplectella_aspergillum_Okeanos.jpg",
+    "photo_credit": "Wikipedia: Venus' flower basket"
   },
   {
     "id": "deep_sea_polychaete",
@@ -566,8 +566,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "eel",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Libr0409.jpg/400px-Libr0409.jpg",
+    "photo_credit": "Wikipedia: Polychaete"
   },
   {
     "id": "black_swallower",
@@ -599,8 +599,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Chiasmodon_niger.jpg/400px-Chiasmodon_niger.jpg",
+    "photo_credit": "Wikipedia: Black swallower"
   },
   {
     "id": "hairy_anglerfish",
@@ -632,8 +632,8 @@
     "animation_type": "float",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/C_jordani.JPG/400px-C_jordani.JPG",
+    "photo_credit": "Wikipedia: Caulophryne jordani"
   },
   {
     "id": "gulper_shark",
@@ -666,8 +666,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Centrophorus_granulosus_distmap.png/400px-Centrophorus_granulosus_distmap.png",
+    "photo_credit": "Wikipedia: Gulper shark"
   },
   {
     "id": "sea_spider",
@@ -700,8 +700,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Pycnogonida_collage.png/400px-Pycnogonida_collage.png",
+    "photo_credit": "Wikipedia: Sea spider"
   },
   {
     "id": "deep_sea_coral",
@@ -734,8 +734,8 @@
     "animation_type": "float",
     "svg_id": "coral",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lophelia_spec.jpg/400px-Lophelia_spec.jpg",
+    "photo_credit": "Wikipedia: Lophelia"
   },
   {
     "id": "blobfish",
@@ -767,8 +767,8 @@
     "animation_type": "float",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Psychrolutes_marcidus.jpg/400px-Psychrolutes_marcidus.jpg",
+    "photo_credit": "Wikipedia: Psychrolutes marcidus"
   },
   {
     "id": "megamouth_shark",
@@ -801,8 +801,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Megamouth_shark_Megachasma_pelagios.jpg/400px-Megamouth_shark_Megachasma_pelagios.jpg",
+    "photo_credit": "Wikipedia: Megamouth shark"
   },
   {
     "id": "colossal_squid",
@@ -833,8 +833,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Colossalsquid.png/400px-Colossalsquid.png",
+    "photo_credit": "Wikipedia: Colossal squid"
   },
   {
     "id": "coelacanth",
@@ -866,8 +866,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Coelacanth_off_Pumula_on_the_KwaZulu-Natal_South_Coast%2C_South_Africa%2C_on_22_November_2019.png/400px-Coelacanth_off_Pumula_on_the_KwaZulu-Natal_South_Coast%2C_South_Africa%2C_on_22_November_2019.png",
+    "photo_credit": "Wikipedia: Coelacanth"
   },
   {
     "id": "deep_sea_urchin",
@@ -900,8 +900,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_urchin",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cidaris_cidaris_MHNT.jpg/400px-Cidaris_cidaris_MHNT.jpg",
+    "photo_credit": "Wikipedia: Cidaroida"
   },
   {
     "id": "deep_sea_sponge",
@@ -933,8 +933,8 @@
     "animation_type": "float",
     "svg_id": "sea_cucumber",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Geodia_barretti.jpg/400px-Geodia_barretti.jpg",
+    "photo_credit": "Wikipedia: Geodia barretti"
   },
   {
     "id": "midnight_tube_worm",
@@ -966,8 +966,8 @@
     "animation_type": "float",
     "svg_id": "eel",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lamellibrachia_luymesi1.png/400px-Lamellibrachia_luymesi1.png",
+    "photo_credit": "Wikipedia: Lamellibrachia"
   },
   {
     "id": "brisingid_starfish",
@@ -1000,8 +1000,8 @@
     "animation_type": "float",
     "svg_id": "starfish",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Brisinga_endacnemos_01_Espen_Rekdal.jpg/400px-Brisinga_endacnemos_01_Espen_Rekdal.jpg",
+    "photo_credit": "Wikipedia: Brisinga endecacnemos"
   },
   {
     "id": "coffin_fish",
@@ -1033,8 +1033,8 @@
     "animation_type": "crawl",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sea_toad_%28Chaunacops_cf._melanostomus%29.jpg/400px-Sea_toad_%28Chaunacops_cf._melanostomus%29.jpg",
+    "photo_credit": "Wikipedia: Sea toad"
   },
   {
     "id": "midnight_snailfish",
@@ -1066,8 +1066,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Festive_Snailfish.jpg/400px-Festive_Snailfish.jpg",
+    "photo_credit": "Wikipedia: Snailfish"
   },
   {
     "id": "telescope_fish",
@@ -1133,8 +1133,8 @@
     "animation_type": "float",
     "svg_id": "octopus",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Benthoctopus_levis.jpg/400px-Benthoctopus_levis.jpg",
+    "photo_credit": "Wikipedia: Muusoctopus levis"
   },
   {
     "id": "phantom_jellyfish",
@@ -1168,7 +1168,7 @@
     "animation_type": "pulse",
     "svg_id": "deep_sea_jellyfish",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Stygiomedusa_Gigantea_ov.jpg",
+    "photo_credit": "Wikipedia: Stygiomedusa"
   }
 ]

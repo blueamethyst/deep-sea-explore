@@ -30,8 +30,8 @@
     "animation_type": "jet",
     "svg_id": "giant_squid",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_squid_Ranheim.jpg/400px-Giant_squid_Ranheim.jpg",
+    "photo_credit": "Wikipedia: Giant squid"
   },
   {
     "id": "hatchetfish",
@@ -64,8 +64,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Argyropelecus_gigas_%28Giant_hatchetfish%29.gif/400px-Argyropelecus_gigas_%28Giant_hatchetfish%29.gif",
+    "photo_credit": "Wikipedia: Argyropelecus gigas"
   },
   {
     "id": "glass_squid",
@@ -98,8 +98,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cranchia_scabra.jpg/400px-Cranchia_scabra.jpg",
+    "photo_credit": "Wikipedia: Cranchia scabra"
   },
   {
     "id": "comb_jellyfish",
@@ -133,8 +133,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Beroe_cucumis.jpeg/400px-Beroe_cucumis.jpeg",
+    "photo_credit": "Wikipedia: Beroe cucumis"
   },
   {
     "id": "deep_sea_jellyfish",
@@ -167,8 +167,8 @@
     "animation_type": "pulse",
     "svg_id": "deep_sea_jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg/400px-Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg",
+    "photo_credit": "Wikipedia: Atolla jellyfish"
   },
   {
     "id": "viperfish",
@@ -201,8 +201,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Chauliodus_sloani_Gervais.jpg/400px-Chauliodus_sloani_Gervais.jpg",
+    "photo_credit": "Wikipedia: Sloane's viperfish"
   },
   {
     "id": "barreleye_fish",
@@ -233,8 +233,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Barreleye-fish_GoK.jpg/400px-Barreleye-fish_GoK.jpg",
+    "photo_credit": "Wikipedia: Macropinna"
   },
   {
     "id": "pearl_oyster",
@@ -266,8 +266,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pinctada_margaritifera%2C_Aquarium_Finisterrae%2C_Galicia%2C_Spain.jpg/400px-Pinctada_margaritifera%2C_Aquarium_Finisterrae%2C_Galicia%2C_Spain.jpg",
+    "photo_credit": "Wikipedia: Pinctada margaritifera"
   },
   {
     "id": "deep_sea_shrimp",
@@ -300,8 +300,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "shrimp",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Acanthephyra_pelagica.jpg/400px-Acanthephyra_pelagica.jpg",
+    "photo_credit": "Wikipedia: Acanthephyra"
   },
   {
     "id": "lanternfish",
@@ -334,8 +334,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Myctophum_punctatum1.jpg/400px-Myctophum_punctatum1.jpg",
+    "photo_credit": "Wikipedia: Myctophum punctatum"
   },
   {
     "id": "dragonfish",
@@ -368,8 +368,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Idiacanthus_atlanticus.jpg/400px-Idiacanthus_atlanticus.jpg",
+    "photo_credit": "Wikipedia: Idiacanthus atlanticus"
   },
   {
     "id": "cookiecutter_shark",
@@ -401,8 +401,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Isistius_brasiliensis.jpg/400px-Isistius_brasiliensis.jpg",
+    "photo_credit": "Wikipedia: Cookiecutter shark"
   },
   {
     "id": "sperm_whale",
@@ -435,8 +435,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/400px-Mother_and_baby_sperm_whale.jpg",
+    "photo_credit": "Wikipedia: Sperm whale"
   },
   {
     "id": "siphonophore",
@@ -469,8 +469,8 @@
     "animation_type": "float",
     "svg_id": "deep_sea_jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Apolemia_uvaria.jpg",
+    "photo_credit": "Wikipedia: Apolemia uvaria"
   },
   {
     "id": "bigfin_squid",
@@ -502,8 +502,8 @@
     "animation_type": "float",
     "svg_id": "giant_squid",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Magnapinna_pacifica.jpg/400px-Magnapinna_pacifica.jpg",
+    "photo_credit": "Wikipedia: Magnapinna pacifica"
   },
   {
     "id": "stoplight_loosejaw",
@@ -535,8 +535,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Malacosteus_niger_%28black%29.jpg/400px-Malacosteus_niger_%28black%29.jpg",
+    "photo_credit": "Wikipedia: Malacosteus niger"
   },
   {
     "id": "gulper_eel",
@@ -569,8 +569,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Eurypharynx_pelecanoides.jpg/400px-Eurypharynx_pelecanoides.jpg",
+    "photo_credit": "Wikipedia: Pelican eel"
   },
   {
     "id": "sabertooth_fish",
@@ -602,8 +602,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coccorella_atrata.png/400px-Coccorella_atrata.png",
+    "photo_credit": "Wikipedia: Sabertooth fish"
   },
   {
     "id": "telescope_octopus",
@@ -634,8 +634,8 @@
     "animation_type": "jet",
     "svg_id": "octopus",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Amphitretus.jpg/400px-Amphitretus.jpg",
+    "photo_credit": "Wikipedia: Telescope octopus"
   },
   {
     "id": "chambered_nautilus",
@@ -667,8 +667,8 @@
     "animation_type": "jet",
     "svg_id": "shell",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Nautilus_belauensis_profile.jpg/400px-Nautilus_belauensis_profile.jpg",
+    "photo_credit": "Wikipedia: Nautilus belauensis"
   },
   {
     "id": "bristlemouth",
@@ -701,8 +701,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cyclothone_microdon1.jpg/400px-Cyclothone_microdon1.jpg",
+    "photo_credit": "Wikipedia: Veiled anglemouth"
   },
   {
     "id": "firefly_squid",
@@ -731,8 +731,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Watasenia_scintillans.jpg/400px-Watasenia_scintillans.jpg",
+    "photo_credit": "Wikipedia: Firefly squid"
   },
   {
     "id": "tomopteris",
@@ -765,8 +765,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "eel",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tomopteriskils.jpg/400px-Tomopteriskils.jpg",
+    "photo_credit": "Wikipedia: Tomopteris"
   },
   {
     "id": "slickhead",
@@ -798,8 +798,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Alepocephalus_tenebrosus.jpg/400px-Alepocephalus_tenebrosus.jpg",
+    "photo_credit": "Wikipedia: Alepocephalidae"
   },
   {
     "id": "giant_ostracod",
@@ -832,8 +832,8 @@
     "animation_type": "float",
     "svg_id": "shrimp",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gigantocypris.jpg/400px-Gigantocypris.jpg",
+    "photo_credit": "Wikipedia: Gigantocypris"
   },
   {
     "id": "midwater_jellyfish",
@@ -865,8 +865,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Solmissus_Jelly_%2848716812266%29.jpg/400px-Solmissus_Jelly_%2848716812266%29.jpg",
+    "photo_credit": "Wikipedia: Solmissus"
   },
   {
     "id": "deep_sea_anglerfish",
@@ -899,8 +899,8 @@
     "animation_type": "float",
     "svg_id": "anglerfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Humpback_anglerfish.png/400px-Humpback_anglerfish.png",
+    "photo_credit": "Wikipedia: Humpback anglerfish"
   },
   {
     "id": "pelagic_sea_cucumber",
@@ -932,8 +932,8 @@
     "animation_type": "float",
     "svg_id": "sea_cucumber",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Enypniastes_sp.jpg/400px-Enypniastes_sp.jpg",
+    "photo_credit": "Wikipedia: Enypniastes"
   },
   {
     "id": "deep_sea_salp",
@@ -967,8 +967,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Salp.jpg/400px-Salp.jpg",
+    "photo_credit": "Wikipedia: Salp"
   },
   {
     "id": "marine_hatchetfish",
@@ -1001,8 +1001,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sternoptyx_diaphana1.jpg/400px-Sternoptyx_diaphana1.jpg",
+    "photo_credit": "Wikipedia: Sternoptyx diaphana"
   },
   {
     "id": "pyrosome",
@@ -1035,8 +1035,8 @@
     "animation_type": "float",
     "svg_id": "jellyfish",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pyrosoma_atlanticum.JPG/400px-Pyrosoma_atlanticum.JPG",
+    "photo_credit": "Wikipedia: Pyrosoma atlanticum"
   },
   {
     "id": "pacific_viperfish",
@@ -1067,8 +1067,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Head_of_a_pacific_Viperfish_4037.jpg/400px-Head_of_a_pacific_Viperfish_4037.jpg",
+    "photo_credit": "Wikipedia: Pacific viperfish"
   },
   {
     "id": "orange_roughy",
@@ -1101,8 +1101,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Orange_roughy.png/400px-Orange_roughy.png",
+    "photo_credit": "Wikipedia: Orange roughy"
   },
   {
     "id": "sixgill_shark",
@@ -1135,8 +1135,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hexanchus_griseus.jpg/400px-Hexanchus_griseus.jpg",
+    "photo_credit": "Wikipedia: Bluntnose sixgill shark"
   },
   {
     "id": "crystal_jellyfish",
@@ -1166,8 +1166,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Aequorea4.jpg/400px-Aequorea4.jpg",
+    "photo_credit": "Wikipedia: Aequorea victoria"
   },
   {
     "id": "bramble_shark",
@@ -1200,8 +1200,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Echinorhinidae_-_Echinorhinus_brucus.JPG/400px-Echinorhinidae_-_Echinorhinus_brucus.JPG",
+    "photo_credit": "Wikipedia: Bramble shark"
   },
   {
     "id": "velvet_belly_lanternshark",
@@ -1232,8 +1232,8 @@
     "animation_type": "swim_glide",
     "svg_id": "whale_shark",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Velvet_Belly_Lanternshark.jpg/400px-Velvet_Belly_Lanternshark.jpg",
+    "photo_credit": "Wikipedia: Velvet belly lanternshark"
   },
   {
     "id": "splendid_alfonsino",
@@ -1266,8 +1266,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Splendid_alfonsino_%28_Beryx_splendens_%29.jpg/400px-Splendid_alfonsino_%28_Beryx_splendens_%29.jpg",
+    "photo_credit": "Wikipedia: Splendid alfonsino"
   },
   {
     "id": "jewel_squid",
@@ -1299,8 +1299,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Histioteuthidae_-_Histioteuthis_bonnellii.JPG/400px-Histioteuthidae_-_Histioteuthis_bonnellii.JPG",
+    "photo_credit": "Wikipedia: Histioteuthis bonnellii"
   },
   {
     "id": "cockatoo_squid",
@@ -1333,8 +1333,8 @@
     "animation_type": "jet",
     "svg_id": "squid",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Galiteuthis_glacialis.jpg/400px-Galiteuthis_glacialis.jpg",
+    "photo_credit": "Wikipedia: Galiteuthis glacialis"
   },
   {
     "id": "bloodybelly_comb_jelly",
@@ -1365,8 +1365,8 @@
     "animation_type": "pulse",
     "svg_id": "jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lampocteis_at_the_Monterey_Bay_Aquarium.jpg/400px-Lampocteis_at_the_Monterey_Bay_Aquarium.jpg",
+    "photo_credit": "Wikipedia: Lampocteis"
   },
   {
     "id": "greeneye_fish",
@@ -1398,8 +1398,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Expl9945_%2814319013507%29.jpg/400px-Expl9945_%2814319013507%29.jpg",
+    "photo_credit": "Wikipedia: Chlorophthalmus"
   },
   {
     "id": "owlfish",
@@ -1432,8 +1432,8 @@
     "animation_type": "crawl",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Owlfish.png/400px-Owlfish.png",
+    "photo_credit": "Wikipedia: Pseudobathylagus"
   },
   {
     "id": "chiroteuthis",
@@ -1465,8 +1465,8 @@
     "animation_type": "float",
     "svg_id": "squid",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chiroteuthis_veranyi.jpg/400px-Chiroteuthis_veranyi.jpg",
+    "photo_credit": "Wikipedia: Chiroteuthis veranii"
   },
   {
     "id": "atolla_jellyfish",
@@ -1500,8 +1500,8 @@
     "animation_type": "pulse",
     "svg_id": "deep_sea_jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg/400px-Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg",
+    "photo_credit": "Wikipedia: Atolla"
   },
   {
     "id": "giant_amphipod",
@@ -1533,8 +1533,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Alicella_gigantea_Japan_Trench_2022.jpg/400px-Alicella_gigantea_Japan_Trench_2022.jpg",
+    "photo_credit": "Wikipedia: Alicella"
   },
   {
     "id": "deep_sea_medusa",
@@ -1566,8 +1566,8 @@
     "animation_type": "pulse",
     "svg_id": "deep_sea_jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cnido_deepstaria_jellyfish.jpg/400px-Cnido_deepstaria_jellyfish.jpg",
+    "photo_credit": "Wikipedia: Deepstaria enigmatica"
   },
   {
     "id": "ocean_sunfish",
@@ -1599,8 +1599,8 @@
     "animation_type": "swim_glide",
     "svg_id": "pufferfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mola_mola.jpg/400px-Mola_mola.jpg",
+    "photo_credit": "Wikipedia: Ocean sunfish"
   },
   {
     "id": "oarfish",
@@ -1633,8 +1633,8 @@
     "animation_type": "swim_glide",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Regalecus_glesne%2C_Naturhistorisches_Museum_Wien.jpg/400px-Regalecus_glesne%2C_Naturhistorisches_Museum_Wien.jpg",
+    "photo_credit": "Wikipedia: Giant oarfish"
   },
   {
     "id": "giant_isopod",
@@ -1667,7 +1667,7 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Bathynomus_giganteus_as_seen_by_remotely_operated_vehicle_%28ROV%29_Deep_Discoverer_at_a_depth_of_816_meters_at_South_Reed%2C_Gulf_of_Mexico%2C_2017-11-30.webm/400px--Bathynomus_giganteus_as_seen_by_remotely_operated_vehicle_%28ROV%29_Deep_Discoverer_at_a_depth_of_816_meters_at_South_Reed%2C_Gulf_of_Mexico%2C_2017-11-30.webm.jpg",
+    "photo_credit": "Wikipedia: Bathynomus giganteus"
   }
 ]

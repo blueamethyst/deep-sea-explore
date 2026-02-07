@@ -28,8 +28,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pseudoliparis_amblystomopsis_2.jpg/400px-Pseudoliparis_amblystomopsis_2.jpg",
+    "photo_credit": "Wikipedia: Pseudoliparis amblystomopsis"
   },
   {
     "id": "amphipod",
@@ -60,8 +60,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "crab",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gammarus_roeselii.jpg/400px-Gammarus_roeselii.jpg",
+    "photo_credit": "Wikipedia: Amphipoda"
   },
   {
     "id": "hadal_sea_cucumber",
@@ -92,8 +92,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_cucumber",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Holothuroidea_orders_collage.png/400px-Holothuroidea_orders_collage.png",
+    "photo_credit": "Wikipedia: Sea cucumber"
   },
   {
     "id": "hadal_polychaete",
@@ -124,8 +124,8 @@
     "animation_type": "crawl",
     "svg_id": "eel",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Libr0409.jpg/400px-Libr0409.jpg",
+    "photo_credit": "Wikipedia: Polychaete"
   },
   {
     "id": "hadal_anemone",
@@ -157,8 +157,8 @@
     "animation_type": "float",
     "svg_id": "deep_sea_jellyfish",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Actiniaria.jpg/400px-Actiniaria.jpg",
+    "photo_credit": "Wikipedia: Sea anemone"
   },
   {
     "id": "supergiant_amphipod",
@@ -190,8 +190,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Alicella_gigantea_Japan_Trench_2022.jpg/400px-Alicella_gigantea_Japan_Trench_2022.jpg",
+    "photo_credit": "Wikipedia: Alicella"
   },
   {
     "id": "mariana_snailfish",
@@ -222,8 +222,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pseudoliparis_amblystomopsis_2.jpg/400px-Pseudoliparis_amblystomopsis_2.jpg",
+    "photo_credit": "Wikipedia: Pseudoliparis amblystomopsis"
   },
   {
     "id": "xenophyophore",
@@ -255,8 +255,8 @@
     "animation_type": "float",
     "svg_id": "sea_urchin",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Syringammina_Fragilissima.jpg/400px-Syringammina_Fragilissima.jpg",
+    "photo_credit": "Wikipedia: Syringammina"
   },
   {
     "id": "hadal_rattail",
@@ -287,8 +287,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gadiformes025.jpg/400px-Gadiformes025.jpg",
+    "photo_credit": "Wikipedia: Coryphaenoides yaquinae"
   },
   {
     "id": "ethereal_snailfish",
@@ -319,7 +319,7 @@
     "animation_type": "swim_wiggle",
     "svg_id": "generic_fish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Psbel_u2_creative_commons_license.jpg/400px-Psbel_u2_creative_commons_license.jpg",
+    "photo_credit": "Wikipedia: Pseudoliparis belyaevi"
   }
 ]

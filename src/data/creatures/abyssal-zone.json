@@ -29,8 +29,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_cucumber",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Psychropotes_longicauda_NOAA.jpg/400px-Psychropotes_longicauda_NOAA.jpg",
+    "photo_credit": "Wikipedia: Psychropotes longicauda"
   },
   {
     "id": "japanese_spider_crab",
@@ -61,8 +61,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Macrocheira_kaempferi.jpg/400px-Macrocheira_kaempferi.jpg",
+    "photo_credit": "Wikipedia: Japanese spider crab"
   },
   {
     "id": "deep_sea_anemone",
@@ -95,8 +95,8 @@
     "animation_type": "float",
     "svg_id": "deep_sea_jellyfish",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Actiniaria.jpg/400px-Actiniaria.jpg",
+    "photo_credit": "Wikipedia: Sea anemone"
   },
   {
     "id": "abyssal_grenadier",
@@ -129,8 +129,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Grenadier_basic_external_features.png/400px-Grenadier_basic_external_features.png",
+    "photo_credit": "Wikipedia: Abyssal grenadier"
   },
   {
     "id": "sea_pig",
@@ -163,8 +163,8 @@
     "animation_type": "crawl",
     "svg_id": "sea_cucumber",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Scotoplanes_globosa1.jpg/400px-Scotoplanes_globosa1.jpg",
+    "photo_credit": "Wikipedia: Scotoplanes"
   },
   {
     "id": "abyssal_octopus",
@@ -195,8 +195,8 @@
     "animation_type": "float",
     "svg_id": "octopus",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Graneledone_boreopacifica_2.jpg/400px-Graneledone_boreopacifica_2.jpg",
+    "photo_credit": "Wikipedia: Graneledone boreopacifica"
   },
   {
     "id": "zombie_worm",
@@ -228,8 +228,8 @@
     "animation_type": "float",
     "svg_id": "eel",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Osedax_roseus.jpg",
+    "photo_credit": "Wikipedia: Osedax"
   },
   {
     "id": "yeti_crab",
@@ -261,8 +261,8 @@
     "animation_type": "crawl",
     "svg_id": "crab",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Yeti_crab.jpg/400px-Yeti_crab.jpg",
+    "photo_credit": "Wikipedia: Kiwa hirsuta"
   },
   {
     "id": "scaly_foot_snail",
@@ -293,8 +293,8 @@
     "animation_type": "crawl",
     "svg_id": "shell",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Chrysomallon_squamiferum_9.png/400px-Chrysomallon_squamiferum_9.png",
+    "photo_credit": "Wikipedia: Scaly-foot gastropod"
   },
   {
     "id": "pompeii_worm",
@@ -325,8 +325,8 @@
     "animation_type": "float",
     "svg_id": "eel",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Alvinella_pompejana01.jpg/400px-Alvinella_pompejana01.jpg",
+    "photo_credit": "Wikipedia: Alvinella pompejana"
   },
   {
     "id": "abyssal_cusk_eel",
@@ -359,8 +359,8 @@
     "animation_type": "swim_glide",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Spectrunculus_grandis.jpg/400px-Spectrunculus_grandis.jpg",
+    "photo_credit": "Wikipedia: Cusk-eel"
   },
   {
     "id": "giant_tube_worm",
@@ -391,8 +391,8 @@
     "animation_type": "float",
     "svg_id": "eel",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Campagne_HOT_-_Vers_g%C3%A9ants_%28Riftia_pachyptila%29_%28Ifremer_00530-64223_-_52381%29.jpg/400px-Campagne_HOT_-_Vers_g%C3%A9ants_%28Riftia_pachyptila%29_%28Ifremer_00530-64223_-_52381%29.jpg",
+    "photo_credit": "Wikipedia: Riftia"
   },
   {
     "id": "deep_sea_rattail",
@@ -424,8 +424,8 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CoryphaenoidesLeptolepis.jpg/400px-CoryphaenoidesLeptolepis.jpg",
+    "photo_credit": "Wikipedia: Grenadiers (fish)"
   },
   {
     "id": "abyssal_jellyfish",
@@ -460,8 +460,8 @@
     "animation_type": "pulse",
     "svg_id": "deep_sea_jellyfish",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg/400px-Atolla_wyvillei_%28Operation_Deep_Scope_2004%29.jpg",
+    "photo_credit": "Wikipedia: Atolla jellyfish"
   },
   {
     "id": "black_smoker_shrimp",
@@ -492,8 +492,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "shrimp",
     "source": "NOAA",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Rimicaris_exoculata_%28MNHN-IU-2014-22822%29.jpeg/400px-Rimicaris_exoculata_%28MNHN-IU-2014-22822%29.jpeg",
+    "photo_credit": "Wikipedia: Rimicaris exoculata"
   },
   {
     "id": "abyssal_dragonfish",
@@ -525,8 +525,8 @@
     "animation_type": "swim_glide",
     "svg_id": "anglerfish",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Photostomias.jpg/400px-Photostomias.jpg",
+    "photo_credit": "Wikipedia: Stomiidae"
   },
   {
     "id": "faceless_fish",
@@ -592,8 +592,8 @@
     "animation_type": "swim_glide",
     "svg_id": "eel",
     "source": "FishBase",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Nemichthys_scolopaceus_SI.jpg/400px-Nemichthys_scolopaceus_SI.jpg",
+    "photo_credit": "Wikipedia: Slender snipe eel"
   },
   {
     "id": "whalefall_octopus",
@@ -624,8 +624,8 @@
     "animation_type": "float",
     "svg_id": "octopus",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Vulcanoctopus_hydrothermalis.jpg/400px-Vulcanoctopus_hydrothermalis.jpg",
+    "photo_credit": "Wikipedia: Vulcanoctopus"
   },
   {
     "id": "abyssal_amphipod",
@@ -657,8 +657,8 @@
     "animation_type": "swim_wiggle",
     "svg_id": "crab",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gammarus_roeselii.jpg/400px-Gammarus_roeselii.jpg",
+    "photo_credit": "Wikipedia: Amphipoda"
   },
   {
     "id": "abyssal_polychaete",
@@ -758,8 +758,8 @@
     "animation_type": "float",
     "svg_id": "sea_cucumber",
     "source": "WoRMS",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Carnivorous_sponge_diversity.png/400px-Carnivorous_sponge_diversity.png",
+    "photo_credit": "Wikipedia: Cladorhizidae"
   },
   {
     "id": "abyssal_starfish",
@@ -824,7 +824,7 @@
     "animation_type": "swim_glide",
     "svg_id": "generic_fish",
     "source": "MBARI",
-    "photo_url": "",
-    "photo_credit": ""
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pseudoliparis_amblystomopsis_2.jpg/400px-Pseudoliparis_amblystomopsis_2.jpg",
+    "photo_credit": "Wikipedia: Pseudoliparis amblystomopsis"
   }
 ]
