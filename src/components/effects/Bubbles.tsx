@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface BubblesProps {
   count?: number;
@@ -8,13 +8,18 @@ interface BubblesProps {
 }
 
 export const Bubbles: React.FC<BubblesProps> = ({ count = 8, className = '' }) => {
-  const bubbles = Array.from({ length: count }, (_, i) => ({
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [bubbles] = useState(() => Array.from({ length: count }, (_, i) => ({
     id: i,
-    size: Math.random() * 8 + 4, // 4~12px
-    left: Math.random() * 100, // 0~100%
-    delay: Math.random() * 5, // 0~5s
-    duration: Math.random() * 4 + 6, // 6~10s
-  }));
+    size: Math.random() * 8 + 4,
+    left: Math.random() * 100,
+    delay: Math.random() * 5,
+    duration: Math.random() * 4 + 6,
+  })));
+
+  if (!mounted) return null;
 
   return (
     <div className={`fixed inset-0 pointer-events-none overflow-hidden ${className}`}>

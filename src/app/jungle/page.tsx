@@ -30,7 +30,7 @@ function JungleContent() {
   const [showCTA, setShowCTA] = useState(false);
   const [selectedSpawned, setSelectedSpawned] = useState<SpawnedAnimal | null>(null);
   const [showZoneTitle, setShowZoneTitle] = useState(true);
-  const [startTime] = useState(Date.now());
+  const startTimeRef = useRef(Date.now());
   const [newAnimalsThisTrip, setNewAnimalsThisTrip] = useState(0);
   const [showMissionAlert, setShowMissionAlert] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -148,7 +148,7 @@ function JungleContent() {
 
   // 탐험 완료 (마지막 zone 끝)
   const handleCTAClick = () => {
-    const duration = Math.round((Date.now() - startTime) / 1000);
+    const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
     const stats = { ...storage.jungleStats };
     stats.total_explorations += 1;
     stats.furthest_km = Math.max(stats.furthest_km, currentDistance);
@@ -187,7 +187,7 @@ function JungleContent() {
 
   // 탐험 종료
   const handleEndTrip = () => {
-    const duration = Math.round((Date.now() - startTime) / 1000);
+    const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
     const stats = { ...storage.jungleStats };
     stats.total_explorations += 1;
     stats.furthest_km = Math.max(stats.furthest_km, currentDistance);
@@ -332,12 +332,19 @@ function JungleContent() {
         </div>
       )}
 
-      {/* 도감 바로가기 */}
-      <Link href="/collection">
-        <button className="fixed bottom-4 right-4 w-14 h-14 bg-white/80 rounded-full shadow-xl flex items-center justify-center text-2xl z-40 active:scale-95 transition-transform">
-          📖
-        </button>
-      </Link>
+      {/* 하단 버튼들 */}
+      <div className="fixed bottom-4 right-4 flex flex-col gap-2 z-40">
+        <Link href="/character">
+          <button className="w-14 h-14 bg-white/80 rounded-full shadow-xl flex items-center justify-center text-2xl active:scale-95 transition-transform">
+            🎨
+          </button>
+        </Link>
+        <Link href="/collection">
+          <button className="w-14 h-14 bg-white/80 rounded-full shadow-xl flex items-center justify-center text-2xl active:scale-95 transition-transform">
+            📖
+          </button>
+        </Link>
+      </div>
 
       {/* 탐험 종료 버튼 */}
       <button

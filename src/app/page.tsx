@@ -157,6 +157,13 @@ export default function HomePage() {
                 {selectedMode === 'ocean' ? '바다로 출발!' : (storage.character ? '정글로 출발!' : '탐험가 만들기!')}
               </button>
             </Link>
+            {selectedMode === 'jungle' && storage.character && (
+              <Link href="/character" className="w-full">
+                <button className="w-full min-h-12 bg-white/30 backdrop-blur-sm text-white font-bold text-lg rounded-2xl active:scale-95 transition-transform">
+                  캐릭터 수정하기
+                </button>
+              </Link>
+            )}
           </div>
         )}
 

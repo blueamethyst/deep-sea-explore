@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface SunBeamsProps {
   currentDistance: number;
@@ -8,24 +8,26 @@ interface SunBeamsProps {
 }
 
 export const SunBeams: React.FC<SunBeamsProps> = ({ currentDistance, className = '' }) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [beams] = useState(() => Array.from({ length: 5 }, (_, i) => ({
+    id: i,
+    width: Math.random() * 60 + 40,
+    right: i * 18 + Math.random() * 8,
+    opacityFactor: Math.random() * 0.3 + 0.2,
+    delay: i * 1.2,
+    duration: Math.random() * 2 + 8,
+    skew: Math.random() * 10 - 15,
+  })));
+
   // high_canopy(8-10km)과 parrot_world(10-12km)에서만 활성화
   const isActive = currentDistance >= 8 && currentDistance <= 12;
-
-  if (!isActive) return null;
+  if (!mounted || !isActive) return null;
 
   // parrot_world로 갈수록 더 밝아짐 (8km: 0.3, 12km: 0.7)
   const progress = (currentDistance - 8) / 4; // 0~1
   const baseOpacity = 0.3 + progress * 0.4;
-
-  const beams = Array.from({ length: 5 }, (_, i) => ({
-    id: i,
-    width: Math.random() * 60 + 40, // 40~100px
-    right: i * 18 + Math.random() * 8, // 우측에서 분산 배치
-    opacity: (Math.random() * 0.3 + 0.2) * baseOpacity, // 개별 투명도
-    delay: i * 1.2, // 순차 애니메이션
-    duration: Math.random() * 2 + 8, // 8~10s
-    skew: Math.random() * 10 - 15, // -15~-5도 (대각선)
-  }));
 
   // 거리 진행에 따른 골든 아워 색상
   const goldIntensity = Math.min(1, progress * 1.2);
@@ -44,7 +46,7 @@ export const SunBeams: React.FC<SunBeamsProps> = ({ currentDistance, className =
           style={{
             right: `${beam.right}%`,
             width: `${beam.width}px`,
-            opacity: beam.opacity,
+            opacity: beam.opacityFactor * baseOpacity,
             animationDelay: `${beam.delay}s`,
             animationDuration: `${beam.duration}s`,
             transform: `skewX(${beam.skew}deg)`,

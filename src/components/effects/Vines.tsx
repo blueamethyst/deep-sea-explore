@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface VinesProps {
   count?: number;
@@ -30,23 +30,30 @@ const generateVinePath = (height: number, sway: number): string => {
 };
 
 export const Vines: React.FC<VinesProps> = ({ count = 4, className = '' }) => {
-  const vines = Array.from({ length: count }, (_, i) => {
-    const height = Math.random() * 150 + 200; // 200~350 SVG 단위
-    const sway = Math.random() * 20 + 10; // 10~30px 곡선 정도
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [vines] = useState(() => Array.from({ length: count }, (_, i) => {
+    const height = Math.random() * 150 + 200;
+    const sway = Math.random() * 20 + 10;
 
     return {
       id: i,
-      left: (i / count) * 80 + Math.random() * 15 + 5, // 5~95% 분산
+      left: (i / count) * 80 + Math.random() * 15 + 5,
       height,
       sway,
-      strokeWidth: Math.random() * 2 + 2, // 2~4px
+      strokeWidth: Math.random() * 2 + 2,
       color: VINE_COLORS[Math.floor(Math.random() * VINE_COLORS.length)],
       path: generateVinePath(height, sway),
-      delay: Math.random() * 3, // 0~3s
-      duration: Math.random() * 3 + 5, // 5~8s
-      leafCount: Math.floor(Math.random() * 3) + 2, // 2~4개 잎
+      delay: Math.random() * 3,
+      duration: Math.random() * 3 + 5,
+      leafCount: Math.floor(Math.random() * 3) + 2,
+      // 잎 사이즈도 미리 계산
+      leafSizes: Array.from({ length: Math.floor(Math.random() * 3) + 2 }, () => Math.random() * 4 + 6),
     };
-  });
+  }));
+
+  if (!mounted) return null;
 
   return (
     <div className={`fixed inset-0 pointer-events-none overflow-hidden ${className}`}>
@@ -81,7 +88,7 @@ export const Vines: React.FC<VinesProps> = ({ count = 4, className = '' }) => {
               const t = (j + 1) / (vine.leafCount + 1);
               const leafY = vine.height * t;
               const leafX = 50 + (j % 2 === 0 ? 1 : -1) * vine.sway * 0.4;
-              const leafSize = Math.random() * 4 + 6; // 6~10
+              const leafSize = vine.leafSizes[j] ?? 8;
               const leafDir = j % 2 === 0 ? 1 : -1;
 
               return (

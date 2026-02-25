@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface FallingLeavesProps {
   count?: number;
@@ -25,7 +25,10 @@ const LEAF_COLORS = [
 ];
 
 export const FallingLeaves: React.FC<FallingLeavesProps> = ({ count = 8, className = '' }) => {
-  const leaves = Array.from({ length: count }, (_, i) => ({
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [leaves] = useState(() => Array.from({ length: count }, (_, i) => ({
     id: i,
     size: Math.random() * 15 + 10, // 10~25px
     left: Math.random() * 100, // 0~100%
@@ -35,7 +38,9 @@ export const FallingLeaves: React.FC<FallingLeavesProps> = ({ count = 8, classNa
     path: LEAF_PATHS[Math.floor(Math.random() * LEAF_PATHS.length)],
     swayAmount: Math.random() * 60 + 30, // 30~90px 좌우 흔들림
     rotateEnd: Math.random() * 360 + 180, // 회전 각도
-  }));
+  })));
+
+  if (!mounted) return null;
 
   return (
     <div className={`fixed inset-0 pointer-events-none overflow-hidden ${className}`}>

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface BioluminescenceProps {
   currentDepth: number;
@@ -13,20 +13,22 @@ export const Bioluminescence: React.FC<BioluminescenceProps> = ({
   count = 15,
   className = '',
 }) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [particles] = useState(() => Array.from({ length: count }, (_, i) => ({
+    id: i,
+    size: Math.random() * 3 + 2,
+    left: Math.random() * 100,
+    top: Math.random() * 100,
+    delay: Math.random() * 3,
+    duration: Math.random() * 2 + 2,
+    color: ['#4FC3F7', '#81C784', '#FFD54F', '#BA68C8'][Math.floor(Math.random() * 4)],
+  })));
+
   // 약광층(1000m) 이하에서만 활성화
   const isActive = currentDepth >= 1000;
-
-  if (!isActive) return null;
-
-  const particles = Array.from({ length: count }, (_, i) => ({
-    id: i,
-    size: Math.random() * 3 + 2, // 2~5px
-    left: Math.random() * 100, // 0~100%
-    top: Math.random() * 100, // 0~100%
-    delay: Math.random() * 3, // 0~3s
-    duration: Math.random() * 2 + 2, // 2~4s
-    color: ['#4FC3F7', '#81C784', '#FFD54F', '#BA68C8'][Math.floor(Math.random() * 4)],
-  }));
+  if (!mounted || !isActive) return null;
 
   return (
     <div className={`fixed inset-0 pointer-events-none overflow-hidden ${className}`}>

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface FirefliesProps {
   currentDistance: number;
@@ -10,27 +10,28 @@ interface FirefliesProps {
 const FIREFLY_COLORS = ['#FFEB3B', '#76FF03', '#FFC107', '#CDDC39', '#AEEA00', '#FFD600'];
 
 export const Fireflies: React.FC<FirefliesProps> = ({ currentDistance, className = '' }) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const [fireflies] = useState(() => Array.from({ length: 12 }, (_, i) => ({
+    id: i,
+    size: Math.random() * 3 + 3,
+    left: Math.random() * 90 + 5,
+    top: Math.random() * 80 + 10,
+    delay: Math.random() * 4,
+    floatDuration: Math.random() * 3 + 2,
+    driftDuration: Math.random() * 4 + 4,
+    color: FIREFLY_COLORS[Math.floor(Math.random() * FIREFLY_COLORS.length)],
+    driftX: Math.random() * 40 - 20,
+    driftY: Math.random() * 30 - 15,
+  })));
+
   // forest_floor(2-5km)과 understory(5-8km)에서만 활성화
   const isActive = currentDistance >= 2 && currentDistance <= 8;
+  if (!mounted || !isActive) return null;
 
-  if (!isActive) return null;
-
-  // 구역 중심(5km)에 가까울수록 밝고, 경계에서는 페이드
   const distFromCenter = Math.abs(currentDistance - 5);
   const opacity = Math.max(0, 1 - distFromCenter / 3.5);
-
-  const fireflies = Array.from({ length: 12 }, (_, i) => ({
-    id: i,
-    size: Math.random() * 3 + 3, // 3~6px
-    left: Math.random() * 90 + 5, // 5~95%
-    top: Math.random() * 80 + 10, // 10~90%
-    delay: Math.random() * 4, // 0~4s
-    floatDuration: Math.random() * 3 + 2, // 2~5s (깜박임)
-    driftDuration: Math.random() * 4 + 4, // 4~8s (떠다님)
-    color: FIREFLY_COLORS[Math.floor(Math.random() * FIREFLY_COLORS.length)],
-    driftX: Math.random() * 40 - 20, // -20~20px
-    driftY: Math.random() * 30 - 15, // -15~15px
-  }));
 
   return (
     <div
