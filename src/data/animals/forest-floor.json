@@ -19,8 +19,8 @@
     "animation_type": "climb",
     "svg_id": "sloth",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus_variegatus_-_three-toed_sloth.jpg/400px-Bradypus_variegatus_-_three-toed_sloth.jpg",
-    "photo_credit": "Wikipedia: Brown-throated sloth"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/400px-Bradypus.jpg",
+    "photo_credit": "Wikipedia: Three-toed Sloth"
   },
   {
     "id": "armadillo",
@@ -42,8 +42,8 @@
     "animation_type": "walk",
     "svg_id": "armadillo",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Nine-banded_Armadillo.jpg/400px-Nine-banded_Armadillo.jpg",
-    "photo_credit": "Wikipedia: Nine-banded armadillo"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Nine-banded_Armadillo_%28Dasypus_novemcinctus%29_%2837649606094%29.jpg/400px-Nine-banded_Armadillo_%28Dasypus_novemcinctus%29_%2837649606094%29.jpg",
+    "photo_credit": "Wikipedia: Nine-banded Armadillo"
   },
   {
     "id": "anteater",
@@ -65,8 +65,8 @@
     "animation_type": "walk",
     "svg_id": "anteater",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Myrmecophaga_tridactyla_-_Phoenix_Zoo.jpg/400px-Myrmecophaga_tridactyla_-_Phoenix_Zoo.jpg",
-    "photo_credit": "Wikipedia: Giant anteater"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Myresluger2.jpg/400px-Myresluger2.jpg",
+    "photo_credit": "Wikipedia: Giant Anteater"
   },
   {
     "id": "leaf_cutter_ant",
@@ -89,7 +89,7 @@
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atta_cephalotes-pjt.jpg/400px-Atta_cephalotes-pjt.jpg",
-    "photo_credit": "Wikipedia: Leafcutter ant"
+    "photo_credit": "Wikipedia: Leaf-cutter Ant"
   },
   {
     "id": "chameleon",
@@ -111,8 +111,8 @@
     "animation_type": "crawl",
     "svg_id": "chameleon",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Panther_chameleon_%28Furcifer_pardalis%29.jpg/400px-Panther_chameleon_%28Furcifer_pardalis%29.jpg",
-    "photo_credit": "Wikipedia: Panther chameleon"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg/400px-Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg",
+    "photo_credit": "Wikipedia: Panther Chameleon"
   },
   {
     "id": "kinkajou",
@@ -134,7 +134,7 @@
     "animation_type": "climb",
     "svg_id": "red_panda",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Potos_flavus_%28Linnaeus%2C_1766%29.jpg/400px-Potos_flavus_%28Linnaeus%2C_1766%29.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Potos_flavus_%288973438737%29.jpg/400px-Potos_flavus_%288973438737%29.jpg",
     "photo_credit": "Wikipedia: Kinkajou"
   },
   {
@@ -157,8 +157,8 @@
     "animation_type": "walk",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dasyprocta_leporina_2.jpg/400px-Dasyprocta_leporina_2.jpg",
-    "photo_credit": "Wikipedia: Red-rumped agouti"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Agouti_Tulum_Take_2.jpg/400px-Agouti_Tulum_Take_2.jpg",
+    "photo_credit": "Wikipedia: Agouti"
   },
   {
     "id": "pika",
@@ -180,8 +180,8 @@
     "animation_type": "hop",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pika_Ochotona_princeps.jpg/400px-Pika_Ochotona_princeps.jpg",
-    "photo_credit": "Wikipedia: American pika"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/American_pika_%28ochotona_princeps%29_with_a_mouthful_of_flowers.jpg/400px-American_pika_%28ochotona_princeps%29_with_a_mouthful_of_flowers.jpg",
+    "photo_credit": "Wikipedia: Pika"
   },
   {
     "id": "baby_ocelot",
@@ -203,8 +203,8 @@
     "animation_type": "walk",
     "svg_id": "red_panda",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Ocelot_%28Leopardus_pardalis%29.jpg/400px-Ocelot_%28Leopardus_pardalis%29.jpg",
-    "photo_credit": "Wikipedia: Ocelot"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/400px-016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "photo_credit": "Wikipedia: Baby Ocelot"
   },
   {
     "id": "tapir",
@@ -226,8 +226,8 @@
     "animation_type": "walk",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Tapirus_terrestris.jpg/400px-Tapirus_terrestris.jpg",
-    "photo_credit": "Wikipedia: South American tapir"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/South_American_tapir_%28Tapirus_terrestris%29.JPG/400px-South_American_tapir_%28Tapirus_terrestris%29.JPG",
+    "photo_credit": "Wikipedia: South American Tapir"
   },
   {
     "id": "coati",
@@ -249,8 +249,8 @@
     "animation_type": "walk",
     "svg_id": "red_panda",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nasua_nasua.jpg/400px-Nasua_nasua.jpg",
-    "photo_credit": "Wikipedia: South American coati"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg/400px-Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg",
+    "photo_credit": "Wikipedia: South American Coati"
   },
   {
     "id": "baby_capybara",
@@ -272,8 +272,8 @@
     "animation_type": "walk",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Capybara_baby.jpg/400px-Capybara_baby.jpg",
-    "photo_credit": "Wikipedia: Capybara"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg/400px-Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg",
+    "photo_credit": "Wikipedia: Baby Capybara"
   },
   {
     "id": "harmless_spider",
@@ -295,8 +295,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Phonognatha_graeffei.jpg/400px-Phonognatha_graeffei.jpg",
-    "photo_credit": "Wikipedia: Leaf curling spider"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/LeafCurlingSpider01.jpg/400px-LeafCurlingSpider01.jpg",
+    "photo_credit": "Wikipedia: Leaf Curling Spider"
   },
   {
     "id": "snail",
@@ -318,8 +318,8 @@
     "animation_type": "crawl",
     "svg_id": "tree_snail",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lissachatina_fulica_in_Timor-Leste.jpg/400px-Lissachatina_fulica_in_Timor-Leste.jpg",
-    "photo_credit": "Wikipedia: Giant African snail"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg/400px-Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg",
+    "photo_credit": "Wikipedia: Giant African Land Snail"
   },
   {
     "id": "firefly",
@@ -341,7 +341,7 @@
     "animation_type": "fly",
     "svg_id": "firefly",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Photinus_pyralis_Firefly.jpg/400px-Photinus_pyralis_Firefly.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/400px-Photuris_lucicrescens.jpg",
     "photo_credit": "Wikipedia: Firefly"
   },
   {
@@ -364,8 +364,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Erotylidae_-_Ellipticus_paranensis.jpg/400px-Erotylidae_-_Ellipticus_paranensis.jpg",
-    "photo_credit": "Wikipedia: Pleasing fungus beetle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Triplax_russica.jpg/400px-Triplax_russica.jpg",
+    "photo_credit": "Wikipedia: Pleasing Fungus Beetle"
   },
   {
     "id": "hercules_beetle",
@@ -387,8 +387,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dynastes_hercules_ecuatorianus_MHNT.jpg/400px-Dynastes_hercules_ecuatorianus_MHNT.jpg",
-    "photo_credit": "Wikipedia: Hercules beetle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dynastes_hercules_ecuatorianus_MHNT.jpg/400px-Dynastes_hercules_ecuatorianus_MHNT.jpg",
+    "photo_credit": "Wikipedia: Hercules Beetle"
   },
   {
     "id": "stag_beetle",
@@ -410,8 +410,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lucanus_cervus-male.jpg/400px-Lucanus_cervus-male.jpg",
-    "photo_credit": "Wikipedia: Stag beetle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Golden_stag_beetle.jpg/400px-Golden_stag_beetle.jpg",
+    "photo_credit": "Wikipedia: Stag Beetle"
   },
   {
     "id": "cute_centipede",
@@ -433,7 +433,7 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Spirobolus_marginatus.jpg/400px-Spirobolus_marginatus.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Millipede_collage.jpg/400px-Millipede_collage.jpg",
     "photo_credit": "Wikipedia: Millipede"
   },
   {
@@ -456,8 +456,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Paraponera_clavata.jpg/400px-Paraponera_clavata.jpg",
-    "photo_credit": "Wikipedia: Bullet ant"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paraponera_clavata.jpg/400px-Paraponera_clavata.jpg",
+    "photo_credit": "Wikipedia: Bullet Ant"
   },
   {
     "id": "moth",
@@ -479,8 +479,8 @@
     "animation_type": "fly",
     "svg_id": "morpho_butterfly",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Attacus_atlas_-_Townsville.jpg/400px-Attacus_atlas_-_Townsville.jpg",
-    "photo_credit": "Wikipedia: Atlas moth"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Attacus_atlas_qtl3.jpg/400px-Attacus_atlas_qtl3.jpg",
+    "photo_credit": "Wikipedia: Atlas Moth"
   },
   {
     "id": "earthworm",
@@ -502,8 +502,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lumbricus_terrestris.jpg/400px-Lumbricus_terrestris.jpg",
-    "photo_credit": "Wikipedia: Common earthworm"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Megascolides_australis_by_Bartholomew.png/400px-Megascolides_australis_by_Bartholomew.png",
+    "photo_credit": "Wikipedia: Giant Earthworm"
   },
   {
     "id": "toad",
@@ -525,8 +525,8 @@
     "animation_type": "hop",
     "svg_id": "tree_frog",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bufo_marinus_from_Australia.jpg/400px-Bufo_marinus_from_Australia.jpg",
-    "photo_credit": "Wikipedia: Cane toad"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Canetoadmale.jpg/400px-Canetoadmale.jpg",
+    "photo_credit": "Wikipedia: Cane Toad"
   },
   {
     "id": "salamander",
@@ -548,8 +548,8 @@
     "animation_type": "crawl",
     "svg_id": "chameleon",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Salamandra_salamandra_%28Marek_Szczepanek%29.jpg/400px-Salamandra_salamandra_%28Marek_Szczepanek%29.jpg",
-    "photo_credit": "Wikipedia: Fire salamander"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/400px-Salamandra_salamandra_MHNT_1.jpg",
+    "photo_credit": "Wikipedia: Fire Salamander"
   },
   {
     "id": "land_tortoise",
@@ -571,8 +571,8 @@
     "animation_type": "crawl",
     "svg_id": "tree_snail",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Chelonoidis_carbonarius_-_Red-footed_tortoise.jpg/400px-Chelonoidis_carbonarius_-_Red-footed_tortoise.jpg",
-    "photo_credit": "Wikipedia: Red-footed tortoise"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Geochelone_carbonaria_IMG_4978.jpg/400px-Geochelone_carbonaria_IMG_4978.jpg",
+    "photo_credit": "Wikipedia: Red-footed Tortoise"
   },
   {
     "id": "army_ant",
@@ -594,8 +594,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eciton_burchellii_army_ants.jpg/400px-Eciton_burchellii_army_ants.jpg",
-    "photo_credit": "Wikipedia: Eciton burchellii"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Safari_ants_tunnel.jpg/400px-Safari_ants_tunnel.jpg",
+    "photo_credit": "Wikipedia: Army Ant"
   },
   {
     "id": "hoatzin",
@@ -617,7 +617,7 @@
     "animation_type": "fly",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Opisthocomus_hoazin_-_Hoatzin.jpg/400px-Opisthocomus_hoazin_-_Hoatzin.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg/400px-Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg",
     "photo_credit": "Wikipedia: Hoatzin"
   },
   {
@@ -640,8 +640,8 @@
     "animation_type": "crawl",
     "svg_id": "iguana",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Basiliscus_plumifrons_-_Plumed_basilisk.jpg/400px-Basiliscus_plumifrons_-_Plumed_basilisk.jpg",
-    "photo_credit": "Wikipedia: Plumed basilisk"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Green_Basilisk%2C_Alajuela%2C_Costa_Rica.jpg/400px-Green_Basilisk%2C_Alajuela%2C_Costa_Rica.jpg",
+    "photo_credit": "Wikipedia: Green Basilisk"
   },
   {
     "id": "chipmunk",
@@ -663,8 +663,8 @@
     "animation_type": "hop",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eastern_Chipmunk.jpg/400px-Eastern_Chipmunk.jpg",
-    "photo_credit": "Wikipedia: Eastern chipmunk"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Chipmunk_with_stuffed_cheeks_in_Prospect_Park_%2805980%29.jpg/400px-Chipmunk_with_stuffed_cheeks_in_Prospect_Park_%2805980%29.jpg",
+    "photo_credit": "Wikipedia: Eastern Chipmunk"
   },
   {
     "id": "cute_tarantula",
@@ -686,7 +686,7 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Avicularia_avicularia.jpg/400px-Avicularia_avicularia.jpg",
-    "photo_credit": "Wikipedia: Pinktoe tarantula"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/AVICULARIA_AVICULARIA.JPG/400px-AVICULARIA_AVICULARIA.JPG",
+    "photo_credit": "Wikipedia: Pink Toe Tarantula"
   }
 ]

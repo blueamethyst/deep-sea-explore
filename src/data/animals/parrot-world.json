@@ -20,7 +20,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Yellow-crowned_Amazon_%28Amazona_ochrocephala%29_-Well_Place_Zoo-4c.jpg/400px-Yellow-crowned_Amazon_%28Amazona_ochrocephala%29_-Well_Place_Zoo-4c.jpg",
-    "photo_credit": "Wikipedia: Yellow-crowned amazon",
+    "photo_credit": "Wikipedia: Yellow-crowned Amazon",
     "is_rescue_target": true
   },
   {
@@ -67,8 +67,8 @@
     "animation_type": "fly",
     "svg_id": "parrot",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eclectus_roratus-20030511.jpg/400px-Eclectus_roratus-20030511.jpg",
-    "photo_credit": "Wikipedia: Eclectus parrot",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Eclectus_Parrot_%28Eclectus_roratus%29_-pair.jpg/400px-Eclectus_Parrot_%28Eclectus_roratus%29_-pair.jpg",
+    "photo_credit": "Wikipedia: Eclectus Parrot",
     "is_rescue_target": true
   },
   {
@@ -116,7 +116,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Southern_burrowing_owl_%28Athene_cunicularia_cunicularia%29_Colonia.jpg/400px-Southern_burrowing_owl_%28Athene_cunicularia_cunicularia%29_Colonia.jpg",
-    "photo_credit": "Wikipedia: Burrowing owl",
+    "photo_credit": "Wikipedia: Burrowing Owl",
     "is_rescue_target": true
   },
   {
@@ -140,7 +140,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/400px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
-    "photo_credit": "Wikipedia: Scarlet macaw"
+    "photo_credit": "Wikipedia: Scarlet Macaw"
   },
   {
     "id": "grey_parrot",
@@ -163,7 +163,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg/400px-Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
-    "photo_credit": "Wikipedia: Grey parrot"
+    "photo_credit": "Wikipedia: Grey Parrot"
   },
   {
     "id": "budgerigar",
@@ -232,7 +232,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG/400px-Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG",
-    "photo_credit": "Wikipedia: Hyacinth macaw"
+    "photo_credit": "Wikipedia: Hyacinth Macaw"
   },
   {
     "id": "eastern_rosella",
@@ -255,7 +255,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/400px-Platycercus_eximius_diemenensis_male.jpg",
-    "photo_credit": "Wikipedia: Eastern rosella"
+    "photo_credit": "Wikipedia: Eastern Rosella"
   },
   {
     "id": "sun_conure",
@@ -278,7 +278,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Aratinga_solstitialis_-captive-two-8a.jpg/400px-Aratinga_solstitialis_-captive-two-8a.jpg",
-    "photo_credit": "Wikipedia: Sun conure"
+    "photo_credit": "Wikipedia: Sun Conure"
   },
   {
     "id": "amazon_parrot",
@@ -301,7 +301,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Loro_guaro_%28Amazona_amazonica%29%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_180.jpg/400px-Loro_guaro_%28Amazona_amazonica%29%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_180.jpg",
-    "photo_credit": "Wikipedia: Orange-winged amazon"
+    "photo_credit": "Wikipedia: Orange-winged Amazon"
   },
   {
     "id": "rainbow_lorikeet",
@@ -324,7 +324,7 @@
     "svg_id": "parrot",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/400px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg",
-    "photo_credit": "Wikipedia: Rainbow lorikeet"
+    "photo_credit": "Wikipedia: Rainbow Lorikeet"
   },
   {
     "id": "king_parrot",
@@ -346,7 +346,7 @@
     "animation_type": "fly",
     "svg_id": "parrot",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Alisterus_scapularis_-_Australian_King_Parrot_pair.jpg/400px-Alisterus_scapularis_-_Australian_King_Parrot_pair.jpg",
-    "photo_credit": "Wikipedia: Australian king-parrot"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Australian_King_Parrot_male_4737.jpg/400px-Australian_King_Parrot_male_4737.jpg",
+    "photo_credit": "Wikipedia: Australian King-Parrot"
   }
 ]

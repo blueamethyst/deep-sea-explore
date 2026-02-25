@@ -86,23 +86,36 @@ function JungleContent() {
     return () => clearTimeout(timer);
   }, [currentZoneIndex]);
 
-  // 스크롤 감지 → 거리 계산
+  // 스크롤 감지 → 거리/zone 자동 계산
+  const zoneIndexRef = useRef(0);
   const handleScroll = useCallback(() => {
     const container = containerRef.current;
     if (!container) return;
 
     const scrollTop = container.scrollTop;
     const scrollHeight = container.scrollHeight - container.clientHeight;
+    if (scrollHeight === 0) return;
     const zoneHeight = scrollHeight / JUNGLE_ZONES.length;
-    const zoneStart = currentZoneIndex * zoneHeight;
-    const zoneScrollPosition = scrollTop - zoneStart;
-    const zoneProgress = Math.max(0, Math.min(1, zoneScrollPosition / zoneHeight));
 
-    const distance = currentZone.distance_min + (currentZone.distance_max - currentZone.distance_min) * zoneProgress;
+    // 스크롤 위치에 따라 zone 자동 결정
+    const rawZoneIndex = Math.floor(scrollTop / zoneHeight);
+    const zoneIndex = Math.min(rawZoneIndex, JUNGLE_ZONES.length - 1);
+
+    if (zoneIndex !== zoneIndexRef.current) {
+      zoneIndexRef.current = zoneIndex;
+      setCurrentZoneIndex(zoneIndex);
+    }
+
+    const zone = JUNGLE_ZONES[zoneIndex];
+    const zoneStart = zoneIndex * zoneHeight;
+    const zoneProgress = Math.max(0, Math.min(1, (scrollTop - zoneStart) / zoneHeight));
+
+    const distance = zone.distance_min + (zone.distance_max - zone.distance_min) * zoneProgress;
     setCurrentDistance(Math.round(distance * 10) / 10);
 
-    setShowCTA(zoneProgress >= JUNGLE_ZONE_CTA_THRESHOLD);
-  }, [currentZoneIndex, currentZone]);
+    const isLast = zoneIndex === JUNGLE_ZONES.length - 1;
+    setShowCTA(isLast ? zoneProgress >= JUNGLE_ZONE_CTA_THRESHOLD : false);
+  }, []);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -133,32 +146,19 @@ function JungleContent() {
     }
   }, [storage.jungleCollected, storage.jungleMission.rescued]);
 
-  // 다음 존으로 이동
+  // 탐험 완료 (마지막 zone 끝)
   const handleCTAClick = () => {
-    if (isLastZone) {
-      const duration = Math.round((Date.now() - startTime) / 1000);
-      const stats = { ...storage.jungleStats };
-      stats.total_explorations += 1;
-      stats.furthest_km = Math.max(stats.furthest_km, currentDistance);
-      const newStorage = { ...storage, jungleStats: stats };
-      saveStorage(newStorage);
+    const duration = Math.round((Date.now() - startTime) / 1000);
+    const stats = { ...storage.jungleStats };
+    stats.total_explorations += 1;
+    stats.furthest_km = Math.max(stats.furthest_km, currentDistance);
+    const newStorage = { ...storage, jungleStats: stats };
+    saveStorage(newStorage);
 
-      if (storage.jungleMission.rescued.length >= 5) {
-        router.push('/jungle/complete');
-      } else {
-        router.push(`/jungle/complete?distance=${currentDistance}&new=${newAnimalsThisTrip}&duration=${duration}`);
-      }
+    if (storage.jungleMission.rescued.length >= 5) {
+      router.push('/jungle/complete');
     } else {
-      const nextIndex = currentZoneIndex + 1;
-      setCurrentZoneIndex(nextIndex);
-      setShowCTA(false);
-
-      const container = containerRef.current;
-      if (container) {
-        const scrollHeight = container.scrollHeight - container.clientHeight;
-        const zoneHeight = scrollHeight / JUNGLE_ZONES.length;
-        container.scrollTo({ top: nextIndex * zoneHeight, behavior: 'smooth' });
-      }
+      router.push(`/jungle/complete?distance=${currentDistance}&new=${newAnimalsThisTrip}&duration=${duration}`);
     }
   };
 
@@ -353,7 +353,7 @@ function JungleContent() {
           onClick={handleCTAClick}
           className="fixed bottom-16 left-1/2 -translate-x-1/2 min-w-56 min-h-14 bg-yellow-400 text-green-900 font-bold text-xl rounded-3xl shadow-2xl animate-bounce z-30 active:scale-95 transition-transform"
         >
-          {isLastZone ? '탐험 완료!' : '더 높이 올라가자! ⬆️'}
+          탐험 완료!
         </button>
       )}
 

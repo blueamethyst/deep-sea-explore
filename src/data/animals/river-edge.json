@@ -19,8 +19,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paracheirodon_innesi_-_Neon_tetra.jpg/400px-Paracheirodon_innesi_-_Neon_tetra.jpg",
-    "photo_credit": "Wikipedia: Neon tetra"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Neonsalmler_Paracheirodon_innesi.jpg/400px-Neonsalmler_Paracheirodon_innesi.jpg",
+    "photo_credit": "Wikipedia: Neon Tetra"
   },
   {
     "id": "capybara",
@@ -42,7 +42,7 @@
     "animation_type": "walk",
     "svg_id": "capybara",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Capybara_%28Hydrochoerus_hydrochaeris%29.JPG/400px-Capybara_%28Hydrochoerus_hydrochaeris%29.JPG",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/046_Capybara_by_the_river_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/400px-046_Capybara_by_the_river_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
     "photo_credit": "Wikipedia: Capybara"
   },
   {
@@ -65,8 +65,8 @@
     "animation_type": "hop",
     "svg_id": "tree_frog",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/European_tree_frog_%28Hyla_arborea%29.jpg/400px-European_tree_frog_%28Hyla_arborea%29.jpg",
-    "photo_credit": "Wikipedia: European tree frog"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Laubfrosch_cropped.jpg/400px-Laubfrosch_cropped.jpg",
+    "photo_credit": "Wikipedia: Tree Frog"
   },
   {
     "id": "morpho_butterfly",
@@ -88,8 +88,8 @@
     "animation_type": "fly",
     "svg_id": "morpho_butterfly",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Morpho_menelaus_huebneri_MHNT_Male.jpg/400px-Morpho_menelaus_huebneri_MHNT_Male.jpg",
-    "photo_credit": "Wikipedia: Morpho menelaus"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Morpho_menelaus_huebneri_MHNT_Male_Dos.jpg/400px-Morpho_menelaus_huebneri_MHNT_Male_Dos.jpg",
+    "photo_credit": "Wikipedia: Blue Morpho Butterfly"
   },
   {
     "id": "giant_otter",
@@ -111,8 +111,8 @@
     "animation_type": "walk",
     "svg_id": "otter",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pteronura_brasiliensis.jpg/400px-Pteronura_brasiliensis.jpg",
-    "photo_credit": "Wikipedia: Giant otter"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Giant_otters_%28Pteronura_brasiliensis%29.jpg/400px-Giant_otters_%28Pteronura_brasiliensis%29.jpg",
+    "photo_credit": "Wikipedia: Giant Otter"
   },
   {
     "id": "green_iguana",
@@ -134,8 +134,8 @@
     "animation_type": "crawl",
     "svg_id": "iguana",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Green_iguana_BW.jpg/400px-Green_iguana_BW.jpg",
-    "photo_credit": "Wikipedia: Green iguana"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/400px-Iguana_iguana_%28male_resting%29.jpg",
+    "photo_credit": "Wikipedia: Green Iguana"
   },
   {
     "id": "piranha",
@@ -157,8 +157,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/sixty/Red-bellied_piranha.jpg/400px-Red-bellied_piranha.jpg",
-    "photo_credit": "Wikipedia: Red-bellied piranha"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/400px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "photo_credit": "Wikipedia: Red-bellied Piranha"
   },
   {
     "id": "pink_river_dolphin",
@@ -180,8 +180,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Inia_geoffrensis.jpg/400px-Inia_geoffrensis.jpg",
-    "photo_credit": "Wikipedia: Amazon river dolphin"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Amazonas-Flussdelfin_Orinoko3.jpg/400px-Amazonas-Flussdelfin_Orinoko3.jpg",
+    "photo_credit": "Wikipedia: Amazon River Dolphin"
   },
   {
     "id": "baby_caiman",
@@ -203,8 +203,8 @@
     "animation_type": "crawl",
     "svg_id": "iguana",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Caiman_crocodilus_llanos.jpg/400px-Caiman_crocodilus_llanos.jpg",
-    "photo_credit": "Wikipedia: Spectacled caiman"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Caiman_crocodilus_llanos.JPG/400px-Caiman_crocodilus_llanos.JPG",
+    "photo_credit": "Wikipedia: Baby Caiman"
   },
   {
     "id": "river_turtle",
@@ -226,8 +226,8 @@
     "animation_type": "crawl",
     "svg_id": "tree_snail",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Podocnemis_unifilis_-_Parque_Dois_Irm%C3%A3os%2C_Recife%2C_Pernambuco%2C_Brazil.jpg/400px-Podocnemis_unifilis_-_Parque_Dois_Irm%C3%A3os%2C_Recife%2C_Pernambuco%2C_Brazil.jpg",
-    "photo_credit": "Wikipedia: Yellow-spotted river turtle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Podocnemis_unifilis_in_Zoo_Krefeld_%282%29.JPG/400px-Podocnemis_unifilis_in_Zoo_Krefeld_%282%29.JPG",
+    "photo_credit": "Wikipedia: Yellow-spotted River Turtle"
   },
   {
     "id": "crayfish",
@@ -249,8 +249,8 @@
     "animation_type": "crawl",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Procambarus_clarkii.jpg/400px-Procambarus_clarkii.jpg",
-    "photo_credit": "Wikipedia: Procambarus clarkii"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paranephrops.jpg/400px-Paranephrops.jpg",
+    "photo_credit": "Wikipedia: Crayfish"
   },
   {
     "id": "dragonfly",
@@ -272,8 +272,8 @@
     "animation_type": "fly",
     "svg_id": "firefly",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Anax_imperator_male.jpg/400px-Anax_imperator_male.jpg",
-    "photo_credit": "Wikipedia: Emperor dragonfly"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Gemeine_Heidelibelle_%28Sympetrum_vulgatum%29_4.jpg/400px-Gemeine_Heidelibelle_%28Sympetrum_vulgatum%29_4.jpg",
+    "photo_credit": "Wikipedia: Dragonfly"
   },
   {
     "id": "kingfisher",
@@ -295,8 +295,8 @@
     "animation_type": "fly",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Alcedo_atthis_2.jpg/400px-Alcedo_atthis_2.jpg",
-    "photo_credit": "Wikipedia: Common kingfisher"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Alcedo_azurea_-_Julatten.jpg/400px-Alcedo_azurea_-_Julatten.jpg",
+    "photo_credit": "Wikipedia: Kingfisher"
   },
   {
     "id": "grey_heron",
@@ -318,8 +318,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ardea_cinerea_-_Grey_Heron.jpg/400px-Ardea_cinerea_-_Grey_Heron.jpg",
-    "photo_credit": "Wikipedia: Grey heron"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Grey_Heron_%2854990114762%29_%28cropped%29.jpg/400px-Grey_Heron_%2854990114762%29_%28cropped%29.jpg",
+    "photo_credit": "Wikipedia: Grey Heron"
   },
   {
     "id": "red_eyed_tree_frog",
@@ -341,8 +341,8 @@
     "animation_type": "hop",
     "svg_id": "tree_frog",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Agalychnis_callidryas_%28red-eyed_tree_frog%29.jpg/400px-Agalychnis_callidryas_%28red-eyed_tree_frog%29.jpg",
-    "photo_credit": "Wikipedia: Red-eyed tree frog"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Red-eyed_Tree_Frog_%28Agalychnis_callidryas%29_1.png/400px-Red-eyed_Tree_Frog_%28Agalychnis_callidryas%29_1.png",
+    "photo_credit": "Wikipedia: Red-eyed Tree Frog"
   },
   {
     "id": "poison_dart_frog",
@@ -364,8 +364,8 @@
     "animation_type": "hop",
     "svg_id": "tree_frog",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dendrobates_tinctorius_-_Okopipi.jpg/400px-Dendrobates_tinctorius_-_Okopipi.jpg",
-    "photo_credit": "Wikipedia: Dyeing dart frog"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg/400px-Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg",
+    "photo_credit": "Wikipedia: Poison Dart Frog"
   },
   {
     "id": "discus_fish",
@@ -387,8 +387,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Discus_fish.jpg/400px-Discus_fish.jpg",
-    "photo_credit": "Wikipedia: Discus (fish)"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Discus_heckel.jpg/400px-Discus_heckel.jpg",
+    "photo_credit": "Wikipedia: Discus Fish"
   },
   {
     "id": "angelfish",
@@ -410,8 +410,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Pterophyllum_scalare_-_freshwater_angelfish.jpg/400px-Pterophyllum_scalare_-_freshwater_angelfish.jpg",
-    "photo_credit": "Wikipedia: Freshwater angelfish"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/20110527_Sea_Life_Blankenberge_%286%29.jpg/400px-20110527_Sea_Life_Blankenberge_%286%29.jpg",
+    "photo_credit": "Wikipedia: Freshwater Angelfish"
   },
   {
     "id": "arapaima",
@@ -433,7 +433,7 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Arapaima_gigas_at_Houston_Zoo.jpg/400px-Arapaima_gigas_at_Houston_Zoo.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG/400px-Arapaima_gigas_at_Beijing_aquarium.JPG",
     "photo_credit": "Wikipedia: Arapaima"
   },
   {
@@ -456,8 +456,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Paracheirodon_axelrodi.jpg/400px-Paracheirodon_axelrodi.jpg",
-    "photo_credit": "Wikipedia: Cardinal tetra"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Cardinal_Paracheirodon_axelrodi_%283%29.jpg/400px-Cardinal_Paracheirodon_axelrodi_%283%29.jpg",
+    "photo_credit": "Wikipedia: Cardinal Tetra"
   },
   {
     "id": "guppy",
@@ -479,7 +479,7 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Guppy_coppia_gialla.jpg/400px-Guppy_coppia_gialla.jpg",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Guppy_pho_0048.jpg/400px-Guppy_pho_0048.jpg",
     "photo_credit": "Wikipedia: Guppy"
   },
   {
@@ -502,8 +502,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Betta_splendens_swimming.jpg/400px-Betta_splendens_swimming.jpg",
-    "photo_credit": "Wikipedia: Siamese fighting fish"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HM_Orange_M_Sarawut.jpg/400px-HM_Orange_M_Sarawut.jpg",
+    "photo_credit": "Wikipedia: Betta Fish"
   },
   {
     "id": "arowana",
@@ -525,8 +525,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Osteoglossum_bicirrhosum.jpg/400px-Osteoglossum_bicirrhosum.jpg",
-    "photo_credit": "Wikipedia: Silver arowana"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Osteoglossum_bicirrhosum.JPG/400px-Osteoglossum_bicirrhosum.JPG",
+    "photo_credit": "Wikipedia: Silver Arowana"
   },
   {
     "id": "damselfly",
@@ -548,8 +548,8 @@
     "animation_type": "fly",
     "svg_id": "firefly",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Beautiful_Demoiselle_%28Calopteryx_virgo%29.jpg/400px-Beautiful_Demoiselle_%28Calopteryx_virgo%29.jpg",
-    "photo_credit": "Wikipedia: Beautiful demoiselle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Beautiful_demoiselle_%28Calopteryx_virgo%29_male_3.jpg/400px-Beautiful_demoiselle_%28Calopteryx_virgo%29_male_3.jpg",
+    "photo_credit": "Wikipedia: Damselfly"
   },
   {
     "id": "water_lily_frog",
@@ -571,8 +571,8 @@
     "animation_type": "hop",
     "svg_id": "tree_frog",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hypsiboas_punctatus.jpg/400px-Hypsiboas_punctatus.jpg",
-    "photo_credit": "Wikipedia: Hypsiboas punctatus"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Hypsiboas_punctatus_Peru_02.JPG/400px-Hypsiboas_punctatus_Peru_02.JPG",
+    "photo_credit": "Wikipedia: Water Lily Frog"
   },
   {
     "id": "river_snail",
@@ -594,8 +594,8 @@
     "animation_type": "crawl",
     "svg_id": "tree_snail",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pomacea_canaliculata.jpg/400px-Pomacea_canaliculata.jpg",
-    "photo_credit": "Wikipedia: Golden apple snail"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pomacea_canaliculata1.jpg/400px-Pomacea_canaliculata1.jpg",
+    "photo_credit": "Wikipedia: River Snail"
   },
   {
     "id": "diving_beetle",
@@ -617,8 +617,8 @@
     "animation_type": "crawl",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dytiscus_marginalis.jpg/400px-Dytiscus_marginalis.jpg",
-    "photo_credit": "Wikipedia: Great diving beetle"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Cybister_lateralimarginalis_%28Dytiscidae%29_-_%28imago%29%2C_Berkenwoude%2C_the_Netherlands.jpg/400px-Cybister_lateralimarginalis_%28Dytiscidae%29_-_%28imago%29%2C_Berkenwoude%2C_the_Netherlands.jpg",
+    "photo_credit": "Wikipedia: Diving Beetle"
   },
   {
     "id": "water_strider",
@@ -640,8 +640,8 @@
     "animation_type": "walk",
     "svg_id": "leaf_cutter_ant",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gerris_lacustris.jpg/400px-Gerris_lacustris.jpg",
-    "photo_credit": "Wikipedia: Common pond skater"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Water_strider_%28Gerridae_sp%29.jpg/400px-Water_strider_%28Gerridae_sp%29.jpg",
+    "photo_credit": "Wikipedia: Water Strider"
   },
   {
     "id": "freshwater_crab",
@@ -663,8 +663,8 @@
     "animation_type": "crawl",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Potamon_fluviatile.jpg/400px-Potamon_fluviatile.jpg",
-    "photo_credit": "Wikipedia: Potamon fluviatile"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Potamon_fluviatile02.jpg/400px-Potamon_fluviatile02.jpg",
+    "photo_credit": "Wikipedia: Freshwater Crab"
   },
   {
     "id": "freshwater_shrimp",
@@ -686,8 +686,8 @@
     "animation_type": "crawl",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Macrobrachium_rosenbergii.jpg/400px-Macrobrachium_rosenbergii.jpg",
-    "photo_credit": "Wikipedia: Giant river prawn"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Macrobrachium_rosenbergii.jpg/400px-Macrobrachium_rosenbergii.jpg",
+    "photo_credit": "Wikipedia: Freshwater Shrimp"
   },
   {
     "id": "jacana",
@@ -709,8 +709,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Jacana_jacana.jpg/400px-Jacana_jacana.jpg",
-    "photo_credit": "Wikipedia: Wattled jacana"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wattled_jacana_%28Jacana_jacana_intermedia%29_Rio_Napo.jpg/400px-Wattled_jacana_%28Jacana_jacana_intermedia%29_Rio_Napo.jpg",
+    "photo_credit": "Wikipedia: Jacana"
   },
   {
     "id": "magpie",
@@ -732,8 +732,8 @@
     "animation_type": "fly",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Azure-winged_Magpie.jpg/400px-Azure-winged_Magpie.jpg",
-    "photo_credit": "Wikipedia: Azure-winged magpie"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2011_Blauelster_in_Shanghai.jpg/400px-2011_Blauelster_in_Shanghai.jpg",
+    "photo_credit": "Wikipedia: Azure-winged Magpie"
   },
   {
     "id": "egret",
@@ -755,8 +755,8 @@
     "animation_type": "walk",
     "svg_id": "generic_bird",
     "source": "Wikipedia",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ardea_alba_-_Pak_Thale.jpg/400px-Ardea_alba_-_Pak_Thale.jpg",
-    "photo_credit": "Wikipedia: Great egret"
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Great_Egret_%28Ardea_alba%29_in_Breeding_Plumage%2C_Cape_May_County%2C_New_Jersey%2C_USA_%28cropped%29.png/400px-Great_Egret_%28Ardea_alba%29_in_Breeding_Plumage%2C_Cape_May_County%2C_New_Jersey%2C_USA_%28cropped%29.png",
+    "photo_credit": "Wikipedia: Great Egret"
   },
   {
     "id": "duck",
@@ -779,7 +779,7 @@
     "svg_id": "generic_bird",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Anas_platyrhynchos_male_female_quadrat.jpg/400px-Anas_platyrhynchos_male_female_quadrat.jpg",
-    "photo_credit": "Wikipedia: Mallard"
+    "photo_credit": "Wikipedia: Mallard Duck"
   },
   {
     "id": "beaver",
@@ -802,6 +802,6 @@
     "svg_id": "capybara",
     "source": "Wikipedia",
     "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/400px-American_Beaver.jpg",
-    "photo_credit": "Wikipedia: North American beaver"
+    "photo_credit": "Wikipedia: Beaver"
   }
 ]
