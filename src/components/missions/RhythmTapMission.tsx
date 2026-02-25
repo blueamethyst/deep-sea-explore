@@ -40,6 +40,11 @@ export default function RhythmTapMission({ onComplete, onClose }: Props) {
   const spawnedRef = useRef(0);
   const completedRef = useRef(false);
   const rippleIdRef = useRef(0);
+  const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+
+  useEffect(() => {
+    return () => { timersRef.current.forEach(clearTimeout); };
+  }, []);
 
   notesRef.current = notes;
   hitsRef.current = hits;
@@ -126,11 +131,11 @@ export default function RhythmTapMission({ onComplete, onClose }: Props) {
 
       const rid = rippleIdRef.current++;
       setRipples((prev) => [...prev, { id: rid, x: closest.x }]);
-      setTimeout(() => setRipples((prev) => prev.filter((r) => r.id !== rid)), 600);
+      timersRef.current.push(setTimeout(() => setRipples((prev) => prev.filter((r) => r.id !== rid)), 600));
 
       if (newHits >= REQUIRED_HITS) {
         setCompleted(true);
-        setTimeout(() => onComplete(), 2000);
+        timersRef.current.push(setTimeout(() => onComplete(), 2000));
       }
     }
   }, [onComplete]);

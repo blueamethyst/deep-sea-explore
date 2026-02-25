@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 
 interface Props {
   onComplete: () => void;
@@ -61,6 +61,14 @@ export default function MatchPairMission({ onComplete, onClose }: Props) {
   const [completed, setCompleted] = useState(false);
   const [checking, setChecking] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const completeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      if (completeTimerRef.current) clearTimeout(completeTimerRef.current);
+    };
+  }, []);
 
   const handleCardTap = useCallback(
     (cardId: number) => {
@@ -99,7 +107,7 @@ export default function MatchPairMission({ onComplete, onClose }: Props) {
 
             if (newPairs >= 4) {
               setCompleted(true);
-              setTimeout(() => onComplete(), 2000);
+              completeTimerRef.current = setTimeout(() => onComplete(), 2000);
             }
           }, 600);
         } else {

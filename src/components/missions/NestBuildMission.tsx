@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 
 interface Props {
   onComplete: () => void;
@@ -52,6 +52,11 @@ export default function NestBuildMission({ onComplete, onClose }: Props) {
     offsetY: number;
   } | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const completeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => { if (completeTimerRef.current) clearTimeout(completeTimerRef.current); };
+  }, []);
 
   const getEventPos = (e: React.TouchEvent | React.MouseEvent) => {
     if ('touches' in e && e.touches.length > 0) {
@@ -139,7 +144,7 @@ export default function NestBuildMission({ onComplete, onClose }: Props) {
 
         if (newCount >= 5) {
           setCompleted(true);
-          setTimeout(() => onComplete(), 2200);
+          completeTimerRef.current = setTimeout(() => onComplete(), 2200);
         }
 
         return prev.map((s) =>

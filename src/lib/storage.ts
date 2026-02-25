@@ -30,6 +30,9 @@ const migrations: Record<number, (data: unknown) => unknown> = {
  * localStorage에서 데이터를 읽고 마이그레이션 수행
  */
 export function loadStorage(): StorageSchema {
+  if (typeof window === 'undefined') {
+    return structuredClone(DEFAULT_STORAGE);
+  }
   try {
     // 1. localStorage에서 읽기
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -89,6 +92,7 @@ export function loadStorage(): StorageSchema {
  * localStorage에 데이터 저장
  */
 export function saveStorage(data: StorageSchema): void {
+  if (typeof window === 'undefined') return;
   try {
     const serialized = JSON.stringify(data);
     localStorage.setItem(STORAGE_KEY, serialized);
@@ -102,6 +106,7 @@ export function saveStorage(data: StorageSchema): void {
  * 저장소 초기화 (백업 후)
  */
 export function resetStorage(): void {
+  if (typeof window === 'undefined') return;
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
 

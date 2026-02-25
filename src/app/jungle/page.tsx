@@ -34,6 +34,8 @@ function JungleContent() {
   const [newAnimalsThisTrip, setNewAnimalsThisTrip] = useState(0);
   const [showMissionAlert, setShowMissionAlert] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const storageRef = useRef(storage);
+  storageRef.current = storage;
 
   const currentZone = JUNGLE_ZONES[currentZoneIndex];
   const isLastZone = currentZoneIndex === JUNGLE_ZONES.length - 1;
@@ -124,16 +126,17 @@ function JungleContent() {
     return () => container.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
-  // 앵무새 구출 조건 체크
+  // 앵무새 구출 조건 체크 (storageRef로 최신 상태 참조)
   const checkRescueMission = useCallback(() => {
-    const totalCollected = Object.keys(storage.jungleCollected).length;
+    const s = storageRef.current;
+    const totalCollected = Object.keys(s.jungleCollected).length;
     for (const parrot of RESCUE_PARROTS) {
-      if (storage.jungleMission.rescued.includes(parrot.id)) continue;
+      if (s.jungleMission.rescued.includes(parrot.id)) continue;
 
       let canRescue = false;
       if (parrot.requiredZone && parrot.requiredZoneCount) {
         const zoneAnimals = allAnimals.filter(a => a.zone === parrot.requiredZone);
-        const zoneCollected = zoneAnimals.filter(a => a.id in storage.jungleCollected).length;
+        const zoneCollected = zoneAnimals.filter(a => a.id in s.jungleCollected).length;
         canRescue = zoneCollected >= parrot.requiredZoneCount;
       } else if (parrot.requiredTotalCount) {
         canRescue = totalCollected >= parrot.requiredTotalCount;
@@ -144,7 +147,7 @@ function JungleContent() {
         return;
       }
     }
-  }, [storage.jungleCollected, storage.jungleMission.rescued]);
+  }, []);
 
   // 탐험 완료 (마지막 zone 끝)
   const handleCTAClick = () => {
@@ -213,6 +216,8 @@ function JungleContent() {
     setStorage(newStorage);
     saveStorage(newStorage);
     setShowMissionAlert(null);
+    // 다음 구출 가능한 앵무새 체크
+    setTimeout(() => checkRescueMission(), 200);
   };
 
   const character = storage.character;

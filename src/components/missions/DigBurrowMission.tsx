@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 
 interface Props {
   onComplete: () => void;
@@ -27,6 +27,11 @@ export default function DigBurrowMission({ onComplete, onClose }: Props) {
   const [shaking, setShaking] = useState(false);
   const particleIdRef = useRef(0);
   const completedRef = useRef(false);
+  const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+
+  useEffect(() => {
+    return () => { timersRef.current.forEach(clearTimeout); };
+  }, []);
 
   const spawnParticles = useCallback((tapX: number, tapY: number) => {
     const count = 5 + Math.floor(Math.random() * 4);
@@ -47,9 +52,10 @@ export default function DigBurrowMission({ onComplete, onClose }: Props) {
     setParticles((prev) => [...prev, ...newParticles]);
 
     // Clean up particles after animation
-    setTimeout(() => {
+    const t = setTimeout(() => {
       setParticles((prev) => prev.filter((p) => !newParticles.find((np) => np.id === p.id)));
     }, 800);
+    timersRef.current.push(t);
   }, []);
 
   const handleTap = useCallback(
@@ -64,7 +70,7 @@ export default function DigBurrowMission({ onComplete, onClose }: Props) {
 
       // Screen shake
       setShaking(true);
-      setTimeout(() => setShaking(false), 100);
+      timersRef.current.push(setTimeout(() => setShaking(false), 100));
 
       // Spawn dirt particles at tap location
       let clientX: number, clientY: number;
@@ -84,7 +90,7 @@ export default function DigBurrowMission({ onComplete, onClose }: Props) {
       if (newProgress >= 100 && !completedRef.current) {
         completedRef.current = true;
         setCompleted(true);
-        setTimeout(() => onComplete(), 2200);
+        timersRef.current.push(setTimeout(() => onComplete(), 2200));
       }
     },
     [progress, onComplete, spawnParticles]

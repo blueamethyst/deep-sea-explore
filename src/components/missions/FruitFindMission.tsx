@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 
 interface Props {
   onComplete: () => void;
@@ -59,6 +59,11 @@ export default function FruitFindMission({ onComplete, onClose }: Props) {
   const [foundCount, setFoundCount] = useState(0);
   const [completed, setCompleted] = useState(false);
   const [shakeId, setShakeId] = useState<number | null>(null);
+  const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+
+  useEffect(() => {
+    return () => { timersRef.current.forEach(clearTimeout); };
+  }, []);
 
   const handleTap = useCallback(
     (id: number) => {
@@ -75,11 +80,11 @@ export default function FruitFindMission({ onComplete, onClose }: Props) {
           setFoundCount(newCount);
           if (newCount >= 3) {
             setCompleted(true);
-            setTimeout(() => onComplete(), 2000);
+            timersRef.current.push(setTimeout(() => onComplete(), 2000));
           }
         } else {
           setShakeId(id);
-          setTimeout(() => setShakeId(null), 400);
+          timersRef.current.push(setTimeout(() => setShakeId(null), 400));
         }
 
         return next;
