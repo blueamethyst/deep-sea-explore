@@ -34,8 +34,6 @@ function JungleContent() {
   const [newAnimalsThisTrip, setNewAnimalsThisTrip] = useState(0);
   const [showMissionAlert, setShowMissionAlert] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const storageRef = useRef(storage);
-  storageRef.current = storage;
 
   const currentZone = JUNGLE_ZONES[currentZoneIndex];
   const isLastZone = currentZoneIndex === JUNGLE_ZONES.length - 1;
@@ -126,17 +124,19 @@ function JungleContent() {
     return () => container.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
-  // 앵무새 구출 조건 체크 (storageRef로 최신 상태 참조)
-  const checkRescueMission = useCallback(() => {
-    const s = storageRef.current;
-    const totalCollected = Object.keys(s.jungleCollected).length;
+  // 앵무새 구출 조건을 storage 변경 시 자동 체크 (useEffect로 최신 상태 보장)
+  useEffect(() => {
+    // 이미 알림이 표시 중이면 스킵
+    if (showMissionAlert) return;
+
+    const totalCollected = Object.keys(storage.jungleCollected).length;
     for (const parrot of RESCUE_PARROTS) {
-      if (s.jungleMission.rescued.includes(parrot.id)) continue;
+      if (storage.jungleMission.rescued.includes(parrot.id)) continue;
 
       let canRescue = false;
       if (parrot.requiredZone && parrot.requiredZoneCount) {
         const zoneAnimals = allAnimals.filter(a => a.zone === parrot.requiredZone);
-        const zoneCollected = zoneAnimals.filter(a => a.id in s.jungleCollected).length;
+        const zoneCollected = zoneAnimals.filter(a => a.id in storage.jungleCollected).length;
         canRescue = zoneCollected >= parrot.requiredZoneCount;
       } else if (parrot.requiredTotalCount) {
         canRescue = totalCollected >= parrot.requiredTotalCount;
@@ -147,7 +147,7 @@ function JungleContent() {
         return;
       }
     }
-  }, []);
+  }, [storage.jungleCollected, storage.jungleMission.rescued, showMissionAlert]);
 
   // 탐험 완료 (마지막 zone 끝)
   const handleCTAClick = () => {
@@ -174,8 +174,6 @@ function JungleContent() {
     const { isNew: wasNew } = collectAnimal(spawned.animal.id, currentZone.id);
     if (wasNew) {
       setNewAnimalsThisTrip(prev => prev + 1);
-      // 구출 미션 체크
-      setTimeout(() => checkRescueMission(), 100);
     }
   };
 
@@ -216,8 +214,7 @@ function JungleContent() {
     setStorage(newStorage);
     saveStorage(newStorage);
     setShowMissionAlert(null);
-    // 다음 구출 가능한 앵무새 체크
-    setTimeout(() => checkRescueMission(), 200);
+    // useEffect가 storage 변경 감지 → 다음 구출 가능한 앵무새 자동 체크
   };
 
   const character = storage.character;
