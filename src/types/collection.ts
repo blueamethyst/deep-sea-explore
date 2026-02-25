@@ -7,10 +7,32 @@ export interface CollectedCreature {
   count: number;
 }
 
+/** 정글에서 수집한 동물 */
+export interface CollectedAnimal {
+  first_met: string;
+  zone: string;
+  count: number;
+}
+
 export interface DiveStats {
   total_dives: number;
   deepest_depth: number;
   total_creatures_met: number;
+}
+
+export interface JungleStats {
+  total_explorations: number;
+  furthest_km: number;
+  total_animals_met: number;
+}
+
+export interface JungleMission {
+  rescued: string[]; // 구출한 앵무새 ID 목록
+}
+
+export interface CharacterData {
+  templateId: string;
+  colors: Record<string, string>;
 }
 
 export interface FamilyMember {
@@ -33,15 +55,23 @@ export interface AppSettings {
 
 export interface StorageSchema {
   version: number;
+  // 바다
   collected: Record<string, CollectedCreature>;
   badges: string[];
   stats: DiveStats;
+  // 정글
+  jungleCollected: Record<string, CollectedAnimal>;
+  jungleBadges: string[];
+  jungleStats: JungleStats;
+  jungleMission: JungleMission;
+  character: CharacterData | null;
+  // 공통
   settings: AppSettings;
   family: FamilyProfile;
 }
 
 export const DEFAULT_STORAGE: StorageSchema = {
-  version: 1,
+  version: 2,
   collected: {},
   badges: [],
   stats: {
@@ -49,6 +79,17 @@ export const DEFAULT_STORAGE: StorageSchema = {
     deepest_depth: 0,
     total_creatures_met: 0,
   },
+  jungleCollected: {},
+  jungleBadges: [],
+  jungleStats: {
+    total_explorations: 0,
+    furthest_km: 0,
+    total_animals_met: 0,
+  },
+  jungleMission: {
+    rescued: [],
+  },
+  character: null,
   settings: {
     ttsEnabled: true,
     languageMode: 'ko-en',

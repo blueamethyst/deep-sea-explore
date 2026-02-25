@@ -6,11 +6,24 @@ import { STORAGE_KEY, STORAGE_VERSION } from './constants';
  * key: 타겟 버전, value: 이전 버전 데이터를 타겟 버전으로 변환하는 함수
  */
 const migrations: Record<number, (data: unknown) => unknown> = {
-  // 예시: 버전 2로 마이그레이션 시
-  // 2: (data: unknown) => {
-  //   const old = data as StorageSchema;
-  //   return { ...old, version: 2, newField: 'default' };
-  // },
+  2: (data: unknown) => {
+    const old = data as Record<string, unknown>;
+    return {
+      ...old,
+      version: 2,
+      jungleCollected: {},
+      jungleBadges: [],
+      jungleStats: {
+        total_explorations: 0,
+        furthest_km: 0,
+        total_animals_met: 0,
+      },
+      jungleMission: {
+        rescued: [],
+      },
+      character: null,
+    };
+  },
 };
 
 /**

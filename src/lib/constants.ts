@@ -16,7 +16,7 @@ export const TTS_LANG_FALLBACK = 'en-US';
 
 // Storage
 export const STORAGE_KEY = 'deepsea:state';
-export const STORAGE_VERSION = 1;
+export const STORAGE_VERSION = 2;
 export const MAX_EVENTS = 2_000;
 export const MAX_EVENTS_SIZE_BYTES = 1_048_576; // 1MB
 
