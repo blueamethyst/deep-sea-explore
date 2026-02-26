@@ -24,6 +24,7 @@ import type { CollectedAnimal } from '@/types/collection';
 function JungleContent() {
   const router = useRouter();
 
+  const [mounted, setMounted] = useState(false);
   const [storage, setStorage] = useState(() => loadStorage());
   const [currentZoneIndex, setCurrentZoneIndex] = useState(0);
   const [currentDistance, setCurrentDistance] = useState(0);
@@ -34,6 +35,8 @@ function JungleContent() {
   const [newAnimalsThisTrip, setNewAnimalsThisTrip] = useState(0);
   const [showMissionAlert, setShowMissionAlert] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => setMounted(true), []);
 
   const currentZone = JUNGLE_ZONES[currentZoneIndex];
   const isLastZone = currentZoneIndex === JUNGLE_ZONES.length - 1;
@@ -265,9 +268,9 @@ function JungleContent() {
         ))}
       </div>
 
-      {/* 탐험가 캐릭터 (화면 중앙 고정) */}
+      {/* 탐험가 캐릭터 (화면 중앙 고정, mounted 후 렌더링하여 hydration 불일치 방지) */}
       <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none">
-        {character ? (
+        {mounted && character ? (
           <ExplorerCharacter
             templateId={character.templateId}
             colors={character.colors}
